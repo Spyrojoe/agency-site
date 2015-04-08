@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,600,500);
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,400,800,600,500);
 
 * { margin:0; padding:0; border:0; }
 .clfx:after{
@@ -521,10 +521,16 @@ li.side_sub_nav > ul > li:hover{
 	float: right;
 }
 .col-img{
-	display: inline-block;
+	display: table;
 	width: 20%;
-	line-height: 0;
-}.col-img img{
+	float: left;
+	font-size: 2.5em;
+	line-height: normal;
+}
+.col-img span{
+	line-height: inherit;
+}
+.col-img img{
 	width: 100%;
 	margin: 0;
 }
@@ -543,13 +549,24 @@ li.side_sub_nav > ul > li:hover{
 .col-copy p{
 	margin: 0;
 }
+.col span{
+	display: inline-block;
+	min-width: 47px;
+	font-size: 2.5em;
+	text-align: right;
+	line-height: .7;
+	vertical-align: top;
+}
 .bizdev{
 	line-height: 1.4em;
 	background: #000;
 	font-size: .8em;
 }
 .bizdev p{
-	font-size: inherit;
+	font-size: 1.2em;
+}
+.bizdev span{
+	font-size: 1.1em;
 }
 .bizdev span:nth-of-type(3){
 	margin-right: 3%;
@@ -558,7 +575,27 @@ li.side_sub_nav > ul > li:hover{
 	color: #01a0d7;
 	text-decoration: none;
 }
+@media only screen and (min-width: 1160px){
+	address{
+		font-size: 1.3em;
+		font-weight: 800;
+		line-height: normal;
+	}
+	address.col span{
+		line-height: normal;
+	}
+	address.col span:first-of-type{
+		font-size: 1.3em;
+	}
+	address.col span:nth-of-type(2){
+		font-weight: 600;
+	}
+	address span:nth-of-type(3), address span:last-of-type{
+		font-size: 1.1em;
+		font-weight: 200;
+	}
 
+}
 @media only screen and (min-width: 940px){
 	#pg_insurance #insurance_side_sub, #pg_work #work_side_sub { display: block; }
 }
@@ -666,7 +703,7 @@ li.side_sub_nav > ul > li:hover{
 	.wrapper { padding-bottom: 80px; }
 	#logo { margin: 18px 0 40px 20px;}
 	.opacity-bg, .opacity-bg-ins { display: none; }
-	.container { margin: 15px 0 0 3%; top: 0; }
+	.container { margin: 15px 0 0 0; top: 0; }
 	.content { width: 95%; padding-bottom: 0; }
  	.service-box ul { width:230px; }
 	.contact-info { width:100%; }
@@ -707,11 +744,39 @@ li.side_sub_nav > ul > li:hover{
 	.full{
 		display: inline;
 	}
+	.col2{
+		display: block;
+		width: 100%;
+		padding: 3% 0;
+	}
 	.col-img{
 		display: none;
 	}
 	.col-copy{
-		padding: 0;
+		padding: 0 0 0 3%;
+	}
+	.bizdev{
+		font-size: 1em;
+	}
+	.bizdev div{
+		display: block;
+		width: 100%;
+		float: none;
+	}
+	.bizdev address{
+		width: 100%;
+		max-width: 55%;
+		margin: 0 auto;
+		float: none;
+		
+	}
+	.bizdev address span{
+		display: block;
+		text-align: left;
+		line-height: normal;
+	}
+	.bizdev address br{
+		display: none;
 	}
 }
 
