@@ -2,12 +2,9 @@
 
 <title>Apollo Interactive | Reasons to Choose Apollo Interactive</title>
 <meta name="description" content="Apollo Interactive is a digital centric advertising agency in Los Angeles and Dallas with wide-ranging capabilities and deep experience.">
-<style type="text/css">
-	.opacity-bg{opacity: .8;}
-</style>
 </head>
 
-<body id="pg_main" class="bg-img">
+<body id="pg_topten" class="bg-img">
 	<div class="wrapper">
 		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
 
@@ -100,12 +97,12 @@
 
 				<div class="row bizdev clfx">
 					<div class="col col-left blue">
-						<p>We'd love 30 minutes of your time to both show and tell you why we think you are missing out on the digital front by not working with our agency. Please contact David Mammot by phone or email.</p>
+						<p>We'd love 30 minutes of your time to both show and tell you why we think you are missing out on the digital front by not working with our agency. Please contact David Mamot by phone or email.</p>
 					</div>
 					<address class="col col-right blue">
 						<span>David Mamot</span><br>
 						<span>Director of Business Development</span><br>
-						<span>p:&nbsp;214.580.2805</span><span>e:&nbsp;<a href="#">mamot@apollointeractive.com</a></span>
+						<span>p:&nbsp;214.710.2805</span><span>e:&nbsp;<a href="#">mamot@apollointeractive.com</a></span>
 					</address>
 				</div>
 
@@ -117,7 +114,7 @@
 	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
 	<script>
 		$(document).ready(function(){
-			var bottomBorder = '<div class="col col-left grid-border nopad-left"><div class="bottom-border"></div></div><div class="col col-right grid-border nopad-right"><div class="bottom-border"></div></div>';
+			var bottomBorder = '<div class="row clfx"><div class="col col-left grid-border nopad-left"><div class="bottom-border"></div></div><div class="col col-right grid-border nopad-right"><div class="bottom-border"></div></div></div>';
 			$(".row").slice(0,4).after(bottomBorder);
 			//$(".row").slice(0,2).css("outline", "1px green solid");
 		});
