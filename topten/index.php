@@ -16,52 +16,52 @@
 		<div class="container">
 			<div class="content">
 
-				<h1>Top ten reasons <span>why a brand would choose</span> Apollo</h1>
+				<h1>Top ten reasons <span>to choose</span> Apollo Interactive</h1>
 				<div class="row clfx">
 					<div class="col col2 col-left">
 						<span>10</span>
 						<div class="col-copy">
-							<h2 class="blue">We Care</h2>
-							<p>We take tremendous pride in serving as brand evangelists in the real world for our clients</p>
+							<h2 class="blue">We Are Dedicated</h2>
+							<p>We are digital brand evangelists and are extremely proud to represent and serve our clients</p>
 						</div>
 					</div>
 					<div class="col col2 col-right">
 						<span>9</span>
 						<div class="col-copy">
-							<h2 class="yellow">We Are Efficient</h2>
-							<p>We run a lean agency of full time employees who are assigned specifically to our clients accounts.</p>
+							<h2 class="blue">We Are Legit</h2>
+							<p>2nd largest interactive (digital) agency in North Texas (Dallas Business Journal – Book of Lists 2015)</p>
 						</div>
 					</div>
 				</div>
 				<div class="row clfx">
 					<div class="col col2 col-left">
-						<span>8</span>
+						<span class="vert-offset">8</span>
 						<div class="col-copy">
-							<h2 class="blue">We Are Legit</h2>
-							<p>Second largest interactive agency in North Texas (Dallas Business Jornal - Book of Lists 2015)</p>
+							<h2 class="blue">We Are Focused</h2>
+							<p>Your digital budget is our one and only concern</p>
 						</div>
 					</div>
 					<div class="col col2 col-right">
 						<span>7</span>
 						<div class="col-copy">
-							<h2 class="yellow">We Respond</h2>
-							<p>We all sit in open space in our downtown office and answer our phones and emails and simply swivel our chairs to get work done.</p>
+							<h2 class="blue">We Are A Very Experienced Team</h2>
+							<p>Tenure for most of our employees is 5+ years, many with 10+ years, some even with 15+ years</p>
 						</div>
 					</div>
 				</div>
 				<div class="row clfx">
 					<div class="col col2 col-left">
-						<span>6</span>
+						<span class="vert-offset">6</span>
 						<div class="col-copy">
-							<h2 class="blue">We Keep Great People</h2>
-							<p>The current average tenure of our employees at Apollo is 4.8 years</p>
+							<h2 class="blue">We Are Seasoned</h2>
+							<p>We began building and maintaining websites in 1995. Yes, 1995</p>
 						</div>
 					</div>
 					<div class="col col2 col-right">
 						<span>5</span>
 						<div class="col-copy">
-							<h2 class="yellow">We Are Accountable</h2>
-							<p>All of our clients have cell phones and personal email accounts to ensure nothing ever slips through the cracks.</p>
+							<h2 class="blue">We Are Efficient</h2>
+							<p>We are an agency that can "turn on a dime" to meet your time sensitive initiatives</p>
 						</div>
 					</div>
 				</div>
@@ -69,15 +69,15 @@
 					<div class="col col2 col-left">
 						<span>4</span>
 						<div class="col-copy">
-							<h2 class="blue">We Are Seasoned</h2>
-							<p>We have been building and maintaining web pages since 1995. Yes. 1995.</p>
+							<h2 class="blue">We Are Responsive</h2>
+							<p>we work in an open collaborative space, answering our client’s calls/emails with immediacy</p>
 						</div>
 					</div>
 					<div class="col col2 col-right">
 						<span>3</span>
 						<div class="col-copy">
-							<h2 class="yellow">We Are Nice</h2>
-							<p>We encourage prospects to contact any of our fifty references on file</p>
+							<h2 class="blue">We Are Accountable</h2>
+							<p>We take your digital dollars very seriously and have the ROI case histories of our clients to prove it</p>
 						</div>
 					</div>
 				</div>
@@ -85,21 +85,21 @@
 					<div class="col col2 col-left">
 						<span>2</span>
 						<div class="col-copy">
-							<h2 class="blue">We're Digitally Focused</h2>
-							<p>We make sure that 100% of the budget is dedicated to digital works.</p>
+							<h2 class="blue">WeAre Digital Ninjas</h2>
+							<p>we are equipped to take on projects quickly and efficiently and have done this for over 50 clients</p>
 						</div>
 					</div>
 					<div class="col col2 col-right">
 						<span>1</span>
 						<div class="col-copy">
-							<h2 class="yellow">We are Excelent at What we do.</h2>
-							<p>We wouldn't be funning for 19 years strong with a resume as a digital agency of record for such recognizable brands such as The Mandalay Resort Group, Jack in the Box, Chuck E. Cheese's, Stage Stores and Visionworks, if we weren't doing something right.</p>
+							<h2 class="blue">We Are Excelent At What We Do.</h2>
+							<p>We are almost 20 years in now as an agency helping 70+ companies with their digital marketing needs including being the digital agency of record for highly visible brands such as Jack in the Box, Visionworks, Chuck E. Cheese’s, Stage Stores, The Mandalay Resort Group and California Pizza Kitchen among others. You don’t have that sort of track record unless you are consistently doing what you do at the highest level</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="row bizdev clfx">
-					<div class="col col-left yellow">
+					<div class="col col-left blue">
 						<p>We'd love 30 minutes of your time to both show and tell you why we think you are missing out on the digital front by not working with our agency. Please contact David Mammot by phone or email.</p>
 					</div>
 					<address class="col col-right blue">
@@ -115,6 +115,13 @@
 	</div>
 	
 	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+	<script>
+		$(document).ready(function(){
+			var bottomBorder = '<div class="col col-left grid-border nopad-left"><div class="bottom-border"></div></div><div class="col col-right grid-border nopad-right"><div class="bottom-border"></div></div>';
+			$(".row").slice(0,4).after(bottomBorder);
+			//$(".row").slice(0,2).css("outline", "1px green solid");
+		});
+	</script>
 	
 </body>
 </html>

@@ -112,7 +112,9 @@ button {
 .wrapper {
 	padding-bottom: 80px;
 }
-
+.vert-offset{
+	margin-top: 4px;
+}
 .content ul {
 	margin: 20px 0 0 30px;
 	display: inline-block;
@@ -509,6 +511,20 @@ li.side_sub_nav > ul > li:hover{
 .nopad{
 	padding: 0 !important;
 }
+.col.nopad-left{
+	padding-left: 0;
+}
+.col.nopad-right{
+	padding-right: 0;
+}
+.row:first-of-type{
+	margin-top: 40px;
+}
+.bottom-border{
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px rgba(255,255,255,.2) dashed;
+}
 .col{
 	box-sizing: border-box;
 	width: 50%;
@@ -519,6 +535,7 @@ li.side_sub_nav > ul > li:hover{
 }
 .col-right{
 	float: right;
+	border-left: 1px rgba(255,255,255,.2) dashed;
 }
 .col-img{
 	display: table;
@@ -538,13 +555,13 @@ li.side_sub_nav > ul > li:hover{
 	display: inline-block;
 	width: 75%;
 	padding-left: 12px;
-	vertical-align: top;
+	vertical-align: text-top;
 }
 .col-copy h2{
 	margin: 0 auto 10px;
 }
-.blue{color: #01a0d7;}
-.yellow{color: #e9e313;}
+.blue{color: #13a6d7;}
+.yellow{color: #ece133;}
 .row p,
 .col-copy p{
 	margin: 0;
@@ -555,18 +572,22 @@ li.side_sub_nav > ul > li:hover{
 	font-size: 2.5em;
 	text-align: right;
 	line-height: .7;
-	vertical-align: top;
+	vertical-align: text-top;
 }
 .bizdev{
+	margin-top: 40px;
 	line-height: 1.4em;
 	background: #000;
 	font-size: .8em;
+	clear: both;
 }
 .bizdev p{
-	font-size: 1.2em;
+	font-size: 1.1em;
+	line-height: normal;
 }
 .bizdev span{
 	font-size: 1.1em;
+	line-height: normal;
 }
 .bizdev span:nth-of-type(3){
 	margin-right: 3%;
@@ -575,14 +596,16 @@ li.side_sub_nav > ul > li:hover{
 	color: #01a0d7;
 	text-decoration: none;
 }
-@media only screen and (min-width: 1160px){
-	address{
+.bizdev address{
+	border-left: 0;
+	font-weight: 800;
+}
+address span:nth-of-type(3), address span:last-of-type{
+	font-weight: 200;
+}
+@media only screen and (min-width: 768px){
+	address, .bizdev p{
 		font-size: 1.3em;
-		font-weight: 800;
-		line-height: normal;
-	}
-	address.col span{
-		line-height: normal;
 	}
 	address.col span:first-of-type{
 		font-size: 1.3em;
@@ -592,7 +615,6 @@ li.side_sub_nav > ul > li:hover{
 	}
 	address span:nth-of-type(3), address span:last-of-type{
 		font-size: 1.1em;
-		font-weight: 200;
 	}
 
 }
@@ -753,7 +775,10 @@ li.side_sub_nav > ul > li:hover{
 		display: none;
 	}
 	.col-copy{
-		padding: 0 0 0 3%;
+		width: 77%;
+		margin-left: 1%;
+		padding: 0 0 0 2%;
+		border-left: 1px gray dotted;
 	}
 	.bizdev{
 		font-size: 1em;
@@ -764,8 +789,8 @@ li.side_sub_nav > ul > li:hover{
 		float: none;
 	}
 	.bizdev address{
-		width: 100%;
-		max-width: 55%;
+		width: auto;
+		max-width: 346px;
 		margin: 0 auto;
 		float: none;
 		
@@ -776,6 +801,12 @@ li.side_sub_nav > ul > li:hover{
 		line-height: normal;
 	}
 	.bizdev address br{
+		display: none;
+	}
+	.col-right{
+		border: 0;
+	}
+	.grid-border{
 		display: none;
 	}
 }
