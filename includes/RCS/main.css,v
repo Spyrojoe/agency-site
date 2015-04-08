@@ -1,0 +1,1745 @@
+head	1.42;
+access;
+symbols;
+locks
+	dave:1.42; strict;
+comment	@# @;
+
+
+1.42
+date	2015.04.08.02.47.04;	author stgbrock;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2015.02.19.20.45.07;	author stgolson;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2015.02.19.20.43.50;	author stgolson;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2015.02.18.19.30.21;	author stgolson;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2015.02.18.17.14.37;	author stgolson;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2015.02.18.17.12.07;	author stgolson;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2015.02.04.21.29.49;	author stgbrock;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2014.10.08.18.40.46;	author stgbrock;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2014.09.30.21.05.47;	author stgbrock;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2014.08.27.17.29.06;	author stgbrock;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2014.08.21.14.18.48;	author stgbrock;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2014.08.21.14.12.17;	author stgbrock;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2014.08.20.21.04.34;	author stgbrock;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2014.08.20.18.14.09;	author stgbrock;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2014.08.19.17.42.44;	author stgbrock;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2014.08.11.20.38.39;	author stgbrock;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2014.08.11.20.36.47;	author stgbrock;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2014.08.11.20.28.42;	author stgbrock;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2014.08.11.20.25.51;	author stgbrock;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2014.08.11.20.20.34;	author stgbrock;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2014.08.11.20.19.00;	author stgbrock;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2014.08.11.20.04.54;	author stgbrock;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2014.08.11.19.40.57;	author stgbrock;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2014.08.07.20.27.35;	author stgbrock;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2014.07.28.19.37.31;	author stgbrock;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2014.07.17.21.23.10;	author stgolson;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2014.07.17.20.56.22;	author stgolson;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2014.07.17.19.36.19;	author stgolson;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2014.07.17.18.23.58;	author stgolson;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2014.07.16.21.49.48;	author stgolson;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.07.16.16.17.46;	author stgolson;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.14.21.36.41;	author stgolson;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.07.10.19.06.56;	author stgolson;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.07.09.16.52.48;	author stgolson;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.07.09.15.07.49;	author stgolson;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.07.08.21.23.32;	author stgolson;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.07.03.19.40.22;	author stgolson;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.07.03.19.28.16;	author stgolson;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.07.03.16.28.03;	author stgolson;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.07.02.21.41.08;	author stgolson;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.42
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@@@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,600,500);
+
+* { margin:0; padding:0; border:0; }
+.clfx:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+body {
+	font-size:17px;
+	line-height:1.3em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color:#fff;
+	background-color:transparent;
+	overflow:scroll;
+}
+img {
+	margin: 15px 0;
+}
+form {
+	margin-top: 20px;
+}
+input {
+	margin: 5px;
+	padding: 5px;
+}
+label {
+	width: 120px;
+	display: inline-block;
+}
+address{
+	line-height: 1.2em;
+	font-style: normal;
+}
+hr {
+	border: 1px solid #999;
+	margin: 50px 0 0 0;
+	width: 95%;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 48px;
+}
+h1 span{
+	font-weight: 400;
+}
+h2 { 
+	font-size: 20px;
+	color: #33ccff;
+	margin: 50px 0 7px 0;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+#products-sub h3 { margin: 40px 0 0 30px; }
+
+a {
+	text-decoration: none;
+	color: #33ccff;
+	text-decoration: underline;
+}
+
+/*#pg_work a, #pg_insurance a { color:#ff8300; }*/
+
+p, ul {
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	margin-top: 10px;
+	color:#ddd;
+}
+
+p.highlight-text {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 10px;
+	line-height: 26px;
+	color: #fff;
+}
+
+#home-content h1 { font-size: 45px; }
+#home-content p.highlight-text { font-size: 22px; line-height: 24px; }
+
+button {
+	text-transform:uppercase;
+	width: 100px;
+	height:32px;
+	background-color: #33ccff;
+	color: #000000;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+.title-thin {
+	font-weight: 400;
+}
+
+.error {
+	color: #33ccff;
+}
+
+.wrapper {
+	padding-bottom: 80px;
+}
+
+.content ul {
+	margin: 20px 0 0 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#pg_careers .content ul {
+	display: block;
+}
+
+.content li {
+	margin-left: 20px;
+	color: #dddddd;
+}
+
+a.btn {
+	background-color: #33ccff;
+	padding: 5px 20px;
+	margin: 20px 0;
+	display: inline-block;
+	position: relative;
+	color: #000000;
+	text-decoration: none;
+}
+
+a.btn:hover {
+	color:#fff;
+}
+
+#pg_careers a.btn {
+	margin: 20px 30px 0;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+.bg-img {
+	/*
+	width: 100%;
+	height: 100%;
+	*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#pg_main, #pg_clientlounge { background: #333333 url(/img/img-home03.jpg) repeat fixed; background-size: cover; }
+#pg_about {	background: #333333 url(/img/img-about-blur.jpg) repeat  fixed; }
+#pg_capabilities { background: #333333 url(/img/img-capabilities.jpg) repeat fixed; }
+#pg_work { background: #333333 url(/img/img-clients.jpg) repeat fixed; }
+#pg_team { background: #333333 url(/img/img-team.jpg) repeat fixed; }
+#pg_insurance { background: #333333 url(/img/img-insurance.jpg) repeat fixed; }
+#pg_clients { background: #333333 url(/img/img-work.jpg) repeat fixed; }
+#pg_careers { background: #333333 url(/img/img-careers.jpg) repeat fixed; }
+#pg_news { background: #333333 url(/img/img-news.jpg) repeat fixed; }
+#pg_contact { background: #333333 url(/img/img-contact.jpg) repeat fixed; }
+
+#logo { 
+	display: block;
+	width: 160px;
+	height: 60px;
+	margin: 35px 0 68px 20px;
+}
+
+a.logo {
+	width: 200px;
+	height: 80px;
+	display: block;
+	margin-bottom: 0;
+}
+
+.main-navigation {
+	width: 200px;
+	display: inline-block;
+	position: fixed;
+	z-index: 100;
+}
+
+#side_nav a {
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#main_nav a {
+	margin: 0 0 0 -8px;
+	/*height: 22px;*/
+	width: 90%;
+	padding: 0 0 10px 16px;
+    padding-bottom: 0; /*reset padding-bottom for new sub nav*/
+	display: inline-block;
+	vertical-align: middle;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#main_nav li {
+	/* height: 22px; -- Removed to get the side nav items to expand for the sub navs */
+	margin-bottom: 8px;
+}
+#main_nav li:hover, .nav_selected {
+	width: 170px;
+}
+#main_nav > li:hover{
+	background-color: #33ccff;
+}
+#main_nav li a:hover {
+	color: #fff;
+}
+.nav_selected{
+	background-color: #33ccff;
+}
+.subnav_selected{
+	color: #33ccff;
+}
+#main_nav li.side_sub_nav:hover{
+	background: none;
+}
+.nav-block {
+	display: inline-block;
+	width: 4px;
+	height: 22px;
+	background-color: #33ccff;
+    vertical-align: middle;
+}
+
+.side_sub_nav{
+	margin-left: 40px;
+	list-style: none;
+}
+#work_sub_nav{
+    height: auto;
+    margin-left: 24px;
+    list-style: none;
+}
+#work_sub_nav li{
+    list-style: none;
+}	
+.side_sub_nav ul li{
+	list-style-image: url('/img/bullet.png');
+}
+
+
+
+#work_sub_nav:hover, #work_sub_nav li:hover{
+    background: none !important;
+}
+
+.sub_nav {
+	display: none;
+}
+
+.container {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 200px;
+	top:154px;
+	position: relative;
+}
+
+.content {
+	width: 960px;
+	padding-bottom: 260px;
+}
+
+.opacity-bg, .opacity-bg-ins {
+	display: block;
+	width: 100%;
+	background-color: #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+	filter: alpha(opacity=65);
+	-moz-opacity: 0.65;
+	-khtml-opacity: 0.65;
+	opacity: 0.65;
+	top: 110px;
+	z-index: -1;
+	position: absolute;
+}
+/*
+#pg_insurance .opacity-bg{
+	height: 650px;
+}
+*/
+
+/* Controlled by js, might need this for ie8, js not working 
+
+#pg_clients .opacity-bg {	height: 1298px; }
+#pg_work .opacity-bg {	height: 20794px; }
+#pg_careers .opacity-bg {	height: 2473px; }
+#pg_insurance .opacity-bg {	height: 5746px; }
+#pg_news .opacity-bg {	height: 630px; }
+
+*/
+
+.service-box {
+	display: inline-block;
+	width: 280px;
+	vertical-align: top;
+}
+
+.service-box ul {
+	margin: 15px 0 5px;
+	line-height: 19px;
+	min-width: 150px;
+}
+
+.service-box ul li {
+	font-size: 14px;
+	color: #dddddd;
+}
+
+.logo-box {
+	margin-top: 30px;
+}
+
+.logo-box img {
+	margin: 0 0 5px 0;
+}
+
+.contact-info {
+	display: inline-block;
+	width:315px;
+	vertical-align: top;
+}
+
+#figure ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#products-sub img {
+	margin: 20px 0 0 30px;
+	display: inline-block;
+}
+
+#experience-sub img {
+	margin: 0 5px 0 0;
+}
+
+.portfolio-content {
+	height:250px;
+}
+.left-side {
+	width: 350px;
+	height: 230px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px 0 15px;
+	background-color: #000;
+}
+
+.right-side {
+	display: inline-block;
+	width: 570px;
+	height: 225px;
+	margin-left: 0px;
+	border-bottom: 2px solid #444;
+	border-top:2px solid #444;
+}
+
+.work-images {
+	text-align: center;
+}
+
+.page_sub_navigation {
+	margin: 0 0 0 0;
+}
+
+.sub-nav {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+#pg_work .container, #pg_insurance .container {
+	margin-left: 230px;
+}
+
+.sub_nav_selected { color:#33ccff; }
+
+#wingstop.work_client { border-left: 8px solid #284837; margin-top: 30px; }
+#wingstop h2 { color:#284837; }
+
+#curves.work_client { border-left: 8px solid #542F64; margin-top: 30px; }
+#curves h2 { color:#542F64; }
+
+#einstein_noah.work_client { border-left: 8px solid #b39d77; margin-top: 30px; }
+#einstein_noah h2 { color:#b39d77; }
+
+#visionworks.work_client {	border-left: 8px solid #d80a28;	margin-top: 30px; }
+#visionworks h2 { color:#d80a28; }
+
+#stage_stores.work_client { border-left: 8px solid #F01C28; margin-top: 30px; }
+#stage_stores h2 { color:#F01C28; }
+
+#yoshinoya.work_client { border-left: 8px solid #e87224; margin-top: 30px; }
+#yoshinoya h2 { color:#e87224; }
+
+#universal.work_client { border-left: 8px solid #4176b9; margin-top: 30px; }
+#universal h2 { color:#4176b9; }
+
+#bmw.work_client { border-left: 8px solid #5483aa; margin-top: 30px; }
+#bmw h2 { color:#5483aa; }
+
+input#submit-form.btn {
+	padding: 5px 20px;
+	background-color: #33ccff;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.sub-proprietary img, #news_content article img {
+	display: inline-block;
+}
+
+.sub-proprietary p, #news_content article p {
+	width:400px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 50px 0 0 40px;
+}
+#news_content article img{
+	margin-right: 40px;
+	vertical-align: middle;
+}
+#news_content article p.copy-text{
+	margin: 0;
+	vertical-align: middle;
+}
+
+#menu-btn {
+	width:42px;
+	height:42px;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	z-index: 110;
+	opacity: 0.7;
+	cursor: pointer;
+}
+.team-member{
+	margin-bottom: 0;
+}
+.position{
+	margin-top: 0;
+}
+.mobile { display: none; }
+
+label.pull-left { padding: 5px 0; }
+form input[type="file"] { margin:0; padding:0; }
+form input[type="file"]::-ms-value { display: none; }
+
+#footer-links a {
+	margin: 0 0 0 7px;
+}
+
+footer {
+	font-size:12px;
+	width:100%;
+	height:40px;
+	position:relative;
+	bottom:100px;
+	left:0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 14px;
+}
+/*
+#pg_insurance footer{
+	bottom: -40px;
+}
+*/
+.cropped{
+	display: none;
+}
+/*
+li.side_sub_nav > ul > li:hover{
+	background-color: transparent;
+}
+*/
+.side_sub_nav#insurance_side_sub, .side_sub_nav#work_side_sub{
+	display: none;
+}
+.side_sub_nav#insurance_side_sub a:hover{
+	text-decoration: underline;
+}
+.side_sub_nav#work_side_sub a:hover{
+	text-decoration: underline;
+}
+.nopad{
+	padding: 0 !important;
+}
+.col{
+	box-sizing: border-box;
+	width: 50%;
+	padding: 3%;
+}
+.col-left{
+	float: left;
+}
+.col-right{
+	float: right;
+}
+.col-img{
+	display: inline-block;
+	width: 20%;
+	line-height: 0;
+}.col-img img{
+	width: 100%;
+	margin: 0;
+}
+.col-copy{
+	display: inline-block;
+	width: 75%;
+	padding-left: 12px;
+	vertical-align: top;
+}
+.col-copy h2{
+	margin: 0 auto 10px;
+}
+.blue{color: #01a0d7;}
+.yellow{color: #e9e313;}
+.row p,
+.col-copy p{
+	margin: 0;
+}
+.bizdev{
+	line-height: 1.4em;
+	background: #000;
+	font-size: .8em;
+}
+.bizdev p{
+	font-size: inherit;
+}
+.bizdev span:nth-of-type(3){
+	margin-right: 3%;
+}
+.bizdev a{
+	color: #01a0d7;
+	text-decoration: none;
+}
+
+@@media only screen and (min-width: 940px){
+	#pg_insurance #insurance_side_sub, #pg_work #work_side_sub { display: block; }
+}
+@@media only screen and (min-width:640px){
+    .page_sub_navigation { display: none; }
+    .col-copy{ width: 73%;}
+}
+@@media only screen and (max-width: 1160px) {
+	h1, #home-content h1 { font-size: 42px; line-height: 42px; }
+	.content { width: 720px; }
+	.service-box { width: 235px; }
+	#news_content article p { width: 325px; margin: 10px 0 0 20px; }
+	.work_hdr { overflow: hidden; }
+	.left-side { width:100%; height: 180px; }
+	.right-side { width: 100%; }
+	.portfolio-content { height: auto; }
+	#products-sub img, #products-sub h3 { margin-left: 20px; }
+	.sub-proprietary p { width:250px; margin: 25px 0 0 20px; }
+	.sub_nav { width: 174px; }
+	/*#pg_insurance footer { bottom: 20px;}*/
+
+}
+
+@@media only screen and (max-width: 940px) {
+	h1, #home-content h1 { font-size: 32px; line-height: 32px; }
+	h2 { font-size: 18px; }
+	h3 { font-size: 16px; }
+	p, ul { font-size: 14px; line-height: 18px; }
+	p.highlight-text { font-size: 18px; line-height: 24px; }
+	.container {
+		display: block;
+		position: static;
+		margin-left: 0;
+	}
+	.content { width: 95%; margin: 0 auto; padding-bottom: 150px; }
+	.service-box { width: 100%; }
+	.service-box ul { width:48%; }
+	.contact-info { width:48%; }
+	#side_nav{ display: none; }
+	.mobile { display: block; }
+	.page_sub_navigation{ display: block; }
+	#news_content article p { width: 356px; margin: 0; }
+	.left-side { width:497px; padding: 0 15px 0 20px; }
+	.right-side { border: 0; }
+	.sub-proprietary p { width: 450px; margin: 10px 0 0 20px; }
+	#main_nav li { margin-bottom: 15px; }
+	#main_nav a { margin: 2px 0 0 -8px; padding: 7px 0 7px 16px; }
+	#pg_insurance footer { bottom: -30px;}
+	.main-navigation{
+		position: relative;
+		width: 100%;
+	}
+	#pg_insurance .container, #pg_work .container {
+		margin: 0 auto;
+	}
+	.cropped{
+		display: none;
+	}
+	footer{
+		bottom: 115px;
+	}
+	.wrapper{
+		padding: 0;
+	}
+	#side_nav{
+		margin-bottom: 5px;
+		display: none;
+	}
+	#main_nav li{
+		width:150px;
+		height: 32px;
+		display: inline-block;
+	}
+	#main_nav a{
+		margin: 0;
+		padding: 6px 0 0;
+		width: 88%;
+		text-indent: 7px;
+		height:26px;
+	}
+	#main_nav li:hover, .selected{
+		width: 150px;
+	}
+	#main_nav li#insurance_side_sub{
+		display: none;
+	}
+	.side_sub_nav#insurance_side_sub, .side_sub_nav#work_side_sub{
+		display: none !important;
+	}
+	.sub_nav_selected{
+		color: #ff8300;
+	}
+}
+
+@@media only screen and (max-width: 640px) {
+	#pg_main, #pg_about, #pg_capabilities, #pg_work, #pg_team, #pg_insurance, 
+	#pg_clients, #pg_careers, #pg_news, #pg_contact { background: #3f445a;}
+	h1, #home-content h1 { font-size: 24px; line-height: 24px; }
+	h2 { font-size: 18px; font-weight: 600; margin: 25px 0 7px 0; }
+	h3 { font-size: 16px; }
+	img { max-width: 100%; }
+	hr { margin-top: 30px; }
+	p, ul { font-size: 16px; line-height: 21px; }
+	p.highlight-text { font-size: 17px; line-height: 21px; }
+	.wrapper { padding-bottom: 80px; }
+	#logo { margin: 18px 0 40px 20px;}
+	.opacity-bg, .opacity-bg-ins { display: none; }
+	.container { margin: 15px 0 0 3%; top: 0; }
+	.content { width: 95%; padding-bottom: 0; }
+ 	.service-box ul { width:230px; }
+	.contact-info { width:100%; }
+	#news_content article p { width: 95%; margin: 0; }
+	.left-side { width:90%; height: auto; padding: 0 15px 12px 20px; }
+	.left-side h2 { margin-top: 12px; }
+	.right-side { border: 0; height: 100%; }
+	.sub-proprietary p { width: 95%; margin: 10px 0 0 20px; }
+	.main-navigation { width: 100%; position: relative; background: #ff8300;}
+	.side_sub_nav#work_side_sub{ display: none; }
+	
+	.nav-block { height: 32px; }
+	
+	#figure ul { display: block; }
+	#products-sub img, #products-sub h3 { margin: 20px 0 0; }
+	footer { bottom: 50px; }
+	footer p { font-size: 13px;	}
+	#footer-links { display: block; }
+	.logo-box img, #experience-sub img { width: 45%; }
+	.noMobileImg img, #products-sub .noMobileImg img { display: none; }
+	.page_sub_navigation { margin: 0; }
+	.sub-nav { width: 145px; font-size: 15px; margin-top: 12px; color: #ff8300;}
+	.ins-page h1, .ins-page p:first-of-type { display: none; }
+	#insurance_content-sub p:first-of-type{ display: block; }
+	#insight-sub p:first-of-type{ display: block; }
+	#experience-sub p:first-of-type{ display: block; }
+	#carriers-sub p:first-of-type{ display: block; }
+	#agents-sub p:first-of-type{ display: block; }
+	#seo_content-sub p:first-of-type{ display: block; }
+	#products-sub p:first-of-type{ display: block; }
+	#products-sub img{
+		display: none;
+	}
+	
+	.cropped{
+		display: none;
+	}
+	.full{
+		display: inline;
+	}
+	.col-img{
+		display: none;
+	}
+	.col-copy{
+		padding: 0;
+	}
+}
+
+/* iPad 3 & 4 - portrait */
+@@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2){
+	#pg_insurance footer{
+		bottom: 115px;
+	}
+	#pg_insurance.ins-main footer{
+		bottom: -30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@
+
+
+1.41
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d4 5
+a8 1
+
+a17 1
+
+a20 1
+
+a23 1
+
+a27 1
+
+d32 4
+a35 1
+
+d48 3
+a50 1
+
+d509 53
+d567 1
+d710 6
+@
+
+
+1.40
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d86 1
+a86 1
+#home-content p.highlight-text { font-size: 22px; }
+@
+
+
+1.39
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d511 1
+a511 1
+	h1 { font-size: 42px; line-height: 42px; }
+d527 1
+a527 1
+	h1 { font-size: 32px; line-height: 32px; }
+d600 1
+a600 1
+	h1 { font-size: 24px; line-height: 24px; }
+@
+
+
+1.38
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d85 1
+a85 1
+#home-content p { font-size: 18px; }
+@
+
+
+1.37
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d84 3
+a86 3
+#home-content p.highlight-text {
+	font-size: 22px;
+}
+@
+
+
+1.36
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d84 3
+@
+
+
+1.35
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d450 6
+a455 1
+
+d671 31
+@
+
+
+1.34
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d429 9
+a437 1
+	margin: 50px 0 0 40px; 
+@
+
+
+1.33
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d146 1
+d149 1
+d156 1
+a156 1
+#pg_main, #pg_clientlounge { background: #333333 url(/img/img-home.jpg) repeat fixed; }
+@
+
+
+1.32
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d614 1
+a614 1
+	.sub-nav { width: 145px; font-size: 15px; }
+@
+
+
+1.31
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d641 1
+a641 1
+		/*bottom: -30px;*/
+@
+
+
+1.30
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d635 9
+a643 1
+
+@
+
+
+1.29
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d386 1
+a386 1
+#pg_insurance a.sub_nav_selected { color:#33ccff; }
+a542 3
+	.full{
+		
+	}
+d544 1
+a544 1
+		position: static;
+d574 3
+d616 10
+@
+
+
+1.28
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@a570 3
+	.main-navigation{
+		background: #ff8300;
+	}
+d601 1
+a601 1
+	.main-navigation { width: 100%; position: relative; }
+@
+
+
+1.27
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d67 1
+a67 1
+#pg_work a, #pg_insurance a { color:#ff8300; }
+d211 3
+d215 1
+a215 1
+	color: #33ccff;
+d220 3
+d464 1
+d468 1
+d472 5
+d480 6
+a485 1
+
+d504 1
+a504 1
+	#pg_insurance footer { bottom: 20px;}
+@
+
+
+1.26
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d280 1
+d284 1
+@
+
+
+1.25
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d280 1
+a280 1
+.opacity-bg-ins{
+@
+
+
+1.24
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d467 1
+a467 1
+	#pg_insurance #insurance_side_sub { display: block; }
+@
+
+
+1.23
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d463 1
+a463 1
+	display: none !important;
+d466 2
+a467 2
+@@media only screen and (max-width: 940px){
+	.side_sub_nav { display: block; }
+@
+
+
+1.22
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d466 3
+a468 1
+
+a469 1
+	.side_sub_nav { display: block; }
+@
+
+
+1.21
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d239 1
+a239 5
+}
+
+.side_sub_nav{
+	
+}
+d462 3
+@
+
+
+1.20
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d469 1
+d485 1
+a485 1
+	
+@
+
+
+1.19
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d469 1
+a469 1
+    
+d484 1
+@
+
+
+1.18
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@a209 1
+	background-color: #33ccff;
+d212 4
+a215 1
+	color:#000000;
+a216 1
+
+a345 1
+
+d378 3
+a380 1
+
+d463 3
+d469 1
+a469 2
+    .page_sub_navigation{ display: none; }
+    #pg_work .container, #pg_insurance .container{margin-left: 230px;}
+d492 6
+a497 1
+	.content { width: 540px; }
+d501 3
+d509 1
+a509 1
+	#main_nav a { margin: 2px 0 0 -8px; padding: 0 0 15px 16px; }
+d511 47
+d582 1
+a582 1
+	.main-navigation { width: 100%; position: relative; background: #ff8300; }
+d584 1
+a584 1
+	#side_nav { margin-bottom: 5px; display: none; }
+d586 1
+a586 3
+	#main_nav li { width:150px; height: 32px; display: inline-block; }
+	#main_nav a { margin: 0; padding: 6px 0 0; width: 88%; text-indent: 7px; height:26px; }
+	#main_nav li:hover, .selected { width: 150px; }
+a591 1
+	.mobile { display: block; }
+d597 22
+a618 2
+	.side_sub_nav#insurance_side_sub{ display: none !important; }
+}@
+
+
+1.17
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d154 1
+a154 1
+#pg_main { background: #333333 url(/img/img-home.jpg) repeat fixed; }
+d194 1
+a194 1
+	height: 22px;
+d197 1
+d199 1
+a199 1
+	vertical-align: top;
+d205 1
+a205 1
+	height: 22px;
+d216 3
+d224 27
+d270 1
+a270 1
+.opacity-bg {
+a272 1
+	min-height: 450px;
+d283 3
+d379 1
+d458 3
+d463 4
+a466 1
+
+d479 1
+a481 3
+
+
+
+d498 1
+a503 1
+
+d513 1
+a513 1
+	.opacity-bg { display: none; }
+d524 1
+d541 1
+@
+
+
+1.16
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d465 1
+a465 1
+	
+d501 1
+@
+
+
+1.15
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d336 1
+a336 1
+	margin: 30px 0 0 0;
+d478 1
+a478 1
+	.service-box ul { width:230px; }
+@
+
+
+1.14
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d451 2
+a452 2
+	.service-box { width: 48%; }
+	.service-box ul { width:100%; }
+a477 1
+	.service-box { width: 240px; }
+@
+
+
+1.13
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d85 11
+d403 2
+a404 3
+form input[type="file"]::-ms-browse { padding: 0 !important; }
+form input[type="file"] { padding: 5px 10px 5px 0; }
+
+d451 3
+a453 2
+	.service-box { width: 100%; }
+	.service-box ul { width:45%; }
+d480 1
+@
+
+
+1.12
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d392 5
+a448 1
+
+@
+
+
+1.11
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d103 4
+a127 2
+	display: block;
+	width: 102px;
+d335 2
+d484 1
+@
+
+
+1.10
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d43 1
+a43 1
+	line-height: 56px;
+a60 2
+#pg_main h1 { font-size: 60px; }
+
+d67 2
+d253 1
+a253 1
+	width: 220px;
+d258 1
+a258 1
+	margin: 0;
+d260 1
+d322 12
+a333 1
+#wingstop {	border-left: 8px solid #284837;	margin-top: 30px; }
+d336 1
+a336 1
+#curves {	border-left: 8px solid #542F64;	margin-top: 30px; }
+d339 1
+a339 1
+#einstein_noah {	border-left: 8px solid #b39d77;	margin-top: 30px; }
+d342 1
+a342 1
+#visionworks {	border-left: 8px solid #d80a28;	margin-top: 30px; }
+d345 1
+a345 1
+#stage_stores {	border-left: 8px solid #F01C28;	margin-top: 30px; }
+d348 1
+a348 1
+#yoshinoya {	border-left: 8px solid #e87224;	margin-top: 30px; }
+d351 1
+a351 1
+#universal {	border-left: 8px solid #4176b9;	margin-top: 30px; }
+d354 1
+a354 1
+#bmw {	border-left: 8px solid #5483aa;	margin-top: 30px; }
+d406 2
+d409 1
+a409 2
+	h1 { font-size: 42px; line-height: 46px; }
+	#pg_main h1 { font-size: 56px; line-height: 52px; }
+d411 1
+a411 1
+	.service-box { width: 280px; }
+d419 1
+d422 3
+d426 1
+a426 1
+	h1 { font-size: 32px; line-height: 36px; }
+a430 1
+	#pg_main h1 { font-size: 50px; line-height: 48px; }
+d432 2
+a433 1
+	.service-box { width: 240px; }
+d447 1
+a447 1
+	h1 { font-size: 24px; line-height: 27px; }
+a454 1
+	#pg_main h1 { font-size: 30px; line-height: 29px; }
+d460 1
+d480 1
+@
+
+
+1.9
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d141 10
+a150 10
+#pg_main { background: url(/img/img-home.jpg) repeat fixed; }
+#pg_about {	background: url(/img/img-about-blur.jpg) repeat  fixed; }
+#pg_capabilities { background: url(/img/img-capabilities.jpg) repeat fixed; }
+#pg_work { background: url(/img/img-clients.jpg) repeat fixed; }
+#pg_team { background: url(/img/img-team.jpg) repeat fixed; }
+#pg_insurance { background: url(/img/img-insurance.jpg) repeat fixed; }
+#pg_clients { background: url(/img/img-work.jpg) repeat fixed; }
+#pg_careers { background: url(/img/img-careers.jpg) repeat fixed; }
+#pg_news { background: url(/img/img-news.jpg) repeat fixed; }
+#pg_contact { background: url(/img/img-contact.jpg) repeat fixed; }
+d450 1
+a450 1
+	#side_nav { margin-bottom: 20px; display: none; }
+@
+
+
+1.8
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d141 10
+a150 10
+#pg_main { background: url(/img/img-home.jpg) no-repeat fixed; }
+#pg_about {	background: url(/img/img-about-blur.jpg) no-repeat  fixed; }
+#pg_capabilities { background: url(/img/img-capabilities.jpg) no-repeat fixed; }
+#pg_work { background: url(/img/img-clients.jpg) no-repeat fixed; }
+#pg_team { background: url(/img/img-team.jpg) no-repeat fixed; }
+#pg_insurance { background: url(/img/img-insurance.jpg) no-repeat fixed; }
+#pg_clients { background: url(/img/img-work.jpg) no-repeat fixed; }
+#pg_careers { background: url(/img/img-careers.jpg) no-repeat fixed; }
+#pg_news { background: url(/img/img-news.jpg) no-repeat fixed; }
+#pg_contact { background: url(/img/img-contact.jpg) no-repeat fixed; }
+d194 1
+a194 1
+#main_nav li:hover, .selected {
+d231 4
+@
+
+
+1.7
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d36 1
+d89 4
+d427 1
+a427 1
+	h2 { font-size: 18px; font-weight: 600; }
+d430 1
+d440 2
+a441 2
+	#news_content article p { width: 300px; margin: 0; }
+	.left-side { width:258px; padding: 0 15px 12px 20px; }
+d444 1
+a444 1
+	.sub-proprietary p { width: 450px; margin: 10px 0 0 20px; }
+d447 3
+a449 2
+	#main_nav li { width:150px; display: inline-block; }
+	#main_nav a { margin: 3px 0 0 -8px; width: 88%; }
+d451 2
+d458 1
+@
+
+
+1.6
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d28 5
+d419 1
+a419 1
+	#pg_clients, #pg_careers, #pg_news, #pg_contact { background: #ff2800;}
+d425 1
+a425 1
+	p, ul { font-size: 15px; line-height: 19px; }
+@
+
+
+1.5
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d149 7
+d217 1
+d227 1
+a227 1
+/* Maybe create a js to get height of .content and subtract 80px from it for height of .opacity-bg 
+d349 13
+a376 1
+	margin-right: 107px;
+d378 66
+@
+
+
+1.4
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d115 1
+a115 1
+	width: 100px;
+@
+
+
+1.3
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d134 1
+a134 1
+#pg_work { background: url(/img/img-work.jpg) no-repeat fixed; }
+d137 1
+a137 1
+#pg_clients { background: url(/img/img-clients.jpg) no-repeat fixed; }
+@
+
+
+1.2
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d305 2
+a306 2
+#einstein_noah {	border-left: 8px solid #b55518;	margin-top: 30px; }
+#einstein_noah h2 { color:#b55518; }
+d317 2
+a318 2
+#universal {	border-left: 8px solid #59cdfb;	margin-top: 30px; }
+#universal h2 { color:#59cdfb; }
+d320 2
+a321 2
+#bmw {	border-left: 8px solid #2E9BDA;	margin-top: 30px; }
+#bmw h2 { color:#2E9BDA; }
+@
+
+
+1.1
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d288 1
+a288 1
+	width: 580px;
+d291 2
+a292 2
+	border-bottom: 2px solid #284837;
+	border-top:2px solid #284837;
+d299 20
+a318 4
+#wingstop {
+	border-left: 5px solid #284837;
+	margin-top: 30px;
+}
+d320 2
+a321 3
+#wingstop h2 {
+	color:#284837;
+}
+@

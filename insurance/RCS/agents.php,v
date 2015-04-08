@@ -1,0 +1,305 @@
+head	1.12;
+access;
+symbols;
+locks
+	sysop:1.12; strict;
+comment	@# @;
+
+
+1.12
+date	2014.08.19.17.42.28;	author stgbrock;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.07.28.19.38.13;	author stgbrock;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.17.21.23.11;	author stgolson;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.07.17.20.56.22;	author stgolson;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.07.17.19.36.20;	author stgolson;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.12.21.01.27.47;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.07.11.23.07.57;	author stgbooth;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.07.08.18.59.05;	author stgstewart;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.11.15;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.12
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+<title>Apollo Interactive | Insurance Practice | Agents/Brokers</title>
+<meta name="description" content="Our insurance practice helps insurers make online advertising a powerful source of consistent, profitable revenue.">
+
+</head>
+
+<body id="pg_insurance" class="bg-img">
+	
+	<div class="wrapper">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		
+		<div class="opacity-bg"></div>
+		<div class="container">
+		
+			<div class="content">
+				<div id="insurance_content" class="ins-page">
+					
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>
+
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/insurance_sub_nav.php'); ?>
+
+					<div id="agents-sub" class="noMobileImg">
+						<h2>Agents/Brokers</h2>
+						<p class="highlight-text">We Help Insurance Agents Grow Their Business</p>
+						<img src="/img/insurance/agents.png" alt="Apollo Interactive Insurance Practice - gents/Brokers" style="margin-bottom:16px;"  class="block centered">
+							
+						<p>Insurance agents and brokers create value by connecting consumers with the insurance products that best meet the needs of those consumers.  We create value by connecting those consumers with the right agent.  We work with large agencies as well as individual brokers to provide them with the affordable, reliable, and high quality leads they need to grow their business.  Our agent and broker support includes:</p>
+
+						<ul>
+							<li>High quality lead delivery from legitimate sources</li>
+							<li>A complete feedback loop to improve performance</li>
+							<li>Online tools for reporting and routing</li>
+							<li>Web development support</li>
+							<li>Advanced lead segmentation</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		
+		</div>	
+
+	</div>
+<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#insurance_side_sub').show();
+		$('a[href="/insurance/agents.php"]').css('color', '#33ccff');
+		$('li.nav_selected a').hover().css('color', '#ddd');
+	});
+</script>
+</body>
+</html>@
+
+
+1.11
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d49 2
+@
+
+
+1.10
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d46 5
+@
+
+
+1.9
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 4
+a19 1
+				<div id="insurance_content">
+@
+
+
+1.8
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@a16 2
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>	
+@
+
+
+1.7
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+a2 1
+<title>Apollo Interactive | Insurance Practice</title>
+@
+
+
+1.6
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 9
+					<div class="page_sub_navigation">
+						<a class="sub-nav" href="program.php">The Program</a>
+						<a class="sub-nav" href="insight.php">Unique Insight</a>
+						<a class="sub-nav" href="products.php">Proprietary Products</a>
+						<a class="sub-nav" href="experience.php">Deep Experience</a>
+						<a class="sub-nav" href="carriers.php">Insurance Carriers</a>
+						<a class="sub-nav" href="agents.php">Agents/Brokers</a>
+						<a class="sub-nav" href="affiliates.php">Affiliate Marketing</a>
+					</div>
+@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 46
+a46 33
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_insurance_agents" class="pg_inside insurance_practice">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10 insurance_spacing">
+					<article class="row-fluid">
+						<div id="seo_content-sub">
+								<h1>Agents/Brokers</h1>
+								<h2>Helping Insurance Agents Grow Their Business</h2>
+								<div class="padded_content_border">
+									<img src="/img/insurance/agents.png" alt="Apollo Interactive Insurance Practice - gents/Brokers" style="margin-bottom:16px;"  class="block centered">
+									
+									<p>Insurance agents and brokers create value by connecting consumers with the insurance products that best meet the needs of those consumers.  We create value by connecting those consumers with the right agent.  We work with large agencies as well as individual brokers to provide them with the affordable, reliable, and high quality leads they need to grow their business.  Our agent and broker support includes:</p>
+
+									<ul>
+										<li>High quality lead delivery from legitimate sources</li>
+										<li>A complete feedback loop to improve performance</li>
+										<li>Online tools for reporting and routing</li>
+										<li>Web development support</li>
+										<li>Advanced lead segmentation</li>
+									</ul>
+
+									<p></p>
+								</div>
+						</div>
+						
+					</article>
+				</section>
+d48 7
+a54 3
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d12 1
+a12 1
+						<div id="seo_content">
+@
+
+
+1.3
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_insurance.inc.php'); ?>
+d10 1
+a10 1
+				<section id="main_content" class="span10">
+@
+
+
+1.2
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+a16 1
+									<img src="/img/insurance/agents.png" alt="Apollo Interactive Insurance Practice - gents/Brokers" style="margin-bottom:16px;">
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+    <body id="pg_insurance_agents" class="pg_inside">
+a35 6
+		<script>
+			$(function(){
+				// location in /js/main.js
+				interactive_arrow_nav();
+			});
+		</script>
+@

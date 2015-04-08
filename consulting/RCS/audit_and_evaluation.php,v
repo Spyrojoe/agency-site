@@ -1,0 +1,144 @@
+head	1.2;
+access;
+symbols;
+locks
+	sysop:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_auditing" class="pg_inside pg_dark">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content">
+								<h1>Audit + Evaluation</h1>
+								<p>Our grading and benchmarking are clear and understandable with insight that can be used by any marketing partner or internal team to maximize growth and realize cost savings. Beyond evaluation, our team is available to provide support, consultation, and execution before, during, or after close if desired.</p>
+						</div>
+						<div id="interactive_content" >
+							<div class="gray-box">
+								<div class="accordion" id="accordion2">
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">										DOMAIN NAMES<span class="icon icon-minus"></span></a></h2>
+									  </div>
+									  <div id="collapseOne" class="accordion-body in collapse">
+										<div class="accordion-inner clearfix">
+											<ul>
+												<li>Intrinsic evaluation based on market price</li>
+												<li>Strategic evaluation of monetization potential</li>
+												<li>Critical evaluation to determine importance to the brand</li>
+												<li>Benchmark grading against competitive set</li>
+											</ul>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">										  DIGITAL PRESENCES<span class="icon icon-plus"></span></a></h2>
+									  </div>
+									  <div id="collapseTwo" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<ul>
+												<li>Analyze compatibility with desktop, tablet, and mobile devices</li>
+												<li>Historical evaluation based on demand and trending</li>
+												<li>Strategic evaluation of monetization potential</li>
+												<li>Critical evaluation of KPIs and conversions</li>
+												<li>Identify vulnerabilities and needed upgrades</li>
+												<li>Benchmark grading against competitive set</li>
+											</ul>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">MARKETING DATABASE<span class="icon icon-plus"></span></a></h2>
+									  </div>
+									  <div id="collapseThree" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<ul>
+												<li>Analyze quantity: compliance, valid, de-duplicated</li>
+												<li>Analyze loyalty: opt-out trending</li>
+												<li>Analyze growth: opt-in trending</li>
+												<li>Evaluate LFTV: life time value of opt-in customer</li>
+											</ul>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">SOCIAL MEDIA<span class="icon icon-plus"></span></a></h2>
+									  </div>
+									  <div id="collapseFour" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<ul>
+												<li>Evaluate quality and objectives of social media presences</li>
+												<li>Analyze participants: subscribers/fans/likers</li>
+												<li>Measure sentiment: positive v. negative buzz, intensity of brand appreciation</li>
+												<li>Evaluate engagement of activity by both brand and the subscriber base</li>
+												<li>Benchmark grading against competitive set</li>
+											</ul>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">DIGITAL ADVERTISING ASSETS<span class="icon icon-plus"></span></a></h2>
+									  </div>
+									  <div id="collapseFive" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<ul>
+												<li>Identification, inventory, and valuation</li>
+												<li>Content, Licenses, and Media</li>
+											</ul>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_consulting.inc.php'); ?>
+@

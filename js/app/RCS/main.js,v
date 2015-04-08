@@ -1,0 +1,811 @@
+head	1.13;
+access;
+symbols;
+locks
+	balue:1.13; strict;
+comment	@# @;
+
+
+1.13
+date	2014.01.21.23.46.41;	author stgvillanueva;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.01.14.01.15.20;	author stgvillanueva;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.01.09.00.45.37;	author stgvillanueva;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.01.02.21.52.19;	author stgvillanueva;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2013.12.21.01.28.11;	author stgvillanueva;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2013.12.20.02.01.29;	author stgvillanueva;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2013.12.20.00.25.15;	author stgvillanueva;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.12.06.23.05.21;	author stgvillanueva;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.12.06.06.20.58;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.12.02.19.43.40;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.07.11.23.07.56;	author stgbooth;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.07.08.18.59.04;	author stgstewart;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.11.47;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.13
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@var desktop = false;
+var isIpad = (/iPad/).test(navigator.userAgent);;
+var defaultBG = '#0b5592'
+var	wH = window.innerHeight;
+var wW = window.innerWidth;
+
+if(wW > 767){
+	desktop = true; 
+ }
+//dependant variable for showNav()
+var mobileNav = false;
+//Hour Feature
+function imgTime()
+{
+	var _o = '-';
+	var _hrs;
+	var _d = new Date();	
+	if(!override_time) _hrs = _d.getHours();
+	else _hrs = set_time;
+	var morning = (_hrs>=6 && _hrs<=11) ? true : false;
+	var day = (_hrs>=12 && _hrs<=16) ? true : false;
+	var evening = (_hrs>=17 && _hrs<=20) ? true : false;
+	var night = (_hrs>=21 || _hrs<=5) ? true : false;
+	if(morning || day)
+	{
+		_o = '';
+	} else {
+		_o = _o + 'night';
+		defaultBG = '#050a1d';
+	}
+	
+	
+	return _o;
+}
+var img_output = imgTime();
+
+define('jquery', [], function() {
+    return jQuery;
+});
+
+require(["jquery", "bootstrap","vegas","colorbox-min","resizestop"], function($) {
+	
+	// prevent links without a real href from refreshing page
+	$('a[href="#"]').click(function(e){
+		e.preventDefault();
+	});
+	
+	/*
+	 if(wW > 767){
+		desktop = true; 
+	 }
+	*/
+	
+	var bodyid = $('body').attr('id');
+	var bgimg = '';
+	var defaultImg = false;
+	if(bodyid != undefined){
+		switch(bodyid) {
+			case 'pg_about':
+				bgimg = '/img/bg_aboutus.jpg';
+				break;
+			case 'pg_capabilities':
+				bgimg = '/img/bg_capabilities.jpg';
+				break;
+			case 'pg_work':
+				bgimg = '/img/bg_solutions.jpg';
+				break;
+			case 'pg_experience':
+				bgimg = '/img/bg_experience.jpg';
+				break;
+			case 'pg_contact':
+				bgimg = '/img/bg_contact.jpg';
+				break;
+			case 'pg_clientlounge':
+				bgimg = '/img/bg_clientlounge.jpg';
+				break;
+			case 'pg_insurance':
+			case 'pg_insurance_program':
+			case 'pg_insurance_insight':
+			case 'pg_insurance_products':
+			case 'pg_insurance_agents':
+			case 'pg_insurance_carriers':
+			case 'pg_insurance_affiliates':
+			case 'pg_insurance_experience':
+				bgimg = '/img/bg_insurance_home.jpg';
+				break;
+			case 'pg_consulting':
+			case 'pg_about':
+			case 'pg_consulting_experience':
+			case 'pg_services':
+			case 'pg_auditing':
+				bgimg = '/img/bg_consulting.png';
+				break;
+			default:
+				if(wH<=600) img_output = img_output + '-600';
+				bgimg = '/img/bg_main_home'+img_output+'.jpg';
+				defaultImg = true;
+		}
+	}
+	
+	//===IF/THEN STATEMENTS===
+	
+	//CHECK IF IPAD
+	//isIpad = (/iPad/).test(navigator.userAgent);
+	
+	//IS NOT HOMEPAGE ON IPAD; ELSE HOMEPAGE ON ANY DEVICE
+	/*if(!defaultImg && isIpad)
+	{
+		$('body').append('<div style="background-image:url(' + bgimg + ')" id="ipad-bg" />');
+	} else {
+		$('html').css({'background-image': 'url('+bgimg+') '});;
+	}*/
+	var sH = screen.height;
+	if(isIpad || !desktop)	$('body').append('<div style="background-image:url(' + bgimg + ');height:' + sH + 'px" id="global-bg"></div>');
+	else $('html').css({'background-image': 'url('+bgimg+') '});
+			
+	//IF WINDOW WIDTH IS LESS THAN 770PX
+	if(wW<770) $('#home_html').css('background-color',defaultBG);
+	
+	//IS NOT HOME PAGE ON DESKTOP
+	if(!defaultImg && desktop) $('html').css({'background-attachment':'fixed'});
+	
+	//CLONES SUBNAV ON ANY DEVICE BUT DESKTOP
+	if(!desktop)
+	{
+		var _e = checkElement('.active_sub_nav');
+		if(_e.exists)
+		{
+			_e.obj.removeClass('active_sub_nav');
+			_e = $(_e.obj).clone();
+			$("#side_nav").append(_e);
+			_e.addClass('visible-phone');
+			_e.addClass('active_sub_nav');
+			_e.removeClass('sub_nav');
+		}
+		//$('#main_nav').css('height',wH+'px');
+	}
+	
+	//===DEFINE FUNCTIONS===
+	
+	//CALCULATES OVERFLOW HEIGHT OF CONTAINER
+	function setContentHeight()
+	{
+		wH = window.innerHeight;
+		var _e = checkElement('.active_sub_nav');
+		var _h = 0;
+		var _m = 0;
+		alert(wW + ', ' + wH);
+		if(_e.exists)
+		{
+			_h = _e.obj.height();
+			_m = _m + _h;
+		}
+		$('.container').css('height',wH+'px');
+		//$('#side_nav,html,body').css('width',wW+'px');
+		$('#main_nav').css('height',wH+'px');
+		$('#main_content').css('margin-top',_m+'px');
+	}
+	
+	//RETURNS TRUE IF ELEMENT EXISTS
+	function checkElement(e)
+	{
+		//This is a pretty lame function
+		e = $(e);
+		if(e.length)
+		{
+			var _o = {exists:true,obj:e}
+			return _o;
+		} else {
+			return false;
+		}
+	}
+	
+	//===DECLARE FUNCTIONS===
+	init_accordion();
+});
+	function active_nav_init(version){
+	
+			var active_nav = $('.nav .active');
+			var offset = active_nav.offset();
+			if(version == 'mobile'){
+				var body_bg = $('body');
+				var body_bg_img = body_bg.css('background-image');
+			} else {
+				var body_bg = $('img.vegas-background');
+				var body_bg_img = 'url('+body_bg.attr('src')+')';
+			}
+			
+			var top = 30;
+			if(desktop){
+					top = offset.top;
+			}
+			var active_bg_ps = '-'+offset.left+'px -'+top+'px';
+			active_nav.find('a').css( {'background-image' : body_bg_img, 'background-position' : active_bg_ps, 'background-size' : body_bg.width()+'px' });
+			
+			 $(window).bind('resizestop', function (e) {
+				active_nav_init();
+			});
+	}
+		
+	function interactive_arrow_nav(){
+		$('#interactive_content').find('.arrow-nav').first().find('li:first-child').addClass('active');
+		var last_li;
+		$('.arrow-nav > ul > li').hover(
+			function(){
+				var currli = $(this); //Current LI Hovered
+				if(last_li)
+				{
+					if(currli!=last_li) last_li.removeAttr('class');
+				} else {
+					$('.arrow-nav li.active').removeAttr('class');
+				}
+				currli.addClass('active');
+				last_li = currli;
+			},
+			function(){
+				return false;
+			}
+		);
+	}
+	
+	function init_accordion(){
+		$('.accordion').on('hide', function(){
+			$(this).find('.active').removeClass('active');
+			$(this).find('.icon-minus').removeClass('icon-minus').addClass('icon-plus');
+			
+		});
+		$('.accordion').on('shown', function(){
+			$(this).find('.in').prev().addClass('active').find('.icon-plus').removeClass('icon-plus').addClass('icon-minus');
+		});
+	}
+	
+	//POPS UP MOBILE NAVIGATION
+	function showNav()
+	{
+		mobileNav = !mobileNav;
+		if(mobileNav)
+		{
+			$("#side_nav").addClass('show-nav');
+			$('html,body').css('overflow','hidden');
+		} else {
+			$('#side_nav').removeClass('show-nav');
+			$('html,body').css('overflow','auto');
+		}
+	}@
+
+
+1.12
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+d6 4
+d48 1
+d52 1
+d104 1
+a104 1
+	var isIpad = (/iPad/).test(navigator.userAgent);
+d113 2
+a114 1
+	if(isIpad || !desktop)	$('body').append('<div style="background-image:url(' + bgimg + ');height:' + screen.height + 'px" id="global-bg" />');
+d200 1
+a201 1
+		$('#interactive_content').find('ul.hide').first().fadeIn();
+d203 2
+a204 2
+		
+		$('.arrow-nav >ul > li').hover(
+d206 9
+a214 30
+				var currli = $(this);
+				var parent_height = $(currli).parent().height();
+				var li_index = $(this).index();
+				var li_top = $(this).position();
+				li_top = li_top.top;
+				var hiddenuls = $(this).parents('.arrow-nav').find('ul.hide');
+				var offset_top = parseInt($('.arrow-nav').css('margin-top'),10);
+				var triggered_ul = $(currli).find('.hide');
+				var triggered_height = $(triggered_ul).height();
+				var max_top = parent_height - triggered_height;
+				var act_margin = calc_margin = li_top - offset_top;
+				var top_pos = parseInt(triggered_height/2)*-1;
+				
+				$('#interactive_content').find('ul.hide:visible').not(triggered_ul).stop(true,true).removeAttr('style').fadeOut(
+					function(){
+						$('#interactive_content').find('li.active').not(currli).removeClass('active');
+						
+						$(triggered_ul).stop(true,true).fadeIn(250);
+						
+						if(desktop){
+							if ((li_top+triggered_height) > parent_height){
+								var new_top = ((li_top + triggered_height) - (parent_height + offset_top) ) * -1;
+								$(triggered_ul).css({'top':new_top});
+							} else {
+								$(triggered_ul).css({'top':'0'});
+							}
+						}
+					}
+				);
+				$(this).addClass('active');
+d221 1
+d245 1
+a245 5
+	}
+
+
+
+
+@
+
+
+1.11
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d104 1
+a104 1
+		$('html').css({'background-image': 'url('+bgimg+') '});
+d106 1
+a106 1
+	if(isIpad || !desktop)	$('body').append('<div style="background-image:url(' + bgimg + ')" id="global-bg" />');
+d108 1
+a108 1
+		
+@
+
+
+1.10
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d3 2
+a4 2
+var	wH = $(window).height();
+var wW = $(window).width();
+d43 1
+a43 1
+	 if(wW > 979){
+d100 1
+a100 1
+	if(!defaultImg && isIpad)
+d105 4
+a108 2
+	}
+	
+d110 1
+a110 4
+	if(wW<770)
+	{
+		$('#home_html').css('background-color',defaultBG);
+	}
+d113 1
+a113 4
+	if(!defaultImg && desktop)
+	{
+		$('html').css({'background-attachment':'fixed'});
+	}
+d128 1
+a130 10
+	//IS NOT HOMEPAGE AND ANY DEVICE BUT DESKTOP
+	if(!desktop && !defaultImg)
+	{
+		//this feature is for when switching from portrait and landscape
+		$(window).resize(function(e){
+			setContentHeight();
+		});
+		setContentHeight();
+	}	
+	
+d136 1
+d139 2
+a140 1
+		var _m = 0;//$('.container').css('margin-top');
+d146 3
+a148 3
+		//var pg_h = $(window).height() - (60 + _h);
+		var pg_h = window.innerHeight;
+		$('.container').css('height',pg_h);
+a149 5
+		/*
+		$('.container').css({
+			'height':pg_h
+		});
+		*/
+d155 1
+a219 1
+								//console.log(new_top);
+d252 1
+d255 1
+@
+
+
+1.9
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d5 2
+d93 4
+a96 1
+	//IF IPAD
+d99 25
+a123 52
+	 /*
+	 if(desktop){
+		$.vegas({
+			src:bgimg,
+			valign: 'top',
+			align: 'left',
+			fade: 1000,
+			complete:function() {
+				if($('.nav .active').length > 0){
+					//active_nav_init();
+				}
+			}
+		 });
+
+		 //$('footer a').modal();
+		 
+	 }  else {
+		$('body').css({'background-image': 'url('+bgimg+') ', 'background-attachment': 'fixed', 'background-size' : 'cover'});
+		//active_nav_init('mobile')
+	 }
+	 */
+	 //$('body').append('<img src="' + bgimg + '" alt="" id="bg_img />');
+	 if(!defaultImg && isIpad)
+	 {
+		 $('body').append('<div style="background-image:url(' + bgimg + ')" id="ipad-bg" />');
+	 } else {
+		 $('html').css({'background-image': 'url('+bgimg+') '});
+	 }
+	 if(wW<770)
+	 {
+		 $('#home_html').css('background-color',defaultBG);
+	 }
+	 
+	 //IF HOME PAGE AND MOBILE
+	 /*if(defaultImg && !desktop)
+	 {
+		 $('html').css({'background-size':'auto','background-attachment':'fixed'});
+	 }*/
+	 //IF HOME PAGE AND DESKTOP
+	 /*if(defaultImg && desktop)
+	 {
+		 $('html').css({'background-attachment':'fixed'});
+	 }*/
+	 //IF NOT HOME PAGE AND DESKTOP
+	 if(!defaultImg && desktop)
+	 {
+		 $('html').css({'background-attachment':'fixed'});
+	 }
+	 //IF HOME PAGE AND LESS THAN 850
+	 /*if(defaultImg)
+	 {
+		if(wH < 850)
+d125 6
+a130 3
+			$('html').css({'background-attachment':'inherit'}); 
+		} else {
+			$('html').css({'background-attachment':'fixed'});
+a131 7
+	 }*/
+	 init_accordion();
+	//alert(wW + 'x' + wH);
+	function setContentHeight()
+	{
+		var pg_h = $(window).height() - 60;
+		$('.container').css({'height':pg_h});
+d133 2
+d137 1
+d143 40
+d260 12
+@
+
+
+1.8
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d156 1
+a156 1
+		var pg_h = $(window).height() - 50;
+@
+
+
+1.7
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+d17 9
+a25 2
+	if(morning || day) _o = '';
+	else _o = _o + 'night';
+d122 4
+a125 1
+	 
+@
+
+
+1.6
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d2 2
+d33 1
+a33 1
+	 if($(window).width() > 979){
+d35 46
+a80 42
+	 } 
+		
+	 var bodyid = $('body').attr('id');
+	 var bgimg = '/img/bg_main_home'+img_output+'.jpg';
+		if(bodyid != undefined){
+			switch(bodyid) {
+				case 'pg_about':
+					bgimg = '/img/bg_aboutus.jpg';
+					break;
+				case 'pg_capabilities':
+					bgimg = '/img/bg_capabilities.jpg';
+				break;
+				case 'pg_work':
+					bgimg = '/img/bg_solutions.jpg';
+				break;
+				case 'pg_experience':
+					bgimg = '/img/bg_experience.jpg';
+				break;
+				case 'pg_contact':
+					bgimg = '/img/bg_contact.jpg';
+				break;
+				case 'pg_clientlounge':
+					bgimg = '/img/bg_clientlounge.jpg';
+				break;
+				case 'pg_insurance':
+				case 'pg_insurance_program':
+				case 'pg_insurance_insight':
+				case 'pg_insurance_products':
+				case 'pg_insurance_agents':
+				case 'pg_insurance_carriers':
+				case 'pg_insurance_affiliates':
+				case 'pg_insurance_experience':
+					bgimg = '/img/bg_insurance_home.jpg';
+				break;
+				case 'pg_consulting':
+				case 'pg_about':
+				case 'pg_consulting_experience':
+				case 'pg_services':
+				case 'pg_auditing':
+					bgimg = '/img/bg_consulting.png';
+				break;
+			}
+d82 5
+a86 1
+	 
+d106 9
+d116 39
+a154 3
+	init_accordion();
+	
+	
+@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d39 3
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d42 1
+a42 1
+				case 'pg_solutions':
+a97 1
+
+a120 1
+	
+a163 1
+	
+@
+
+
+1.3
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d2 17
+d36 1
+a36 1
+	 var bgimg = '/img/bg_main_home.jpg';
+@
+
+
+1.2
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d14 1
+a14 1
+	 if($(window).width() > 767){
+d65 1
+a65 1
+					active_nav_init();
+d74 1
+a74 1
+		active_nav_init('mobile')
+d82 1
+a82 1
+function active_nav_init(version){
+d94 1
+a94 1
+			var top = 0;
+d98 1
+a98 1
+			var active_bg_ps = '-'+offset.left+'px '+top+'px';
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d3 5
+a7 1
+define(["jquery", "bootstrap","vegas","colorbox-min","resizestop"], function($) {
+d78 2
+a81 3
+
+
+
+d84 25
+a108 9
+		var active_nav = $('.nav .active');
+		var offset = active_nav.offset();
+		if(version == 'mobile'){
+			var body_bg = $('body');
+			var body_bg_img = body_bg.css('background-image');
+		} else {
+			var body_bg = $('img.vegas-background');
+			var body_bg_img = 'url('+body_bg.attr('src')+')';
+		}
+d110 48
+a157 9
+		var top = 0;
+		if(desktop){
+				top = offset.top;
+		}
+		var active_bg_ps = '-'+offset.left+'px '+top+'px';
+		active_nav.find('a').css( {'background-image' : body_bg_img, 'background-position' : active_bg_ps, 'background-size' : body_bg.width()+'px' });
+		
+		 $(window).bind('resizestop', function (e) {
+			active_nav_init();
+d159 3
+a161 1
+}
+a162 43
+function interactive_arrow_nav(){
+	$('#interactive_content').find('ul.hide').first().fadeIn();
+	$('#interactive_content').find('.arrow-nav').first().find('li:first-child').addClass('active');
+	
+	$('.arrow-nav >ul > li').hover(
+		function(){
+			var currli = $(this);
+			var parent_height = $(currli).parent().height();
+			var li_index = $(this).index();
+			var li_top = $(this).position();
+			li_top = li_top.top;
+			var hiddenuls = $(this).parents('.arrow-nav').find('ul.hide');
+			var offset_top = parseInt($('.arrow-nav').css('margin-top'),10);
+			var triggered_ul = $(currli).find('.hide');
+			var triggered_height = $(triggered_ul).height();
+			var max_top = parent_height - triggered_height;
+			var act_margin = calc_margin = li_top - offset_top;
+			var top_pos = parseInt(triggered_height/2)*-1;
+			
+			$('#interactive_content').find('ul.hide:visible').not(triggered_ul).stop(true,true).removeAttr('style').fadeOut(
+				function(){
+					$('#interactive_content').find('li.active').not(currli).removeClass('active');
+					
+					$(triggered_ul).stop(true,true).fadeIn(250);
+					
+					if(desktop){
+						if ((li_top+triggered_height) > parent_height){
+							var new_top = ((li_top + triggered_height) - (parent_height + offset_top) ) * -1;
+							console.log(new_top);
+							$(triggered_ul).css({'top':new_top});
+						} else {
+							$(triggered_ul).css({'top':'0'});
+						}
+					}
+				}
+			);
+			$(this).addClass('active');
+		},
+		function(){
+			return false;
+		}
+	);
+}
+a163 10
+function init_accordion(){
+	$('.accordion').on('hide', function(){
+		$(this).find('.active').removeClass('active');
+		$(this).find('.icon-minus').removeClass('icon-minus').addClass('icon-plus');
+		
+	});
+	$('.accordion').on('shown', function(){
+		$(this).find('.in').prev().addClass('active').find('.icon-plus').removeClass('icon-plus').addClass('icon-minus');
+	});
+}@

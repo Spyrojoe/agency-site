@@ -1,0 +1,143 @@
+head	1.6;
+access;
+symbols;
+locks
+	dave:1.6; strict;
+comment	@# @;
+
+
+1.6
+date	2014.07.17.19.36.19;	author stgolson;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.07.09.16.52.49;	author stgolson;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.07.03.19.28.17;	author stgolson;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.6
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+
+<title>Apollo Interactive | Team</title>
+<meta name="description" content="Our ideas and solutions help consumer brands achieve practical marketing goals through persuasive messaging, targeted media, and exceptional analysis.">
+
+</head>
+
+<body id="pg_team" class="bg-img">
+	<div class="wrapper">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		
+		<div class="opacity-bg"></div>
+		<div class="container">
+			<div class="content">
+				<div id="aboutus_content">
+					<h1><span class="title-thin">We choose to have only one team,</span> the A team…</h1>
+					<p class="highlight-text">
+						…and our people are genuine, hardworking, and take pride in what they do each day.
+					</p>
+				</div>
+
+				<article>
+					<h2>
+						Every Agency Has People; We Think Ours Are Great.
+					</h2>
+					<p class="copy-text">
+						The best work product is the culmination of a lot of people's ideas, thoughts, and opinions.  Who's to say that the creative theme for a digital advertising campaign can't emanate from the programmer or developer?  Or the idea for how a microsite should function comes from the account guy.  Regardless of the size or scope of the project, we engage the same talented resources that may otherwise be working diligently on our agency of record clients.  There is no B team at Apollo, and that is of tremendous value to all of our clients.
+					</p>
+				</article>
+			</div>
+
+		</div>	
+	</div>
+	
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+
+</body>
+</html>
+@
+
+
+1.5
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+<title>Apollo Interactive | The Team</title>
+@
+
+
+1.4
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d27 1
+a27 1
+						The best work product is the culmination of a lot of people's ideas, thoughts, and opinions.  Who's to say that the creative theme for a digital advertising campaign can't emanate from the programmer or developer?  Or that the account guy has an idea for how a microsite should function.  Regardless of the size or scope of the project, we engage the same talented resources that may otherwise be working diligently on our agency of record clients.  There is no B team at Apollo, and that is only of tremendous value to all of our clients.
+@
+
+
+1.3
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+a16 1
+					<h1><span class="title-thin">We have only</span> one team,<span class="title-thin"> the A team…</span></h1>
+@
+
+
+1.2
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+a16 1
+					<h1><span class="title-thin">We have only</span> one team,<br><span class="title-thin">the A team…</span></h1>
+@
+
+
+1.1
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d24 1
+a24 1
+						Every agency has people; we think ours are great.
+@

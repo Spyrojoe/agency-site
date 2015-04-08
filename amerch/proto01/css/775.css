@@ -1,0 +1,87 @@
+@media screen and (max-width: 775px){
+	body{
+
+	}
+	header{
+		margin: 16px auto;
+	}
+	.burger{
+		display: block;
+		-webkit-transform: rotate(90deg) scale(2, 2);
+		transform: rotate(90deg) scale(2, 2);
+	}
+	nav{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-align-items: center;
+		align-items: center;
+		width: 70px;
+		height: 70px;
+		margin-right: 18px;
+		float: left;
+		border-right: 1px gray solid;
+	}
+	nav ul{
+		display: none;
+	}
+	.primary li{
+		display: block;
+	}
+	.logo{
+		display: inline-block;
+		width: 50%;
+		margin-top: 8px;
+		float: none;
+	}
+	.side-nav{
+		display: none;
+	}
+	.content{
+		width: 96%;
+		margin: 0 auto;
+		float: none;
+	}
+	.content p{
+		padding: 18px 0;
+	}
+	.content h1{
+		padding: 0;
+	}
+	.client.page{
+		margin-top: 0;
+	}
+	.client.page .content{
+		width: 100%;
+		max-width: none;
+	}
+	.client-nav{
+		margin-bottom: 44px;
+	}
+	
+	.client-nav div{
+		/*width: 14.28591%;
+		width: 13%;*/
+	}
+	.client-header{
+		margin-bottom: 8px;
+		padding: 18px 0;
+		text-align: left;
+	}
+	.client-header h1{
+		padding: 0;
+		font-size: 56px;
+		vertical-align: middle;
+	}
+	.client-header img{
+		max-width: 10%;
+		vertical-align: middle;
+	}
+	
+	.study{
+		padding: 18px 0;
+		text-align: left;
+	}
+}

@@ -1,0 +1,65 @@
+head	1.2;
+access;
+symbols;
+locks
+	sysop:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2013.07.08.18.59.04;	author stgstewart;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.11.39;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.2
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@// Place third party dependencies in the lib folder
+//
+// Configure loading modules from the lib directory,
+// except 'app' ones, 
+requirejs.config({
+    "baseUrl": "/js/",
+    "paths": {
+      "app": "app",
+	  "bootstrap": "lib/vendor/bootstrap.min",
+	  "colorbox-min":"lib/jquery.colorbox-min",
+	  "vegas":"lib/vegas/jquery.vegas",
+	  "resizestop":"lib/jquery.resizestop"
+    },
+	"shim": {
+		"vegas": ["jquery"],
+		"colorbox-min": ["jquery"],
+		"resizestop": ["jquery"],
+		"bootstrap": {
+            deps: ["jquery"]
+        }
+	}
+});
+
+// Load the main app module to start the app
+requirejs(["app/main"]);
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@a8 1
+      "jquery": "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min",
+@

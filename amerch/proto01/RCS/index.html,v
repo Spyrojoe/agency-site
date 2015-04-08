@@ -1,0 +1,200 @@
+head	1.1;
+access;
+symbols;
+locks
+	dave:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2015.03.16.20.35.19;	author stgbrock;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.1
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<!DOCTYPE html>
+<html>
+	<head>
+		<title>Anderson Merchandisers - Prototype</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" media="screen and (max-width: 775px)" href="css/935.css">
+		<link rel="stylesheet" media="screen and (max-width: 775px)" href="css/775.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+
+			<header class="clfx">
+				<div class="logo">
+					<img src="img/logo.jpg">
+				</div>
+				<nav>
+					<ul class="secondary">
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+					<ul class="primary">
+						<li><a href="#">What we do</a></li>
+						<li><a href="#">Who we work with</a></li>
+						<li><a href="#">About us</a></li>
+					</ul>
+					<span class="burger">|||</span>
+				</nav>
+			</header>
+
+			<div class="page clfx">
+				<div class="side-nav">
+					<ul>
+						<li><a href="#">Our Clients</a></li>
+						<li><a href="#">Success Stories</a></li>
+					</ul>
+				</div>
+				<div class="content">
+					<h1>Success Stories</h1>
+					<p>We’ve done it before. We’ll do it again. No matter the product. No matter the category. The story is the same: Anderson Merchandisers will work for you relentlessly to help you reach (or surpass) your goals.</p>
+
+					<div class="gallery">
+
+						<div class="row clfx">
+							<div class="gallery-item tmobile">
+								<p>We’ve delivered successful product launches across mobility, tablet and broadband platforms since 2011.</p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+							<div class="gallery-item walmartinnovations">
+								<p>Our project specialists and continuity experts represent categories and brands in over 4,000 stores.</p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+						</div>
+
+						<div class="row clfx">
+							<div class="gallery-item post">
+								<p>We’ve executed innovation launches and continuity service delivering unprecedented sales and market-share growth in the RTE cereal category.</p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+							<div class="gallery-item pg">
+								<p>We’ve delivered flawless execution across multiple in-store destinations resulting in mega-sales and shopper satisfaction.</p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+						</div>
+
+						<div class="row clfx">
+							<div class="gallery-item nexium">
+								<p>Through effective collaboration with Pfizer, Anderson executed the largest OTC launch in consumer healthcare within Walmart in 2014.</p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+							<div class="gallery-item sony">
+								<p>Anderson addressed a faulty product with a swift plan for recall.</p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+						</div>
+
+						<div class="row clfx">
+							<div class="gallery-item walmart">
+								<p>Ensured stores were 100% prepared for Black Friday midnight madness blitz. </p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+							<div class="gallery-item universal">
+								<p>Two huge titles, Despicable Me 2 and Fast & Furious 6, release on the same day. All in a day’s work for Anderson.</p>
+								<a href="#">Read More</a>
+								<div class="opaque-bg"></div>
+							</div>
+						</div>
+					</div><!-- gallery -->
+				</div><!-- content -->
+			</div><!-- page -->
+
+			<footer class="clfx">
+				<div class="copy">
+					<span>&copy;2014 Anderson Merchandisers</span>
+					<ul>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Site Map</a></li>
+					</ul>
+				</div>
+				<div class="social">
+					<a href="#"><img src="img/facebook.jpg"></a>
+				</div>
+			</footer>
+
+		</div><!-- end container -->
+		<script>
+		$(document).ready(function(){
+			$(".gallery-item").children().not(".opaque-bg").css("opacity", "0");
+			$(".opaque-bg").height(270).width(270);
+			$(".gallery-item").hover(
+				function(){
+					fadeGalleryItemsIn($(this).children().not(".opaque-bg"), $(this).children(".opaque-bg"));},
+				function(){
+					fadeGalleryItemsOut($(this).children().not(".opaque-bg"), $(this).children(".opaque-bg"));}
+			);
+			function fadeGalleryItemsIn(galleryItem, opaqueBg){
+				galleryItem.animate({
+					opacity: "1"
+				}, {duration: 200, queue: false});
+				opaqueBg.animate({
+					opacity: ".8"
+				}, {duration: 200, queue: false});
+			}
+			function fadeGalleryItemsOut(galleryItem, opaqueBg){
+				galleryItem.animate({
+					opacity: "0"
+				}, {duration: 200, queue: false});
+				opaqueBg.animate({
+					opacity: "0"
+				}, {duration: 200, queue: false});
+			}
+		});
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@

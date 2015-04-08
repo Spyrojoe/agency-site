@@ -1,0 +1,530 @@
+head	1.15;
+access;
+symbols;
+locks
+	sysop:1.15; strict;
+comment	@# @;
+
+
+1.15
+date	2014.08.21.14.13.55;	author stgbrock;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2014.08.19.17.53.06;	author stgbrock;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2014.08.11.21.37.56;	author stgbrock;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.08.11.21.33.45;	author stgbrock;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.08.11.21.30.19;	author stgbrock;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.28.19.37.59;	author stgbrock;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.07.09.16.52.49;	author stgolson;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.07.08.21.23.32;	author stgolson;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.12.21.01.27.47;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.07.08.18.59.05;	author stgstewart;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.11.15;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.15
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    <title>Apollo Interactive | Insurance Practice</title>
+	<meta name="description" content="Our insurance practice helps insurers make online advertising a powerful source of consistent, profitable revenue.">
+	<style type="text/css">
+		.opacity-bg-ins{
+			height: 670px;
+		}
+		footer{
+			bottom: 0;
+		}
+	</style>
+
+    </head>
+
+    <body id="pg_insurance" class="bg-img ins-main">
+		
+		<div class="wrapper">
+			<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+			
+			<div class="opacity-bg-ins"></div>
+			<div class="container">
+			
+				<div class="content">
+					<div id="insurance_content">
+							<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+							<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>	
+
+							<?php include($_SERVER[DOCUMENT_ROOT].'/includes/insurance_sub_nav.php'); ?>
+
+							<h2>Our Insurance Practice Delivers Results.</h2>
+							<div class="padded_content_border">
+								<p>When consumers need insurance they use the Internet to research options and prices. But, most insurance companies are not taking full advantage of this sales opportunity.  Our insurance practice takes a sales-centric approach to reaching consumers when they are actively searching for information and either preparing or ready to buy.  We help insurers make online advertising a powerful source of consistent, profitable revenue.  We have a flexible, scalable, pure ROI based online advertising model, unique insight into consumer behavior, powerful proprietary products, tools, and properties, and deep capabilities and experience.</p>
+							</div>
+							
+						</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#insurance_side_sub').show();
+		//$('footer').css('bottom', '-35px');
+	});
+	</script>
+
+    </body>
+</html>
+@
+
+
+1.14
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d8 3
+d15 1
+a15 1
+    <body id="pg_insurance" class="bg-img">
+d47 1
+a47 1
+		$('footer').css('bottom', '-35px');
+@
+
+
+1.13
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d44 1
+@
+
+
+1.12
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d6 1
+a6 1
+			height: 680px;
+@
+
+
+1.11
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d6 1
+a6 1
+			height: 2000px;
+@
+
+
+1.10
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d4 5
+@
+
+
+1.9
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d12 1
+a12 1
+			<div class="opacity-bg"></div>
+d36 6
+@
+
+
+1.8
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 9
+							<div class="page_sub_navigation">
+								<a class="sub-nav" href="program.php">The Program</a>
+								<a class="sub-nav" href="insight.php">Unique Insight</a>
+								<a class="sub-nav" href="products.php">Proprietary Products</a>
+								<a class="sub-nav" href="experience.php">Deep Experience</a>
+								<a class="sub-nav" href="carriers.php">Insurance Carriers</a>
+								<a class="sub-nav" href="agents.php">Agents/Brokers</a>
+								<a class="sub-nav" href="affiliates.php">Affiliate Marketing</a>
+							</div>
+@
+
+
+1.7
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 10
+d32 1
+a32 75
+								<p>When consumers need insurance they use the Internet to research options and prices.  But, most insurance companies are not taking full advantage of this sales opportunity.  Our insurance practice takes a sales-centric approach to reaching consumers when they are actively searching for information and either preparing or ready to buy.  We help insurers make online advertising a powerful source of consistent, profitable revenue.  We have a flexible, scalable, pure ROI based online advertising model, unique insight into consumer behavior, powerful proprietary products, tools, and properties, and deep capabilities and experience.</p>
+							</div>
+
+							<hr />
+
+							<div id="insurance_content-sub">
+								<h2>The Program</h2>
+								<p class="highlight-text">We have a Comprehensive Channel Revenue Program for Insurance Companies</p>
+								<div id="figure">
+									<ul><h3><span>Growing Affinity</span></h3>
+										<li>Internet Marketing</li>
+										<li>Brand Building</li>
+										<li>Reputation Management</li>
+									</ul>
+
+									<ul><h3><span>Prospect Acqusition</span></h3>
+										<li>Online Media</li>
+										<li>Lead Brokering</li>
+										<li>Remarketing</li>
+									</ul>
+
+									<ul><h3><span>Customer Conversion</span></h3>
+										<li>Capturing</li>
+										<li>Delivery</li>
+										<li>Handling</li>
+									</ul>
+
+									<ul><h3><span>Profit Modeling</span></h3>
+										<li>Sales Cycling</li>
+										<li>Value Profiling</li>
+										<li>Right Pricing</li>
+									</ul>
+								</div>
+
+								<p>Sales-centric marketing is more than just message and media.  Our comprehensive channel revenue program focuses on everything required to generate consistent, profitable revenue.  Our unique insight, proprietary products, and deep experience enable us to grow affinity, acquire prospects, optimize conversion to customer, and analyze the right price to pay for all online marketing activities.  If you want to learn more about how our comprehensive channel revenue program, <a href="/contact.php">request a meeting</a>.</p>
+							</div>
+
+							<hr />
+
+							<div id="insight-sub" class="noMobileImg">
+								<h2>Unique Insight</h2>
+								<p class="highlight-text">We create a source of consistent, profitable revenue</p>
+								<img src="/img/insurance/unique-insight.png" alt="Apollo Interactive Insurance Practice - Unique Insight" style="margin-bottom:16px;">
+								<p>To gain insight into what consumers want when looking to purchase insurance, Apollo Interactive conducts quarterly “active shopper” surveys.  We also interview target consumers annually to understand what they like and dislike about buying insurance. After many years of research the results are clear -- there are many things insurance companies can do better to drive more business.  Our insurance practice offers practical solutions that create a source of consistent, profitable revenue through online advertising.</p>
+							</div>
+
+							<hr />
+
+							<div id="products-sub">
+								<h2>Proprietary Products</h2>
+								<p class="highlight-text">We utilize powerful tools and properties that deliver prospects and convert them into customers</p>
+								
+								<h3>Affiliate Network</h3>
+								<div class="sub-proprietary">
+									<img src="/img/insurance/network.png" width="370" height="320"  alt=""/>
+									<p>Our Health Plans of America affiliate network unites hundreds of independent web sites that attract highly targeted consumers who are looking for insurance. Together, our network produces more than 50,000 prospects per month across all types of insurance products.</p>
+								</div>
+								
+								<h3>Consumer Portals</h3>
+								<div class="sub-proprietary">	
+									<p>Our portfolio of five insurance web portals spans health insurance, auto insurance, life insurance, and Medicare products. Through compelling consumer oriented content, licensed from leading industry sources, we attract hundreds of thousands of targeted visits monthly through natural search. Our clients leverage these properties to acquire highly qualified prospects.</p>
+									<img src="/img/portals.png" width="370" height="320"  alt=""/>
+								</div>
+								
+								<h3>LeadQueue</h3>
+								<div class="sub-proprietary noMobileImg">	
+									<img src="/img/insurance/db_system.png" width="370" height="320"  alt=""/>
+									<p>Our LeadQueue Database System is a proprietary lead management application that accepts, reviews, validates, de-duplicates, tracks and transmits leads through open source protocols. Our clients leverage this tool to increase conversion and sales.</p>
+								</div>
+
+								<h3>Lead Handling</h3>
+								<div class="sub-proprietary noMobileImg">	
+									<p>Conversion to contract is highly dependent on when and how you work your leads. We support our clients through lead handling services that include outbound calling, follow up, qualification, and hot transfer.</p>
+									<img src="/img/insurance/handling.png" width="400" height="268"  alt=""/>
+								</div>
+d34 1
+a34 93
+
+							<hr />
+
+							<div id="experience-sub">
+								<h2>Deep Experience</h2>
+								<p class="highlight-text">We posses unmatched experience in digital-centric insurance marketing</p>
+								<br/>
+								<img src="/img/insurance/affiliates_bcbs.png" alt="">
+								<img src="/img/insurance/affiliates_wellpoint.png" alt="">
+								<img src="/img/insurance/affiliates_hcsc.png" alt="">
+								<img src="/img/insurance/affiliates_transamerica.png" alt="">
+								<img src="/img/insurance/affiliates_westcoastlife.png" alt="">
+								<img src="/img/insurance/affiliates_cigna.png" alt="">
+								<img src="/img/insurance/affiliates_geico.png" alt="">
+								<img src="/img/insurance/affiliates_coventry.png" alt="">
+								<img src="/img/insurance/affiliates_wps.png" alt="">
+								<img src="/img/insurance/affiliates_mutualofomaha.png" alt="">
+								<img src="/img/insurance/affiliates_farmersinsurancegroup.png" alt="">
+								<img src="/img/insurance/affiliates_nationallifegroup.png" alt="">
+
+								<ul>
+									<li>Advertising experience since 1995</li>
+									<li>Online media and marketing experience for insurance products since 2004</li>
+									<li>Almost 1,000,000 insurance leads acquired every year through a wide variety of tactics</li>
+									<li>Currently generate leads in all 50 states for health, auto, life, and Medicare insurance.</li>
+								</ul>
+								
+							</div>
+
+							<hr />
+
+							<div id="carriers-sub">
+								<h2>Insurance Carriers</h2>
+								<p class="highlight-text">We Maintain Direct Relationships With Leading Carriers</p>
+								
+								<p>Since 2004, we have worked directly with insurance carriers to help them achieve their goals.  In the constantly evolving insurance landscape, you can rely on Apollo to develop and execute plans that grow business.  Some of the support we provide insurance carriers includes:</p>
+									
+								<ul class="carriers">
+									<li class="research">Consumer Research</li>
+									<li class="planning">Strategic Planning</li>
+									<li class="sales">Integration with Internal Sales Teams</li>
+									<li class="media">Media Planning and Execution</li>
+									<li class="lead-sourcing">Lead Sourcing</li>
+									<ul style="margin-top:0;">
+										<li class="crm">CRM Integration</li>
+										<li class="call-center">3rd Party Call Center Pre-Qualification</li>
+										<li class="media">Media Attribution</li>
+										<li class="branding">Branding and Awareness</li>
+										<li class="seo">Search Engine Optimization</li>
+									</ul>
+								</ul>
+							</div>
+
+							<hr />
+
+							<div id="agents-sub" class="noMobileImg">
+								<h2>Agents/Brokers</h2>
+								<p class="highlight-text">We Help Insurance Agents Grow Their Business</p>
+								<img src="/img/insurance/agents.png" alt="Apollo Interactive Insurance Practice - gents/Brokers" style="margin-bottom:16px;"  class="block centered">
+									
+								<p>Insurance agents and brokers create value by connecting consumers with the insurance products that best meet the needs of those consumers.  We create value by connecting those consumers with the right agent.  We work with large agencies as well as individual brokers to provide them with the affordable, reliable, and high quality leads they need to grow their business.  Our agent and broker support includes:</p>
+
+								<ul>
+									<li>High quality lead delivery from legitimate sources</li>
+									<li>A complete feedback loop to improve performance</li>
+									<li>Online tools for reporting and routing</li>
+									<li>Web development support</li>
+									<li>Advanced lead segmentation</li>
+								</ul>
+							</div>
+
+							<hr />
+
+							<div id="seo_content-sub" class="noMobileImg">
+								<h2>Affiliate Marketing</h2>
+								<p class="highlight-text">We Mobilize Affiliates to Drive Results</p>
+								<img src="/img/insurance/affiliates.png" alt="Apollo Interactive Insurance Practice - Affiliate Marketing" style="margin-bottom:16px;"  class="block centered">
+									
+								<p>The Internet is full of bright individuals with creative advertising techniques and web properties that attract audiences that our customers are interested in reaching.  By identifying and recruiting these affiliates we can establish relationships that benefit both the affiliate and the advertiser.  Efforts in this area include:</p>
+								
+								<ul>
+									<li>Affiliate Recruitment	</li>
+									<li>Affiliate Support and Management</li>
+									<li>Affiliate Network Management</li>
+									<li>Creative and Development Support</li>
+									<li>Payment Processing</li>
+									<li>Growth Incentives</li>
+									<li>Real Time Reporting and Interfaces</li>
+								</ul>
+								
+								<p>If you are interested in joining our affiliate program <a href="https://www.healthplansamerica.org/affiliate/" target="_blank">click here</a> to learn more and sign up today.</p>
+							</div>
+
+@
+
+
+1.6
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d61 1
+a61 1
+							<div id="insight-sub">
+d75 1
+a75 1
+								<div class="sub-proprietary left">
+d81 1
+a81 1
+								<div class="sub-proprietary right">	
+d87 1
+a87 1
+								<div class="sub-proprietary right">	
+d93 1
+a93 1
+								<div class="sub-proprietary right">	
+d153 1
+a153 1
+							<div id="agents-sub">
+d171 1
+a171 1
+							<div id="seo_content-sub">
+@
+
+
+1.5
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d95 1
+a95 1
+									<img src="/img/insurance/handling.png" width="478" height="320"  alt=""/>
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d2 3
+d6 48
+a53 15
+    <body id="pg_insurance" class="pg_inside insurance_practice">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10 insurance_spacing">
+					<article class="row-fluid">
+						<div id="seo_content">
+								<h1>Insurance</h1>
+								<h2>Our Insurance Practice Acquires Customers and Drives Sales</h2>
+								<div class="padded_content_border">
+									<p>When consumers need insurance they use the Internet to research options and prices.  But, most insurance companies are not taking full advantage of this sales opportunity.  Our insurance practice takes a sales-centric approach to reaching consumers when they are actively searching for information and either preparing or ready to buy.  We help insurers make online advertising a powerful source of consistent, profitable revenue.  We have a flexible, scalable, pure ROI based online advertising model, unique insight into consumer behavior, powerful proprietary products, tools, and properties, and deep capabilities and experience.</p>
+									<p>To learn more <a href="/contact.php">contact us</a>.</p>
+d55 139
+d195 4
+a198 4
+						
+					</article>
+				</section>
+			</div>
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d13 1
+a13 1
+								<h1>Insurance Practice</h1>
+@
+
+
+1.2
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_insurance.inc.php'); ?>
+d10 1
+a10 1
+				<section id="main_content" class="span10">
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+    <body id="pg_insurance" class="pg_inside">
+a24 6
+		<script>
+			$(function(){
+				// location in /js/main.js
+				interactive_arrow_nav();
+			});
+		</script>
+@

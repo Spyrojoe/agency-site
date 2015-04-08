@@ -1,0 +1,768 @@
+head	1.24;
+access;
+symbols;
+locks
+	sysop:1.24; strict;
+comment	@# @;
+
+
+1.24
+date	2014.09.30.21.05.48;	author stgbrock;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2014.08.11.20.16.48;	author stgbrock;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2014.08.07.20.27.35;	author stgbrock;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2014.08.06.16.41.29;	author stgbrock;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2014.07.28.19.37.31;	author stgbrock;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2014.07.17.18.23.58;	author stgolson;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2014.07.10.19.06.56;	author stgolson;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2014.07.08.21.23.32;	author stgolson;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2014.06.17.23.02.17;	author stgvillanueva;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2014.05.29.00.00.49;	author stgvillanueva;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2014.04.25.23.03.18;	author stgvillanueva;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.04.25.00.00.50;	author stgvillanueva;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.04.17.17.45.42;	author stgvillanueva;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.04.05.00.07.49;	author stgvillanueva;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.01.09.23.20.09;	author stgvillanueva;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.01.09.22.50.32;	author stgvillanueva;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.01.09.00.45.36;	author stgvillanueva;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.01.02.21.53.32;	author stgvillanueva;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.12.13.23.05.09;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.12.13.22.25.17;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.12.13.01.19.44;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.12.06.06.18.12;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.24
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<div class="main-navigation">
+	<a href="/" class="logo"><img src="/img/apollo-logo.png" alt="Apollo Interactive" id="logo"/></a>
+	<div class="mobile"><img src="/img/mobile-menu.png" alt="Navigation menu button" id="menu-btn" /></div>
+
+	<nav id="side_nav">
+		<ul id="main_nav">
+
+			<li class="nav_about <?= inPage('/digital/aboutus.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/digital/aboutus.php">About Us</a>
+			</li>
+
+			<li class="nav_capabilities <?= inPage('/digital/capabilities.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/digital/capabilities.php">Capabilities</a>
+			</li>
+			
+			<li class="nav_work <?= inPage('/digital/work.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/digital/work.php">Work</a>
+			</li>
+            
+			<li class="side_sub_nav" id="work_side_sub">
+				<ul>
+					<li><a href="#visionworks">Visionworks</a></li>
+					<li><a href="#einstein_noah">Einstein Noah</a></li>
+					<li><a href="#universal">Universal Sports</a></li>
+					<li><a href="#curves">Curves</a></li>
+					<li><a href="#bmw">BMW</a></li>
+					<li><a href="#stage_stores">Stage Stores</a></li>
+					<li><a href="#wingstop">Wingstop</a></li>
+					<li><a href="#yoshinoya">Yoshinoya</a></li>
+				</ul>
+			</li>
+			<li class="nav_team <?= inPage('/digital/team.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/digital/team.php">Team</a>
+			</li>
+
+			<li class="nav_clients <?= inPage('/digital/experience.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/digital/experience.php">Clients</a>
+			</li>
+
+			<?php /* inPage('/insurance/index.php') || inPage('/insurance/program.php') || '/insurance/insight.php' || '/insurance/products.php' || '/insurance/experience.php' || '/insurance/carriers.php' || '/insurance/agents.php' || '/insurance/affiliates.php' ) ? ' nav_selected' : '' 
+			*/?>
+
+			<li class="nav_insurance <?= inSection('insurance') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/insurance/">Insurance</a>
+			</li>
+
+			<li class="side_sub_nav" id="insurance_side_sub">
+				<ul>
+					<li><a href="/insurance/program.php">The Program</a></li>
+					<li><a href="/insurance/insight.php">Unique Insight</a></li>
+					<li><a href="/insurance/experience.php">Deep Experience</a></li>
+					<li><a href="/insurance/carriers.php">Insurance Carriers</a></li>
+					<li><a href="/insurance/agents.php">Agents/Brokers</a></li>
+					<li><a href="/insurance/affiliates.php">Affiliate Marketing</a></li>
+					<li><a href="/insurance/products.php">Proprietary tools</a></li>
+				</ul>
+			</li>
+
+			<li class="nav_careers <?= inPage('/careers/index.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/careers/">Careers</a>
+			</li>
+
+			<li class="nav_news <?= inPage('/news/index.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/news/">News</a>
+			</li>
+
+			<li class="nav_contact <?= inPage('/contact.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/contact.php">Contact</a>
+			</li>
+			<li class="nav_clientlounge"><div class="nav-block"></div>
+				<a class="nav_btn" href="http://www.clientlounge.com" target="_blank">Clientlounge</a>
+			</li>
+			<!--
+			<li class="nav_clientlounge <?= inPage('/clientlounge.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+				<a class="nav_btn" href="/clientlounge.php">Clientlounge</a>
+			</li>
+			-->
+			
+		</ul>
+	</nav>
+</div>@
+
+
+1.23
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d70 3
+@
+
+
+1.22
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 1
+			<li class="side_sub_nav" id="work_side_sub" style="display: none;">
+d47 1
+a47 1
+			<li class="side_sub_nav" id="insurance_side_sub" style="display: none;">
+@
+
+
+1.21
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d24 1
+a24 1
+					<li><a href="#universal">Universal Sports Network</a></li>
+a31 3
+
+            
+
+d55 1
+a55 1
+					<li><a href="/insurance/products.php">Proprietary Products</a></li>
+d70 1
+a70 1
+
+d74 1
+@
+
+
+1.20
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d75 1
+a75 1
+				<a class="nav_btn" href="/clientlounge.php">Client Lounge</a>
+@
+
+
+1.19
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d19 15
+d50 12
+d73 4
+@
+
+
+1.18
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d28 4
+a31 1
+			<li class="nav_insurance <?= inPage('/insurance/index.php') ? ' nav_selected' : '' ?>"><div class="nav-block"></div>
+@
+
+
+1.17
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+			<li class="nav_about"><div class="nav-block"></div>
+d12 1
+a12 1
+			<li class="nav_capabilities"><div class="nav-block"></div>
+d16 1
+a16 1
+			<li class="nav_work"><div class="nav-block"></div>
+d20 1
+a20 1
+			<li class="nav_team"><div class="nav-block"></div>
+d24 1
+a24 1
+			<li class="nav_clients"><div class="nav-block"></div>
+d28 1
+a28 1
+			<li class="nav_insurance"><div class="nav-block"></div>
+d32 1
+a32 1
+			<li class="nav_careers"><div class="nav-block"></div>
+d36 1
+a36 1
+			<li class="nav_news"><div class="nav-block"></div>
+d40 1
+a40 1
+			<li class="nav_contact"><div class="nav-block"></div>
+@
+
+
+1.16
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+d29 1
+a29 1
+				<a class="nav_btn" href="/insurance/">Insurance Practice</a>
+@
+
+
+1.15
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 45
+a45 98
+					<?php
+						//Checks if you're in dev
+						if(strstr($_SERVER['HTTP_X_FORWARDED_HOST'],'int.apollobackstage')){
+							$cl_url = 'http://clientlounge.int.apollobackstage.com'; 
+						} elseif(strstr($_SERVER['HTTP_X_FORWARDED_HOST'],'apollobackstage')){
+							$cl_url = 'http://clientlounge.apollobackstage.com';
+						} else {
+							$cl_url = 'http://www.clientlounge.com';
+						}
+					?>
+					<?php if(!inSection('home')){ ?>
+						<a href="/" class="visible-desktop"><img src="/img/logo.png" alt="Apollo Interactive" id="logo"/></a>
+					<?php } ?>		
+					<a href="https://plus.google.com/109033601853949097016" rel="publisher"></a>			
+					<nav id="side_nav">
+						<a href="/" class="hidden-desktop block" id="mobile_logo"><img src="/img/logo_mobile.jpg" alt="Apollo Interactive"/></a>
+						<a href="javascript:showNav();" id="mobile-indicator"></a>
+						<ul id="main_nav">
+							<li <?php echo (inSection('aboutus.php'))? 'class="active"':'';?>>
+								<a href="/digital/aboutus.php"><span></span><div>About Us</div></a>
+							</li>
+							<li <?php echo (inSection('capabilities.php'))? 'class="active"':'';?>>
+								<a href="/digital/capabilities.php"><span></span><div>Capabilities</div></a>
+							</li>
+							<li <?php echo (inSection(array('digital')) ? (inSection('experience.php')) ? 'class="active"':'' : '');?>>
+								<a href="/digital/experience.php"><span></span><div>Clients</div></a>
+							</li>
+							<li <?php echo (inSection(array('digital')) ? (inSection('work.php')) ? 'class="active"':'' : '');?> id="work_link">
+								<a href="/digital/work.php"><span></span><div>Work</div></a>
+								<ul class="sub_nav<?php echo (inSection(array('digital')) ? (inSection('work.php')) ? ' active_sub_nav':'' : '');?>">
+									<li class="wingstop_nav">
+										<a href="/digital/work.php#wingstop" onclick="javascript:scrollToAnchor('#wingstop');"><span></span><div>Wingstop</div></a>
+									</li>
+									<li class="curves_nav">
+										<a href="/digital/work.php#curves" onclick="javascript:scrollToAnchor('#curves');"><span></span><div>Curves</div></a>
+									</li>
+									<li class="noah_nav">
+										<a href="/digital/work.php#einstein_noah" onclick="javascript:scrollToAnchor('#einstein_noah');"><span></span><div>Einstein Noah</div></a>
+									</li>
+									<li class="visionworks_nav">
+										<a href="/digital/work.php#visionworks" onclick="javascript:scrollToAnchor('#visionworks');"><span></span><div>Visionworks</div></a>
+									</li>
+									<li class="stage_nav">
+										<a href="/digital/work.php#stage_stores" onclick="javascript:scrollToAnchor('#stage_stores');"><span></span><div>Stage Stores</div></a>
+									</li>
+									<li class="yoshinoya_nav">
+										<a href="/digital/work.php#yoshinoya" onclick="javascript:scrollToAnchor('#yoshinoya');"><span></span><div>Yoshinoya</div></a>
+									</li>
+									<li class="universal_nav">
+										<a href="/digital/work.php#universal" onclick="javascript:scrollToAnchor('#universal');"><span></span><div>USN</div></a>
+									</li>
+									<li class="bmw_nav">
+										<a href="/digital/work.php#bmw" onclick="javascript:scrollToAnchor('#bmw');"><span></span><div>BMW</div></a>
+									</li>
+								</ul>
+							</li>
+							
+							<li <?php echo (inSection(array('insurance')))?  ' class="active"':''; ?> id="insurance_link">
+								<a href="/insurance/"><span></span><div>Insurance Practice</div></a>
+								<ul class="sub_nav<?php echo (inSection(array('insurance'))) ? ' active_sub_nav':'';?>">
+									<li<?php echo (inSection('program.php'))? ' class="active"':'';?>>
+										<a href="/insurance/program.php"><span></span><div>the program</div></a>
+									</li>
+									<li<?php echo (inSection('insight.php'))? ' class="active"':'';?>>
+										<a href="/insurance/insight.php"><span></span><div>unique insight</div></a>
+									</li>
+									<li<?php echo (inSection('products.php'))? ' class="active"':'';?>>
+										<a href="/insurance/products.php" class="visible-desktop"><span></span><div>proprietary products</div></a>
+										<a href="/insurance/products.php" class="visible-tablet visible-phone"><span></span><div>products</div></a>
+									</li>
+									<li<?php echo (inSection(array('insurance'))) ? (inSection('experience.php')) ? ' class="active"' : '' : '';?>>
+										<a href="/insurance/experience.php"><span></span><div>deep experience</div></a>
+									</li>
+									<li<?php echo (inSection('carriers.php'))? ' class="active"':'';?>>
+										<a href="/insurance/carriers.php"><span></span><div>carriers</div></a>
+									</li>
+									<li<?php echo (inSection('agents.php'))? ' class="active"':'';?>>
+										<a href="/insurance/agents.php"><span></span><div>agents/brokers</div></a>
+									</li>
+									<li<?php echo (inSection('affiliates.php'))? ' class="active"':'';?>>
+										<a href="/insurance/affiliates.php"><span></span><div>affiliates</div></a>
+									</li>
+								</ul>
+							</li>
+							
+							<li <?php echo (inSection('contact.php'))? 'class="active"':'';?>>
+								<a href="/contact.php"><span></span><div>Contact</div></a>
+							</li>
+							<li <?php echo (inSection(array('careers')))? 'class="active"':'';?>>
+								<a href="/careers/"><span></span><div>Careers</div></a>
+							</li>
+							<li class="hidden_links"></li>
+							<li class="hidden_links"></li>
+							<li <?php echo (inSection('clientlounge.php'))? 'class="active"':'';?>>
+								<a href="<?=$cl_url?>/public/login/"><span></span><div>Clientlounge</div></a>
+							</li>
+						</ul>
+					</nav>@
+
+
+1.14
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d13 2
+a14 1
+					<?php } ?>					
+@
+
+
+1.13
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d51 3
+@
+
+
+1.12
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d49 1
+a49 1
+										<a href="/digital/work.php#universal" onclick="javascript:scrollToAnchor('#universal');"><span></span><div>Universal</div></a>
+@
+
+
+1.11
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d48 3
+@
+
+
+1.10
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d82 1
+a82 1
+							<li <?php echo (inSection('contact.php'))? 'class="active"':'';?>>
+@
+
+
+1.9
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d82 3
+@
+
+
+1.8
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d85 1
+a85 1
+								<a href="http://<?=$cl_url?>/public/login/"><span></span><div>Clientlounge</div></a>
+@
+
+
+1.7
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d2 8
+a9 6
+						$host = $_SERVER['HTTP_HOST'];
+						$int = strpos($host,'int');
+						$backstage = strpos($host,'backstage');
+						if($backstage && $int) $cl_link = 'clientlounge.int.apollobackstage.com';
+						elseif($backstage && !$int) $cl_link = 'clientlounge.apollobackstage.com';
+						else $cl_link = 'www.clientlounge.com';
+d85 1
+a85 1
+								<a href="http://<?=$cl_link?>/public/login/"><span></span><div>Clientlounge</div></a>
+@
+
+
+1.6
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 11
+a11 3
+<?php if(!inSection('home')){ ?>
+					<a href="/" class="visible-desktop"><img src="/img/logo.png" alt="Apollo Interactive" id="logo"/></a>
+<?php } ?>					
+d28 1
+a28 1
+									<li id="wingstop_nav" class="active">
+d31 1
+a31 1
+									<li id="curves_nav">
+d34 1
+a34 1
+									<li id="noah_nav">
+d37 1
+a37 1
+									<li id="visionworks_nav">
+d40 1
+a40 1
+									<li id="stage_nav">
+d43 1
+a43 1
+									<li id="yoshinoya_nav">
+d62 1
+a62 1
+									<li<?php echo (inSection('experience.php'))? ' class="active"':'';?>>
+d83 1
+a83 1
+								<a href="http://www.clientlounge.com/public/login/"><span></span><div>Clientlounge</div></a>
+@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d5 3
+a7 1
+						<ul>
+d9 1
+a9 1
+								<span></span><a href="/digital/aboutus.php">About Us</a>
+d12 1
+a12 1
+								<span></span><a href="/digital/capabilities.php">Capabilities</a>
+d15 1
+a15 1
+								<span></span><a href="/digital/experience.php">Clients</a>
+d18 49
+a66 2
+								<span></span><a href="/digital/work.php">Work</a>
+								
+d68 1
+a68 47
+							<?php if(inSection('work.php')) : ?>
+								<li id="wingstop_nav" class="sub_nav active">
+									<span></span><a href="#wingstop" onclick="javascript:scrollToAnchor('#wingstop');">Wingstop</a>
+								</li>
+								<li id="curves_nav" class="sub_nav">
+									<span></span><a href="#curves" onclick="javascript:scrollToAnchor('#curves');">Curves</a>
+								</li>
+								<li id="noah_nav" class="sub_nav">
+									<span></span><a href="#einstein_noah" onclick="javascript:scrollToAnchor('#einstein_noah');">Einstein Noah</a>
+								</li>
+								<li id="visionworks_nav" class="sub_nav">
+									<span></span><a href="#visionworks" onclick="javascript:scrollToAnchor('#visionworks');">Visionworks</a>
+								</li>
+								<li id="stage_nav" class="sub_nav">
+									<span></span><a href="#stage_stores" onclick="javascript:scrollToAnchor('#stage_stores');">Stage Stores</a>
+								</li>
+								<li id="yoshinoya_nav" class="sub_nav">
+									<span></span><a href="#yoshinoya" onclick="javascript:scrollToAnchor('#yoshinoya');">Yoshinoya</a>
+								</li>
+							<?php endif; ?>
+							<li <?php echo (inSection(array('insurance')))?  'class="active"':''; ?> id="insurance_link">
+								<span></span><a href="/insurance/">Insurance Practice</a>
+								
+							</li>
+							<?php if(inSection('insurance')) : ?>
+								<li class="sub_nav<?php echo (inSection('program.php'))? ' active"':'"';?>>
+									<span></span><a href="/insurance/program.php">the program</a>
+								</li>
+								<li class="sub_nav<?php echo (inSection('insight.php'))? ' active"':'"';?>>
+									<span></span><a href="/insurance/insight.php">unique insight</a>
+								</li>
+								<li class="sub_nav<?php echo (inSection('products.php'))? ' active"':'"';?>>
+									<span></span><a href="/insurance/products.php" class="visible-desktop">proprietary products</a>
+									<a href="/insurance/products.php" class="visible-tablet visible-phone">products</a></li>
+								<li class="sub_nav<?php echo (inSection('experience.php'))? ' active"':'"';?>>
+									<span></span><a href="/insurance/experience.php">deep experience</a>
+								</li>
+								<li class="sub_nav<?php echo (inSection('carriers.php'))? ' active"':'"';?>>
+									<span></span><a href="/insurance/carriers.php">carriers</a>
+								</li>
+								<li class="sub_nav<?php echo (inSection('agents.php'))? ' active"':'"';?>>
+									<span></span><a href="/insurance/agents.php">agents/brokers</a>
+								</li>
+								<li class="sub_nav<?php echo (inSection('affiliates.php'))? ' active"':'"';?>>
+									<span></span><a href="/insurance/affiliates.php">affiliates</a>
+								</li>
+							<?php endif; ?>
+d70 1
+a70 1
+								<span></span><a href="/contact.php">Contact</a>
+d75 1
+a75 1
+								<span></span><a href="http://www.clientlounge.com/public/login/">Clientlounge</a>
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d21 1
+a21 1
+									<span></span><a href="javascript:scrollToAnchor('#wingstop');">Wingstop</a>
+d24 1
+a24 1
+									<span></span><a href="javascript:scrollToAnchor('#curves');">Curves</a>
+d27 1
+a27 1
+									<span></span><a href="javascript:scrollToAnchor('#einstein_noah');">Einstein Noah</a>
+d30 1
+a30 1
+									<span></span><a href="javascript:scrollToAnchor('#visionworks');">Visionworks</a>
+d33 1
+a33 1
+									<span></span><a href="javascript:scrollToAnchor('#stage_stores');">Stage Stores</a>
+d36 1
+a36 1
+									<span></span><a href="javascript:scrollToAnchor('#yoshinoya');">Yoshinoya</a>
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 1
+								<li id="wingstop_nav" class="sub_nav">
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d17 1
+a17 22
+								<?php if(inSection('work.php')) : ?>
+								<ul>
+									<li id="wingstop_nav">
+										<span></span><a href="javascript:scrollToAnchor('#wingstop');">Wingstop</a>
+									</li>
+									<li id="curves_nav">
+										<span></span><a href="javascript:scrollToAnchor('#curves');">Curves</a>
+									</li>
+									<li id="noah_nav">
+										<span></span><a href="javascript:scrollToAnchor('#einstein_noah');">Einstein Noah</a>
+									</li>
+									<li id="visionworks_nav">
+										<span></span><a href="javascript:scrollToAnchor('#visionworks');">Visionworks</a>
+									</li>
+									<li id="stage_nav">
+										<span></span><a href="javascript:scrollToAnchor('#stage_stores');">Stage Stores</a>
+									</li>
+									<li id="yoshinoya_nav">
+										<span></span><a href="javascript:scrollToAnchor('#yoshinoya');">Yoshinoya</a>
+									</li>
+								</ul>
+								<?php endif; ?>
+d19 20
+d41 1
+a41 25
+								<?php if(inSection('insurance')) : ?>
+								<ul>
+									<li <?php echo (inSection('program.php'))? 'class="active"':'';?>>
+										<span></span><a href="/insurance/program.php">the program</a>
+									</li>
+									<li <?php echo (inSection('insight.php'))? 'class="active"':'';?>>
+										<span></span><a href="/insurance/insight.php">unique insight</a>
+									</li>
+									<li <?php echo (inSection('products.php'))? 'class="active"':'';?>>
+										<span></span><a href="/insurance/products.php" class="visible-desktop">proprietary products</a>
+										<a href="/insurance/products.php" class="visible-tablet visible-phone">products</a></li>
+									<li <?php echo (inSection('experience.php'))? 'class="active"':'';?>>
+										<span></span><a href="/insurance/experience.php">deep experience</a>
+									</li>
+									<li <?php echo (inSection('carriers.php'))? 'class="active"':'';?>>
+										<span></span><a href="/insurance/carriers.php">carriers</a>
+									</li>
+									<li <?php echo (inSection('agents.php'))? 'class="active"':'';?>>
+										<span></span><a href="/insurance/agents.php">agents/brokers</a>
+									</li>
+									<li <?php echo (inSection('affiliates.php'))? 'class="active"':'';?>>
+										<span></span><a href="/insurance/affiliates.php">affiliates</a>
+									</li>
+								</ul>
+								<?php endif; ?>
+d43 23
+@
+
+
+1.1
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d15 26
+a40 1
+							<li <?php echo (inSection(array('insurance')))?  'class="active"':''; ?>>
+d71 2
+@

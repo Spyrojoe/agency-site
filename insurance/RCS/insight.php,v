@@ -1,0 +1,273 @@
+head	1.11;
+access;
+symbols;
+locks
+	sysop:1.11; strict;
+comment	@# @;
+
+
+1.11
+date	2014.08.19.17.42.28;	author stgbrock;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.28.19.38.13;	author stgbrock;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.07.17.21.23.10;	author stgolson;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.07.17.20.56.22;	author stgolson;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.07.17.19.36.20;	author stgolson;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.12.21.01.27.47;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.07.08.18.59.05;	author stgstewart;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.11.15;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.11
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+<title>Apollo Interactive | Insurance Practice | Unique Insight</title>
+<meta name="description" content="Our insurance practice helps insurers make online advertising a powerful source of consistent, profitable revenue.">
+
+</head>
+
+<body id="pg_insurance" class="bg-img">
+	
+	<div class="wrapper">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		
+		<div class="opacity-bg"></div>
+		<div class="container">
+		
+			<div class="content">
+				<div id="insurance_content" class="ins-page">
+					
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>
+					
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/insurance_sub_nav.php'); ?>
+
+					<div id="insight-sub" class="noMobileImg">
+						<h2>Unique Insight</h2>
+						<p class="highlight-text">We create a source of consistent, profitable revenue</p>
+						<img src="/img/insurance/unique-insight.png" alt="Apollo Interactive Insurance Practice - Unique Insight" style="margin-bottom:16px;">
+						<p>To gain insight into what consumers want when looking to purchase insurance, Apollo Interactive conducts quarterly “active shopper” surveys.  We also interview target consumers annually to understand what they like and dislike about buying insurance. After many years of research the results are clear -- there are many things insurance companies can do better to drive more business.  Our insurance practice offers practical solutions that create a source of consistent, profitable revenue through online advertising.</p>
+					</div>
+
+				</div>
+			</div>
+		
+		</div>	
+
+	</div>
+<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#insurance_side_sub').show();
+		//$('li.nav_insurance').removeClass('nav_selected');
+		//$('#insurance_side_sub ul li:nth-of-type(2)').addClass('nav_selected');
+		$('a[href="/insurance/insight.php"]').css('color', '#33ccff');
+		$('li.nav_selected a').hover().css('color', '#ddd');
+	});
+</script>
+</body>
+</html>@
+
+
+1.10
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d40 4
+@
+
+
+1.9
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d37 5
+@
+
+
+1.8
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 4
+a19 1
+				<div id="insurance_content">
+@
+
+
+1.7
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d17 1
+a17 3
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>	
+
+@
+
+
+1.6
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+a2 1
+<title>Apollo Interactive | Insurance Practice</title>
+@
+
+
+1.5
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 9
+					<div class="page_sub_navigation">
+						<a class="sub-nav" href="program.php">The Program</a>
+						<a class="sub-nav" href="insight.php">Unique Insight</a>
+						<a class="sub-nav" href="products.php">Proprietary Products</a>
+						<a class="sub-nav" href="experience.php">Deep Experience</a>
+						<a class="sub-nav" href="carriers.php">Insurance Carriers</a>
+						<a class="sub-nav" href="agents.php">Agents/Brokers</a>
+						<a class="sub-nav" href="affiliates.php">Affiliate Marketing</a>
+					</div>
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 37
+a37 22
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_insurance_insight" class="pg_inside insurance_practice">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10 insurance_spacing">
+					<article class="row-fluid">
+						<div id="seo_content-sub">
+								<h1>Unique Insight</h1>
+								<h2>Create a source of consistent, profitable revenue</h2>
+								<div class="padded_content_border">
+									<img src="/img/insurance/unique-insight.png" alt="Apollo Interactive Insurance Practice - Unique Insight" style="margin-bottom:16px;">
+									<p>To gain insight into what consumers want when looking to purchase insurance, Apollo Interactive conducts quarterly “active shopper” surveys.  We also interview target consumers annually to understand what they like and dislike about buying insurance. After many years of research the results are clear -- there are many things insurance companies can do better to drive more business.  Our insurance practice offers practical solutions that create a source of consistent, profitable revenue through online advertising.</p>
+								</div>
+						</div>
+						
+					</article>
+				</section>
+d39 7
+a45 3
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d12 1
+a12 1
+						<div id="seo_content">
+@
+
+
+1.2
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_insurance.inc.php'); ?>
+d10 1
+a10 1
+				<section id="main_content" class="span10">
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+    <body id="pg_insurance_insight" class="pg_inside">
+a24 6
+		<script>
+			$(function(){
+				// location in /js/main.js
+				interactive_arrow_nav();
+			});
+		</script>
+@

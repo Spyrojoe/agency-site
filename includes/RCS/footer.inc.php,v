@@ -1,0 +1,260 @@
+head	1.11;
+access;
+symbols;
+locks
+	sysop:1.11; strict;
+comment	@# @;
+
+
+1.11
+date	2014.08.11.19.54.01;	author stgbrock;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.06.17.23.02.40;	author stgvillanueva;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.04.25.00.00.49;	author stgvillanueva;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.03.05.17.58.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.01.21.23.46.41;	author stgvillanueva;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.12.14.00.59.23;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.07.08.18.59.04;	author stgstewart;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.06.25.00.10.56;	author stgstewart;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.03.01.18.03.32;	author dave;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.11
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<footer class="footer">
+    <p>
+		&copy;<?php echo date('Y'); ?> Apollo Interactive, Inc. All rights reserved.
+		<span id="footer-links">
+			<a href="/terms-of-use.php">Terms of Use</a>
+			<a href="/privacy-policy.php">Privacy Policy</a>
+		</span>
+	</p>
+</footer>		
+
+<script>
+	var _gaq=[['_setAccount','UA-23879909-1'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	//g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>@
+
+
+1.10
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d1 1
+a1 1
+<footer>
+@
+
+
+1.9
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 9
+a9 9
+        <footer>
+            <p>
+				&copy;<?php echo date('Y'); ?> Apollo Interactive, Inc. All rights reserved.
+				<span id="mobile-block">
+					<a href="/terms-of-use.php" data-toggle="modal" data-target="#modal"> Terms of Use</a>
+					<a href="/privacy-policy.php" data-toggle="modal" data-target="#modal">Privacy Policy</a>
+				</span>
+			</p>
+        </footer>		
+d11 7
+a17 9
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script data-main="/js/app" src="/js/lib/require.js"></script>
+		<script>
+			var _gaq=[['_setAccount','UA-23879909-1'],['_trackPageview']];
+			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+			//g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>@
+
+
+1.8
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 9
+a9 9
+            <footer>
+                <p>
+					&copy;<?php echo date('Y'); ?> Apollo Interactive, Inc. All rights reserved.
+					<span id="mobile-block">
+						<a href="/terms-of-use.php" data-toggle="modal" data-target="#modal"> Terms of Use</a>
+						<a href="/privacy-policy.php" data-toggle="modal" data-target="#modal">Privacy Policy</a>
+					</span>
+				</p>
+            </footer>
+a10 13
+        </div>
+		<div id="mod-container">
+			<div id="modal" class="modal hide fade">
+				<div class="modal-header">
+					<?php /*<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>*/ ?>
+					<a href="<?=$_SERVER['REQUEST_URI']?>" class="close">&times;</a>
+				</div>
+				<div class="modal-body">
+					<p>&nbsp;</p>
+				</div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+@
+
+
+1.7
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+a16 1
+					<a href="/" class="close">&times;</a>
+@
+
+
+1.6
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d26 7
+a32 6
+        <script>
+            var _gaq=[['_setAccount','UA-23879909-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d12 11
+a22 9
+		<div id="modal" class="modal hide fade">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		  </div>
+		  <div class="modal-body">
+			<p>One fine body…</p>
+		  </div>
+		  <div class="modal-footer">
+		  </div>
+@
+
+
+1.4
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d2 7
+a8 1
+                <p>&copy;<?php echo date('Y'); ?> Apollo Interactive, Inc. All rights reserved. <a href="/terms-of-use.php" data-toggle="modal" data-target="#modal"> Terms of Use</a> <a href="/privacy-policy.php" data-toggle="modal" data-target="#modal">Privacy Policy</a></p>
+@
+
+
+1.3
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+@
+
+
+1.2
+log
+@[dave] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+a2 1
+                <p>&copy;<?php echo date('Y'); ?> Apollo Interactive, Inc. All rights reserved. <a href="/terms-of-use.php"> Terms of Use</a> <a href="/privacy-policy.php">Privacy Policy</a></p>
+d5 12
+a16 7
+        </div> 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="/js/vendor/bootstrap.min.js"></script>
+        <script src="/js/vegas/jquery.vegas.js"></script>
+		<script src="/js/jquery.colorbox-min.js"></script>
+		<script src="/js/main.js"></script>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d2 1
+a2 1
+                <p>&copy;<?php echo date('Y'); ?> Apollo Interactive, inc. All rights reserved. <a href="/terms-of-use.php"> Terms of Use</a> <a href="/privacy-policy.php">Privacy Policy</a></p>
+@

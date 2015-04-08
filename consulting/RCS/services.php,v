@@ -1,0 +1,114 @@
+head	1.2;
+access;
+symbols;
+locks
+	sysop:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_services" class="pg_inside pg_dark">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content">
+								<h1>Services Overview</h1>
+						</div>
+						<div id="interactive_content" class="row-fluid">
+							<div class="span4 gray-box">
+								<h2>AUDIT + EVALUATION</h2>
+								<ul>
+									<li>Asset identification and inventory</li>
+									<li>Systems index and mapping</li>
+									<li>Access and ownership</li>
+									<li>Process overview</li>
+									<li>3rd Party integrations</li>
+									<li>Key specifications</li>
+								</ul>
+								<img src="/img/consulting/audit-evaluation.png" alt="QUALICATION | EVALUATION" class="block centered" style="margin-bottom:10px;">
+								<ul>
+									<li>Analytics</li>
+									<li>Digital diagnostics</li>
+									<li>Key performance indicators</li>
+									<li>Liabilities and vulnerabilities</li>
+									<li>Performance potential</li>
+									<li>Benchmarking and scoring</li>
+								</ul>
+							</div>
+							<div class="span4 gray-box">
+								<h2>CLOSING</h2>
+								<ul>
+									<li>Asset acquisition</li>
+									<li>Custody and control of inventory</li>
+									<li>Domain and credentials management</li>
+								</ul>
+								<img src="/img/consulting/closing.png" alt="SECURE ASSETS | TRANSITION" class="block centered" style="margin-top:71px; margin-bottom:10px;">
+								<ul>
+									<li>Specifications and requirements</li>
+									<li>Migration Plan</li>
+									<li>Remediate vulnerabilities</li>
+									<li>System enhancements</li>
+								</ul>
+							</div>
+							<div class="span4 gray-box">
+								<h2>POST-CLOSING</h2>
+								<ul>
+									<li>Strategy and planning</li>
+									<li>Media evaluation and auditing</li>
+									<li>Performance consultation</li>
+									<li>Technology and architecture</li>
+								</ul>
+								<img src="/img/consulting/post-closing.png" alt="CONSULATION | EXECUTION +  MANAGEMENT" class="block centered" style="margin-top:53px; margin-bottom:10px;">
+								<ul>
+									<li>Digital advertising campaigns</li>
+									<li>Social and mobile marketing</li>
+									<li>Reporting and optimization</li>
+									<li>Managed hosting</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_consulting.inc.php'); ?>
+@

@@ -1,0 +1,134 @@
+head	1.4;
+access;
+symbols;
+locks
+	sysop:1.4; strict;
+comment	@# @;
+
+
+1.4
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.01.31.00.34.36;	author stgbooth;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.31.00.19.56;	author stgbooth;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_consulting" class="pg_inside pg_dark">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content">
+							<h1>Our Marketing Technology Evaluation Methodology</h1>
+							<p>What is marketing technology? We define it as digital assets such as web sites, transactional portals, customer databases, and social media presences that drive revenue. Marketing technology is both tangible &ndash; you can see it, interact with it, and measure it &ndash; and intangible in that it is based on intellectual property and ideas. We leverage our firm’s two decades of experience formulating and executing digital strategies for Fortune 1000 clients to provide advisory services for private equity and accounting clients.</p>
+						</div>
+						<div id="interactive_content">
+							<div class="row-fluid clearfix">
+								<div class="consulting-nav visible-desktop"></div>
+								<div class="consulting-nav">
+									<div class="link-box">
+										<a href="about_us.php"><span>ABOUT US</span><span class="icon icon-arrow"></span></a>
+									</div>
+								</div>
+								<div class="consulting-nav">
+									<div class="link-box">
+										<a href="experience.php"><span>EXPERIENCE</span><span class="icon icon-arrow"></span></a>
+									</div>
+								</div>
+								<div class="consulting-nav">
+									<div class="link-box">
+										<a href="services.php"><span>SERVICES</span><span class="icon icon-arrow"></span></a>
+									</div>
+								</div>
+								<div class="consulting-nav">
+									<div class="link-box">
+										<a href="audit_and_evaluation.php"><span>AUDIT + EVALUATION</span><span class="icon icon-arrow"></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+		<script>
+			$(function(){
+				// location in /js/main.js
+				$('.accordion-heading').first().addClass('active');
+			});
+		</script>
+    </body>
+</html>
+@
+
+
+1.3
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_consulting.inc.php'); ?>
+@
+
+
+1.2
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d21 1
+a21 1
+										<a href="about_us.php"><span>ABOUT US</span></a>
+d26 1
+a26 1
+										<a href="experience.php"><span>EXPERIENCE</span></a>
+d31 1
+a31 1
+										<a href="services.php"><span>SERVICES</span></a>
+d36 1
+a36 1
+										<a href="audit_and_evaluation.php"><span>AUDIT + EVALUATION</span></a>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d18 1
+a18 1
+								<div class="consulting-nav"></div>
+@

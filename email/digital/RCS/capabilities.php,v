@@ -1,0 +1,882 @@
+head	1.13;
+access;
+symbols;
+locks
+	dave:1.13; strict;
+comment	@# @;
+
+
+1.13
+date	2014.07.17.19.36.19;	author stgolson;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.07.16.21.49.48;	author stgolson;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.01.21.23.46.41;	author stgvillanueva;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2013.12.28.01.24.52;	author stgvillanueva;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2013.12.27.01.09.02;	author stgvillanueva;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.12.21.01.27.21;	author stgvillanueva;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.12.06.06.19.55;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.07.08.18.59.05;	author stgstewart;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.31.00.19.56;	author stgbooth;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.13
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+
+<title>Apollo Interactive | Capabilities</title>
+<meta name="description" content="'We think it's smart to focus on what you do best, and then do it really well. That's why we are a digital-centric advertising agency.'">
+
+</head>
+
+<body id="pg_capabilities">
+	<div class="wrapper">			
+			<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+			
+			<div class="opacity-bg"></div>
+			<div class='container'>
+				<div class="content">
+					<div id="capabilities_content">
+						<h1><span style="font-weight:400;">We</span> focus on what we do best <span style="font-weight:400;">and do it really well…</span></h1>
+						<p class="highlight-text">
+							…and support our clients' marketing and advertising efforts with a full spectrum of services.</p>
+					</div>
+
+					<div id="service_content">
+						
+						<div class="service-box">
+							<h2>Creative</h2>
+							<ul>Design
+								<li>Display &amp; Rich Media</li>
+								<li>Print</li>
+								<li>Outdoor</li>
+								<li>Corporate Identity</li>
+							</ul>
+							<ul>Broadcast
+								<li>TV</li>
+								<li>Radio</li>
+								<li>YouTube</li>
+								<li>Pandora</li>
+							</ul>
+							<ul>Outdoor
+								<li>Billboards</li>
+								<li>Digital OOH</li>
+								<li>POS/POP</li>
+							</ul>
+							<ul>Copywriting
+								<li>Web Sites</li>
+								<li>SEO</li>
+								<li>Content Marketing</li>
+							</ul>
+							<ul>Web Sites
+								<li>Research &amp; Planning</li>
+								<li>Creative &amp; Art Direction</li>
+								<li>Development &amp; Programming</li>
+								<li>API &amp; Data Integration</li>
+								<li>Maintenance</li>
+								<li>Hosting</li>
+							</ul>
+
+							
+
+						</div>
+
+						<div class="service-box">
+							<h2>Media</h2>
+							<ul>Digital Advertising
+								<li>Consumer Research</li>
+								<li>Media Planning &amp; Buying</li>
+								<li>Campaign Management</li>
+								<li>Reporting &amp; Optimization</li>
+							</ul>
+							<ul>Mobile
+								<li>Responsive Design</li>
+								<li>App Development</li>
+								<li>Cross-Platform Advertising</li>
+								<li>Cost Per Call Campaigns</li>
+							</ul>
+							<ul>Media Buying
+								<li>Digital</li>
+								<li>TV</li>
+								<li>Radio</li>
+								<li>Print</li>
+								<li>Outdoor</li>
+							</ul>
+							<ul>Email
+								<li>Message Concept &amp; Design</li>
+								<li>Build Customer Database</li>
+								<li>Development &amp; Deployment</li>
+								<li>List Segmentation</li>
+								<li>Platform &amp; Database Configuration</li>
+							</ul>
+							<ul>Search
+								<li>Paid Search</li>
+								<li>SEO</li>
+								<li>Local Search Marketing</li>
+							</ul>
+							<ul>Social
+								<li>Presence Development</li>
+								<li>Community Management</li>
+								<li>Consumer Activation</li>
+								<li>Contest &amp; Sweepstakes</li>
+							</ul>
+							
+							<ul>Research &amp; Insight
+								<li>Market Research Tools</li>
+								<li>Media Placement Tools</li>
+								<li>Keyword &amp; Competitor Research</li>
+								<li>Ad-Serving Technology</li>
+								<li>Multi-variate Testing Tools</li>
+							</ul>
+						</div>
+
+						<div class="service-box">
+							<h2>Technology</h2>
+							
+							<ul>Database Design
+								<li>Architecture</li>
+								<li>Performance Optimization</li>
+								<li>Backup &amp; Redundancy</li>
+								<li>Security Protocols</li>
+							</ul>
+							<ul>Application Development
+								<li>Design &amp; Specification</li>
+								<li>Programming &amp; Production</li>
+								<li>Usability &amp; GUI</li>
+								<li>QA &amp; Load Testing</li>
+							</ul>
+							<ul>Content Management
+								<li>Needs Assessment</li>
+								<li>System Specification</li>
+								<li>Administrative Interface</li>
+								<li>Training &amp; Onboarding</li>
+							</ul>
+							<ul>Managed Hosting
+								<li>Systems Design</li>
+								<li>Hardware &amp; Software Specifications</li>
+								<li>Setup &amp; Configuration</li>
+								<li>Administration &amp; Monitoring</li>
+							</ul>
+							<ul>Analytics
+								<li>Measure Performance</li>
+								<li>Analyze Customer Actions</li>
+								<li>Detailed &amp; Actionable Reporting</li>
+								<li>Attribution Modeling</li>
+								<li>Optimization</li>
+							</ul>
+							<ul>Multi-variate Testing
+								<li>A/B</li>
+								<li>Taguchi Method Testing</li>
+								<li>Platform Integration</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+	</div>
+</body>
+</html>@
+
+
+1.12
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@a30 8
+							<ul>Web Sites
+								<li>Research &amp; Planning</li>
+								<li>Creative &amp; Art Direction</li>
+								<li>Development &amp; Programming</li>
+								<li>API &amp; Data Integration</li>
+								<li>Maintenance</li>
+								<li>Hosting</li>
+							</ul>
+d47 10
+d68 6
+d81 6
+a86 5
+							<ul>Mobile
+								<li>Responsive Design</li>
+								<li>App Development</li>
+								<li>Cross-Platform Advertising</li>
+								<li>Cost Per Call Campaigns</li>
+d99 1
+a99 7
+							<ul>Email
+								<li>Message Concept &amp; Design</li>
+								<li>Build Customer Database</li>
+								<li>Development &amp; Deployment</li>
+								<li>List Segmentation</li>
+								<li>Platform &amp; Database Configuration</li>
+							</ul>
+d111 1
+a111 12
+							<ul>Analytics
+								<li>Measure Performance</li>
+								<li>Analyze Customer Actions</li>
+								<li>Detailed &amp; Actionable Reporting</li>
+								<li>Attribution Modeling</li>
+								<li>Optimization</li>
+							</ul>
+							<ul>Multi-variate Testing
+								<li>A/B</li>
+								<li>Taguchi Method Testing</li>
+								<li>Platform Integration</li>
+							</ul>
+d136 12
+@
+
+
+1.11
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d18 1
+a18 1
+							…and support our clients marketing and advertising efforts with a full spectrum of services.</p>
+d50 5
+d86 1
+a86 1
+								<li>Community Development</li>
+d129 1
+a129 1
+								<li>UX/UI</li>
+@
+
+
+1.10
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d24 25
+a48 9
+							<h2>Digital</h2>
+							<ul>
+								<li>Strategy</li>
+								<li>Website Dev | Maintenence</li>
+								<li>Content Creation</li>
+								<li>Responsive Design (Mobile)</li>
+								<li>Email</li>
+								<li>Social</li>
+								<li>SEO</li>
+d50 1
+d55 9
+a63 3
+							<ul>
+								<li>Digital Advertising</li>
+								<li>Search Engine Marketing</li>
+a64 2
+								<li>Social</li>
+								<li>Direct</li>
+d66 7
+d74 24
+a97 10
+						</div>
+						
+						<div class="service-box">
+							<h2>Creative</h2>
+							<ul>
+								<li>Design</li>
+								<li>Digital Assets</li>
+								<li>Broadcast</li>
+								<li>Outdoor</li>
+								<li>Copyrighting</li>
+d103 35
+a137 6
+							<ul>
+								<li>Web Programming</li>
+								<li>Database Design</li>
+								<li>Managed Hosting</li>
+								<li>Content Management</li>
+								<li>Apps</li>
+@
+
+
+1.9
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 33
+a33 13
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_capabilities" class="pg_inside">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content" class="row-fluid">
+							<h1>Capabilities</h1>
+d35 11
+a45 4
+						<div class="span3 no-margin" id="cap-tab-copy">
+							<p>
+								We think it's smart to focus on what you do best, and then do it really well. That's why we are a digital-centric advertising agency. But that doesn't mean we're not full service. We support our clients marketing and advertising programs with <span class="txt_yellow">a full spectrum of capabilities</span>.
+							</p>
+d47 10
+a56 209
+						<div id="interactive_content" class="span9">
+							<div class="row-fluid gray-box">
+								<header class="span3">
+									<h2>Creative Services</h2>
+								</header>
+								<nav class="arrow-nav span4">
+									<ul>
+										<li><a href="#">Design</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+											<li>Display and rich media ads</li>
+											<li>Print</li>
+											<li>Outdoor</li>
+											<li>Corporate identity</li>
+										</ul>
+										</li>
+										<li><a href="#">Websites</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Research and planning</li>
+												<li>Design and art direction</li>
+												<li>Development and programming</li>
+												<li>API and data integration</li>
+												<li>Updates and management</li>
+												<li>Enterprise level hosting	</li>
+											</ul>
+										</li>
+										<li><a href="#">Broadcast</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>TV</li>
+												<li>Radio</li>
+												<li>YouTube</li>
+												<li>Pandora</li>
+											</ul>
+										</li>
+										<li><a href="#">Outdoor</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Billboards</li>
+												<li>Digital Out of Home</li>
+												<li>POS/POP</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="row-fluid gray-box">
+								<header class="span3">
+									<h2>Media Services</h2>
+								</header>
+								<nav class="arrow-nav span4">
+									<ul>
+										<li><a href="#">Digital Advertising</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Consumer research and targeting</li>
+												<li>Media planning and buying</li>
+												<li>Ad-unit design and development</li>
+												<li>Testing and optimization</li>
+											</ul>
+										</li>
+										<li><a href="#">Media Buying</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Digital</li>
+												<li>TV</li>
+												<li>Radio</li>
+												<li>Print</li>
+												<li>Outdoor</li>
+											</ul>
+										</li>
+										<li><a href="#">Mobile</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Device responsive design</li>
+												<li>Mobile Apps</li>
+												<li>Mobile advertising</li>
+												<li>Cost-per-call campaigns</li>
+												<li>Location based marketing</li>
+											</ul>
+										</li>
+										<li><a href="#">Search</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Paid search</li>
+												<li>SEO</li>
+												<li>Local search marketing</li>
+											</ul>
+										</li>
+										<li><a href="#">Social Media</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Presence development</li>
+												<li>Content and community management</li>
+												<li>Consumer activation campaigns</li>
+												<li>Paid posts marketing</li>
+												<li>Contests and sweepstakes</li>
+											</ul>
+										</li>
+										<li><a href="#">Email Marketing</a><span class="icon icon-arrow"></span>
+											<ul class="hide list_bottom">
+												<li>Message concept and design</li>
+												<li>Build customer database</li>
+												<li>Segmentation and testing</li>
+												<li>Platform and database configuration</li>
+												<li>Compliance and delivery</li>
+											</ul>
+										</li>
+										<li><a href="#">Research and Insight</a><span class="icon icon-arrow"></span>
+											<ul class="hide list_bottom">
+												<li>Market research tools</li>
+												<li>Media placement tools</li>
+												<li>Keyword and competitor research</li>
+												<li>Ad-serving technology</li>
+												<li>Enterprise email platform</li>
+												<li>Multivariate testing tools</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="row-fluid gray-box">
+								<header class="span3">
+									<h2>Solutions</h2>
+								</header>
+								<nav class="arrow-nav span4">
+									<ul>
+										<li><a href="#">Drive Sales</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>POS transactions</li>
+												<li>Ecommerce</li>
+												<li>Coupons and trackable offers</li>
+												<li>Profit and ROI modeling</li>
+											</ul>
+										</li>
+										<li><a href="#">Acquire Customers</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Lead acquisition.</li>
+												<li>Integration with sales and CRM systems</li>
+												<li>Conversion tactics</li>
+												<li>Profit and ROI modeling</li>
+											</ul>
+										</li>
+										<li><a href="#">Customer Loyalty</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Grow a customer database</li>
+												<li>Drive repeat purchases</li>
+												<li>Reward brand champions</li>
+											</ul>
+										</li>
+										<li><a href="#">Engage Consumers</a><span class="icon icon-arrow"></span>
+											<ul class="hide list_bottom">
+												<li>Promote a new product or service</li>
+												<li>Influence purchase decisions</li>
+												<li>Build awareness and affinity</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="row-fluid gray-box">
+								<header class="span3">
+									<h2>Technology</h2>
+								</header>
+								<nav class="arrow-nav span4">
+									<ul>
+										<li><a href="#">Analytics</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Measure performance</li>
+												<li>Analyze customer actions and KPIs</li>
+												<li>Detailed and actionable reporting</li>
+												<li>Media attribution</li>
+												<li>Optimization</li>
+											</ul>
+										</li>
+										<li><a href="#">Multivariate Testing</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>A/B testing</li>
+												<li>Taguchi method testing</li>
+												<li>Platform integration</li>
+											</ul>
+										</li>
+										<li><a href="#">Database Design</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Architecture</li>
+												<li>Performance optimization</li>
+												<li>Backup and redundancy</li>
+												<li>Security protocols</li>
+											</ul>
+										</li>
+										<li><a href="#">Application Development</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Design and specification</li>
+												<li>Programming and production</li>
+												<li>Usability and GUI</li>
+												<li>QA and load testing</li>
+											</ul>
+										</li>
+										<li><a href="#">Content Management</a><span class="icon icon-arrow"></span>
+											<ul class="hide">
+												<li>Needs assessment</li>
+												<li>Tool and system specification</li>
+												<li>Administrative interface</li>
+												<li>Training and onboarding</li>
+											</ul>
+										</li>
+										<li><a href="#">Managed Hosting</a><span class="icon icon-arrow"></span>
+										<ul class="hide list_bottom">
+												<li>Systems design</li>
+												<li>Hardware/software specifications</li>
+												<li>Setup and configuration</li>
+												<li>Administration and monitoring</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+d58 14
+a71 2
+					</article>
+				</section>
+d73 2
+d76 3
+a78 8
+		<script>
+			require(['app/main'], function($){
+				// location in /js/main.js
+				interactive_arrow_nav();
+			});
+		</script>
+    </body>
+</html>
+@
+
+
+1.8
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d163 1
+a163 1
+											<ul class="hide">
+@
+
+
+1.7
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d112 1
+a112 1
+											<ul class="hide">
+d121 1
+a121 1
+											<ul class="hide">
+d219 1
+a219 1
+										<ul class="hide">
+@
+
+
+1.6
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d15 1
+a15 1
+						<div class="span3 no-margin">
+@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d12 7
+a18 3
+						<div id="seo_content" class="span3">
+								<h1>Capabilities</h1>
+								<p>We think it's smart to focus on what you do best, and then do it really well. That's why we are a digital-centric advertising agency. But that doesn't mean we're not full service. We support our clients marketing and advertising programs with <span class="txt_yellow">a full spectrum of capabilities</span>.</p>
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d19 1
+a19 1
+									<h2>Services</h2>
+d23 8
+d33 15
+a47 7
+											<li>Research and planning</li>
+											<li>Design, development, and programming</li>
+											<li>Device responsive design</li>
+											<li>API and data integration</li>
+											<li>Updates, maintenance, and management</li>
+											<li>Enterprise level managed hosting</li>
+										</ul>
+d49 1
+a49 1
+										<li><a href="#">Mobile</a><span class="icon icon-arrow"></span>
+d51 3
+a53 6
+												<li>Mobile site design and development</li>
+												<li>Device responsive design</li>
+												<li>Mobile Apps</li>
+												<li>Mobile advertising</li>
+												<li>Cost-per-call campaigns</li>
+												<li>Location based marketing</li>
+d56 9
+a68 1
+												<li>Creative concepts and messaging</li>
+d70 19
+a88 1
+												<li>Testing, reporting, and optimization</li>
+d98 9
+d113 1
+a113 1
+												<li>Customer loyalty programs</li>
+d116 1
+a116 1
+										<li><a href="#">Social Media</a><span class="icon icon-arrow"></span>
+d118 6
+a123 5
+												<li>Build and manage social presences</li>
+												<li>Word-of-Mouth campaigns</li>
+												<li>Paid advertising campaigns</li>
+												<li>Build business intelligence</li>
+												<li>Reputation management</li>
+a127 1
+								
+@
+
+
+1.3
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_digital.inc.php'); ?>
+@
+
+
+1.2
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d183 1
+a183 1
+			$(function(){
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d23 54
+a76 6
+										<li><a href="#">Websites</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Mobile</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Digital Advertising</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Search</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Email Marketing</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Social Media</a><span class="icon icon-arrow"></span></li>
+d79 1
+a79 44
+								<div class="span5">
+									<ul class="hide">
+										<li>Research and planning</li>
+										<li>Design, development, and programming</li>
+										<li>Device responsive design</li>
+										<li>API and data integration</li>
+										<li>Updates, maintenance, and management</li>
+										<li>Enterprise level managed hosting</li>
+									</ul>
+									<ul class="hide">
+										<li>Mobile site design and development</li>
+										<li>Device responsive design</li>
+										<li>Mobile Apps</li>
+										<li>Mobile advertising</li>
+										<li>Cost-per-call campaigns</li>
+										<li>Location based marketing</li>
+									</ul>
+									<ul class="hide">
+										<li>Consumer research and targeting</li>
+										<li>Media planning and buying</li>
+										<li>Creative concepts and messaging</li>
+										<li>Ad-unit design and development</li>
+										<li>Testing, reporting, and optimization</li>
+									</ul>
+									<ul class="hide">
+										<li>Paid search</li>
+										<li>SEO</li>
+										<li>Local search marketing</li>
+									</ul>
+									<ul class="hide">
+										<li>Message concept and design</li>
+										<li>Build customer database</li>
+										<li>Segmentation and testing</li>
+										<li>Platform and database configuration</li>
+										<li>Customer loyalty programs</li>
+									</ul>
+									<ul class="hide">
+										<li>Build and manage social presences</li>
+										<li>Word-of-Mouth campaigns</li>
+										<li>Paid advertising campaigns</li>
+										<li>Build business intelligence</li>
+										<li>Reputation management</li>
+									</ul>
+								</div>
+d87 30
+a116 4
+										<li><a href="#">Drive Sales</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Acquire Customers</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Customer Loyalty</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Engage Consumers</a><span class="icon icon-arrow"></span></li>
+a118 24
+								<div class="span5">
+									<ul class="hide">
+										<li>POS transactions</li>
+										<li>Ecommerce</li>
+										<li>Coupons and trackable offers</li>
+										<li>Profit and ROI modeling</li>
+									</ul>
+									<ul class="hide">
+										<li>Lead acquisition.</li>
+										<li>Integration with sales and CRM systems</li>
+										<li>Conversion tactics</li>
+										<li>Profit and ROI modeling</li>
+									</ul>
+									<ul class="hide">
+										<li>Grow a customer database</li>
+										<li>Drive repeat purchases</li>
+										<li>Reward brand champions</li>
+									</ul>
+									<ul class="hide">
+										<li>Promote a new product or service</li>
+										<li>Influence purchase decisions</li>
+										<li>Build awareness and affinity</li>
+									</ul>
+								</div>
+d126 48
+a173 6
+										<li><a href="#">Analytics</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Multivariate Testing</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Database Design</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Application Development</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Content Management</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#">Managed Hosting</a><span class="icon icon-arrow"></span></li>
+a175 38
+								<div class="span5">
+									<ul class="hide">
+										<li>Measure performance</li>
+										<li>Analyze customer actions and KPIs</li>
+										<li>Detailed and actionable reporting</li>
+										<li>Media attribution</li>
+										<li>Optimization</li>
+									</ul>
+									<ul class="hide">
+										<li>A/B testing</li>
+										<li>Taguchi method testing</li>
+										<li>Platform integration</li>
+									</ul>
+									<ul class="hide">
+										<li>Architecture</li>
+										<li>Performance optimization</li>
+										<li>Backup and redundancy</li>
+										<li>Security protocols</li>
+									</ul>
+									<ul class="hide">
+										<li>Design and specification</li>
+										<li>Programming and production</li>
+										<li>Usability and GUI</li>
+										<li>QA and load testing</li>
+									</ul>
+									<ul class="hide">
+										<li>Needs assessment</li>
+										<li>Tool and system specification</li>
+										<li>Administrative interface</li>
+										<li>Training and onboarding</li>
+									</ul>
+									<ul class="hide">
+										<li>Systems design</li>
+										<li>Hardware/software specifications</li>
+										<li>Setup and configuration</li>
+										<li>Administration and monitoring</li>
+									</ul>
+								</div>
+@

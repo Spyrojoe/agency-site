@@ -1,0 +1,408 @@
+head	1.5;
+access;
+symbols;
+locks
+	sysop:1.5; strict;
+comment	@# @;
+
+
+1.5
+date	2013.01.31.00.19.56;	author stgbooth;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.01.26.00.20.15;	author stgbooth;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2012.12.06.19.25.56;	author stgtemp1;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2012.12.06.19.21.21;	author stgtemp1;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.5
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@       var desktop = false;
+
+$( function() {
+	// prevent links without a real href from refreshing page
+	$('a[href="#"]').click(function(e){
+		e.preventDefault();
+	});
+	
+	 if($(window).width() > 767){
+		desktop = true; 
+	 } 
+		
+	
+	
+	 var bodyid = $('body').attr('id');
+	 var bgimg = '/img/bg_main_home.jpg';
+		if(bodyid != undefined){
+			switch(bodyid) {
+				case 'pg_capabilities':
+					bgimg = '/img/bg_capabilities.jpg';
+				break;
+				case 'pg_solutions':
+					bgimg = '/img/bg_solutions.jpg';
+				break;
+				case 'pg_experience':
+					bgimg = '/img/bg_experience.jpg';
+				break;
+				case 'pg_contact':
+					bgimg = '/img/bg_contact.jpg';
+				break;
+				case 'pg_clientlounge':
+					bgimg = '/img/bg_clientlounge.jpg';
+				break;
+				case 'pg_consulting':
+				case 'pg_about':
+				case 'pg_consulting_experience':
+				case 'pg_services':
+				case 'pg_auditing':
+					bgimg = '/img/bg_consulting.png';
+				break;
+			}
+		}
+	 
+	 if(desktop){
+		$.vegas({
+			src:bgimg,
+			valign: 'top',
+			align: 'left',
+			fade: 1000,
+			complete:function() {
+				if($('.nav .active').length > 0){
+					active_nav_init();
+				}
+			}
+		 });
+
+		  $('footer a').colorbox();
+	 }  else {
+		$('body').css({'background-image': 'url('+bgimg+') ', 'background-attachment': 'fixed', 'background-size' : 'cover'});
+		active_nav_init('mobile')
+	 }
+	
+	 
+	init_accordion();
+});
+
+
+function active_nav_init(version){
+	
+		var active_nav = $('.nav .active');
+		var offset = active_nav.offset();
+		if(version == 'mobile'){
+			var body_bg = $('body');
+			var body_bg_img = body_bg.css('background-image');
+		} else {
+			var body_bg = $('img.vegas-background');
+			var body_bg_img = 'url('+body_bg.attr('src')+')';
+		}
+		
+		var top = 0;
+		if(desktop){
+				top = offset.top;
+		}
+		var active_bg_ps = '-'+offset.left+'px '+top+'px';
+		active_nav.find('a').css( {'background-image' : body_bg_img, 'background-position' : active_bg_ps, 'background-size' : body_bg.width()+'px' });
+		
+		 $(window).bind('resizestop', function (e) {
+			active_nav_init();
+		});
+}
+
+function interactive_arrow_nav(){
+	$('#interactive_content').find('ul.hide').first().fadeIn();
+	$('#interactive_content').find('.arrow-nav').first().find('li:first-child').addClass('active');
+	
+	$('.arrow-nav >ul > li').hover(
+		function(){
+			var currli = $(this);
+			var parent_height = $(currli).parent().height();
+			var li_index = $(this).index();
+			var li_top = $(this).position();
+			li_top = li_top.top;
+			var hiddenuls = $(this).parents('.arrow-nav').find('ul.hide');
+			var offset_top = parseInt($('.arrow-nav').css('margin-top'),10);
+			var triggered_ul = $(currli).find('.hide');
+			var triggered_height = $(triggered_ul).height();
+			var max_top = parent_height - triggered_height;
+			var act_margin = calc_margin = li_top - offset_top;
+			var top_pos = parseInt(triggered_height/2)*-1;
+			
+			$('#interactive_content').find('ul.hide:visible').not(triggered_ul).stop(true,true).removeAttr('style').fadeOut(
+				function(){
+					$('#interactive_content').find('li.active').not(currli).removeClass('active');
+					
+					$(triggered_ul).stop(true,true).fadeIn(250);
+					
+					if(desktop){
+						if ((li_top+triggered_height) > parent_height){
+							var new_top = ((li_top + triggered_height) - (parent_height + offset_top) ) * -1;
+							console.log(new_top);
+							$(triggered_ul).css({'top':new_top});
+						} else {
+							$(triggered_ul).css({'top':'0'});
+						}
+					}
+				}
+			);
+			$(this).addClass('active');
+		},
+		function(){
+			return false;
+		}
+	);
+}
+
+function init_accordion(){
+	$('.accordion').on('hide', function(){
+		$(this).find('.active').removeClass('active');
+		$(this).find('.icon-minus').removeClass('icon-minus').addClass('icon-plus');
+		
+	});
+	$('.accordion').on('shown', function(){
+		$(this).find('.in').prev().addClass('active').find('.icon-plus').removeClass('icon-plus').addClass('icon-minus');
+	});
+}
+
+/**
+
+    A jQuery version of window.resizeStop.
+    This creates a jQuery special event called "resizestop". This event fires after a certain number of milliseconds since the last resize event fired.
+    Additionally, as part of the event data that gets passed to the eventual handler function, the resizestop special event passes the size of the window in an object called "size".
+
+    For example:
+
+    $(window).bind('resizestop', function (e) {
+        console.log(e.data.size);
+    });
+
+    This is useful for performing actions that depend on the window size, but are expensive in one way or another - i.e. heavy DOM manipulation or asset loading that might be detrimental to performance if run as often as resize events can fire.
+
+    @@name jQuery.event.special.resizestop
+    @@requires jQuery 1.4.2
+    @@namespace
+
+*/
+(function ($, setTimeout) {
+
+    var $window = $(window),
+        cache = $([]),
+        last = 0,
+        timer = 0,
+        size = {};
+
+    /**
+        Handles window resize events.
+
+        @@private
+        @@ignore
+    */
+    function onWindowResize() {
+        last = $.now();
+        timer = timer || setTimeout(checkTime, 10);
+    }
+
+    /**
+        Checks if the last window resize was over the threshold. If so, executes all the functions in the cache.
+
+        @@private
+        @@ignore
+    */
+    function checkTime() {
+        var now = $.now();
+        if (now - last < $.resizestop.threshold) {
+            timer = setTimeout(checkTime, 10);
+        } else {
+            clearTimeout(timer);
+            timer = last = 0;
+            size.width = $window.width();
+            size.height = $window.height();
+            cache.trigger('resizestop');
+        }
+    }
+
+    /**
+        Contains configuration settings for resizestop events.
+
+        @@namespace
+    */
+    $.resizestop = {
+        propagate: false,
+        threshold: 500
+    };
+
+    /**
+        Contains helper methods used by the jQuery special events API.
+
+        @@namespace
+        @@ignore
+    */
+    $.event.special.resizestop = {
+        setup: function (data, namespaces) {
+            cache = cache.not(this); // Prevent duplicates.
+            cache = cache.add(this);
+            if (cache.length === 1) {
+                $window.bind('resize', onWindowResize);
+            }
+        },
+        teardown: function (namespaces) {
+            cache = cache.not(this);
+            if (!cache.length) {
+                $window.unbind('resize', onWindowResize);
+            }
+        },
+        add: function (handle) {
+            var oldHandler = handle.handler;
+            handle.handler = function (e) {
+                // Generally, we don't want this to propagate.
+                if (!$.resizestop.propagate) {
+                    e.stopPropagation();
+                }
+                e.data = e.data || {};
+                e.data.size = e.data.size || {};
+                $.extend(e.data.size, size);
+                return oldHandler.apply(this, arguments);
+            };
+        }
+    };
+
+})(jQuery, setTimeout);@
+
+
+1.4
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+a16 4
+	 
+	 if(desktop){
+	
+		var bgimg = '/img/bg_main_home.jpg';
+d43 2
+a44 1
+		
+d59 1
+a59 29
+		 var bgimg = '/img/bg_main_home_mobile.jpg';
+		if(bodyid != undefined){
+			switch(bodyid) {
+				case 'pg_capabilities':
+					bgimg = '/img/bg_capabilities_mobile.jpg';
+				break;
+				case 'pg_solutions':
+					bgimg = '/img/bg_solutions_mobile.jpg';
+				break;
+				case 'pg_experience':
+					bgimg = '/img/bg_experience_mobile.jpg';
+				break;
+				case 'pg_contact':
+					bgimg = '/img/bg_contact_mobile.jpg';
+				break;
+				case 'pg_clientlounge':
+					bgimg = '/img/bg_clientlounge_mobile.jpg';
+				break;
+				case 'pg_consulting':
+				case 'pg_about':
+				case 'pg_consulting_experience':
+				case 'pg_services':
+				case 'pg_auditing':
+					bgimg = '/img/bg_consulting_mobile.jpg';
+				break;
+			}
+		}
+		
+		$('body').css({'background-image': 'url('+bgimg+') '});
+d96 1
+a96 1
+	$('.arrow-nav li').hover(
+d103 1
+a103 1
+			var hiddenuls = $(this).parents('.arrow-nav').next().children();
+d105 5
+d111 1
+a111 1
+			$('#interactive_content').find('ul.hide:visible').stop(true,true).removeAttr('style').fadeOut(
+d114 12
+a125 8
+					var triggered_ul = $(hiddenuls[li_index]);
+					var triggered_height = $(triggered_ul).height();
+					var max_top = parent_height - triggered_height;
+					var act_margin = calc_margin = li_top - offset_top;
+					if(calc_margin > max_top){
+						act_margin = max_top;	
+					}	
+					$(triggered_ul).stop(true,true).fadeIn(250).css('margin-top',act_margin);
+@
+
+
+1.3
+log
+@[stgtemp1] User stgtemp1 stupidly forgot a change comment! Tsk.
+@
+text
+@d129 1
+d131 2
+d134 3
+a136 1
+			$('#interactive_content').find('ul.hide:visible').stop(true,true).fadeOut(
+a137 1
+					$(this).removeAttr('style');
+d139 8
+a146 1
+					$(hiddenuls[li_index]).stop(true,true).fadeIn(250);
+@
+
+
+1.2
+log
+@[stgtemp1] User stgtemp1 stupidly forgot a change comment! Tsk.
+@
+text
+@d133 1
+a133 1
+					$(this).css('opacity','');
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d1 1
+a1 1
+var desktop = false;
+d133 1
+d135 1
+a135 1
+					$(hiddenuls[li_index]).stop(true,true).fadeIn();
+d141 1
+a141 1
+			return;
+@

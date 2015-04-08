@@ -1,0 +1,320 @@
+head	1.9;
+access;
+symbols;
+locks
+	dave:1.9; strict;
+comment	@# @;
+
+
+1.9
+date	2014.07.16.21.49.48;	author stgolson;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.07.03.19.28.17;	author stgolson;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.12.21.01.27.21;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.12.10.00.32.01;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.12.06.23.00.57;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.9
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+
+<title>Apollo Interactive | About Us</title>
+<meta name="description" content="Our ideas and solutions help consumer brands achieve practical marketing goals through persuasive messaging, targeted media, and exceptional analysis.">
+
+</head>
+
+<body id="pg_about" class="bg-img">
+	<div class="wrapper">			
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		
+		<div class="opacity-bg"></div>
+		<div class="container">
+			<div class="content">
+				<div id="aboutus_content">
+					<h1><span style="font-weight:400;">We strive to be</span> advertising problem solvers…</h1>						
+					<p class="highlight-text">
+						…and have crafted solutions that deliver ROI for some of the most known and recognizable brands.
+					</p>
+				</div>
+
+				<article>
+					<h2>
+						Digital Is In Our DNA, Yet Our Work Spans All Media. 
+					</h2>
+					<p class="copy-text">
+						In 1995 we built Web pages for brands like The WB Television Network because they were a trending accessory. In 1999, we created the first viral Internet sensation for Jack in the Box, and like any true phenomenon, we didn’t try, it just happened. By the turn of the century, we were developing database-driven, systems integrated Web sites that were generating hundreds of millions of dollars in revenue for Mandalay Resort Group casinos. 
+						<br /><br />
+						After the dot com crash, we introduced clients like University of Phoenix and WellPoint to the wonders of digital advertising and lead generation on new sites like AOL, Yahoo!, and Google. And by 2003, we were establishing presences on Myspace. Yes, Myspace. Facebook, Twitter and YouTube came a few years later. Today we execute fully integrated campaigns for Fortune 1000 brands. We didn’t change to become an advertising agency. Advertising changed to make us one. We’re full service now, but we will always be digital-centric.
+					</p>
+				</article>
+			</div>
+
+		</div>
+	</div>
+
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+	
+</body>
+</html>
+@
+
+
+1.8
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d29 1
+a29 1
+						After the dot com crash, we introduced clients like University of Phoenix and WellPoint to the wonders of digital advertising and lead generation on new sites like AOL, Yahoo!, and Google. And by 2003, we were establishing presences on Myspace. Yes, Myspace, Facebook, Twitter and YouTube came a few years later. Today we execute fully integrated campaigns for brands like Curves, Wingstop, and Visionworks. We didn’t change to become an advertising agency. Advertising changed to make us one. We’re full service now, but we will always be digital-centric.
+@
+
+
+1.7
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d27 3
+a29 1
+						In 1995 we built Web pages for brands like The WB Television Network because they were a trending accessory. In 1999, we created the first viral Internet sensation for Jack in the Box, and like any true phenomenon, we didn’t try, it just happened. By the turn of the century, we were developing database-driven, systems integrated Web sites that were generating hundreds of millions of dollars in revenue for Mandalay Resort Group casinos. After the dot com crash, we introduced clients like University of Phoenix and WellPoint to the wonders of digital advertising and lead generation on new sites like AOL, Yahoo!, and Google. And by 2003, we were establishing presences on Myspace. Yes, Myspace, Facebook, Twitter and YouTube came a few years later. Today we execute fully integrated campaigns for brands like Curves, Wingstop, and Visionworks. We didn’t change to become an advertising agency. Advertising changed to make us one. We’re full service now, but we will always be digital-centric.
+@
+
+
+1.6
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+a16 1
+					<h1><span style="font-weight:400;">We are</span> advertising problem solvers…</h1>						
+@
+
+
+1.5
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d24 1
+a24 1
+						Digital Is In Our DNA. 
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 29
+a29 34
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_about" class="pg_inside">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<div id="seo_content" class="row-fluid">
+						<h1>About Us</h1>						
+					</div>
+					<div class="row-fluid">
+						<div class="span12 about-adjust">
+							<p>
+								At Apollo Interactive we are <span class="about-lrg">advertising problem solvers <i id="icon-light_bulb"></i></span>. And we have been crafting solutions to brand marketer challenges for almost <span class="about-med"><span class="yellow">{</span>20 years<span class="yellow">}</span></span>, keeping deft by staying <span class="about-med">independent<i id='icon-man'></i></span> and focusing on results. That’s why brands who want to make a bigger impact, reach a more targeted audience, or increase their <span class="about-med">return on investment <i id="icon-chart"></i></span> turn to us. Problem solved.
+							</p>
+						</div>
+					</div>
+					<article class="row-fluid">
+						<div class="span6 about-copy">
+							<h2>
+								A Digital-Centric Advertising Agency
+							</h2>
+							<p>
+								Digital is in our DNA. In 1995 we built Web pages for brands like The WB Television Network because they were a trending accessory. In 1999, we created the first viral Internet sensation for Jack in the Box, and like any true phenomenon, we didn’t try, it just happened. By the turn of the century, we were developing database-driven, systems integrated Web sites that were generating hundreds of millions of dollars in revenue for Mandalay Resort Group casinos. After the dot com crash, we introduced clients like University of Phoenix and WellPoint to the wonders of digital advertising and lead generation on new sites like AOL, Yahoo!, and Google. And by 2003, we were establishing presences on Myspace. Yes, Myspace, Facebook, Twitter and YouTube came a few years later. Today we execute fully integrated campaigns for brands like Curves, Wingstop, and Visionworks. We didn’t change to become an advertising agency.  Advertising changed to make us one. We’re full service now, but we will always be digital-centric.  
+							</p>
+						</div>
+						<div class="span6">
+							<img src="/img/about_us-flow_chart.png" alt="Apollo Interactive Timeline" />
+						</div>
+					</article>
+				</section>
+d31 4
+d36 2
+a37 1
+    </body>
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d11 5
+a15 3
+					<article class="row-fluid">
+						<div id="seo_content" class="span10 about-adjust">
+							<h1>About Us</h1>
+d20 1
+a20 1
+					</article>
+d22 1
+a22 1
+						<div class="span5 about-copy">
+d30 1
+a30 1
+						<div class="span5">
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d15 1
+a15 1
+								At Apollo Interactive we are <span class="about-lrg">advertising problem solvers <i id="light_bulb"></i></span>. And we have been crafting solutions to brand marketer challenges for almost <span class="about-med"><span class="yellow">{</span>20 years<span class="yellow">}</span></span>, keeping deft by staying <span class="about-med">independent<i id='lil_man'></i></span> and focusing on results. That’s why brands who want to make a bigger impact, reach a more targeted audience, or increase their <span class="about-med">return on investment <i id="chart"></i></span> turn to us. Problem solved.
+@
+
+
+1.1
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+    <body id="pg_about" class="pg_inside pg_dark">
+d12 5
+a16 3
+						<div id="seo_content" class="span3">
+								<h1>About Us</h1>
+								<p>Apollo Interactive is a full service digital advertising agency with offices in Los Angeles and Dallas. We have planned and executed marketing strategies for Fortune 1000 clients since 1995. Our focus is on performance based initiatives that create powerful and measurable sources of profitable revenue.</p>
+d18 12
+a29 72
+						<div id="interactive_content" class="span9">
+							<div class="gray-box">
+								<div class="accordion" id="accordion2">
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+										 SERVICES + CAPABILITIES <span class="icon icon-minus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseOne" class="accordion-body in collapse">
+										<div class="accordion-inner clearfix">
+											<div class="row-fluid">
+												<dl class="span4">
+													<dt>Services</dt>
+													<dd>Website Development</dd>
+													<dd>Online Advertising</dd>
+													<dd>Search PPC/SEO/Local</dd>
+													<dd>Multimedia Production</dd>
+													<dd>Email Marketing</dd>
+													<dd>Social Media</dd>
+													<dd>Mobile Marketing</dd>
+												</dl>
+												<dl class="span4">
+													<dt>Solutions</dt>
+													<dd>Drive Sales</dd>
+													<dd>Lead Acquisition</dd>
+													<dd>Customer Acquisition</dd>
+													<dd>Build Awareness/Affinity</dd>
+													<dd>Customer Retention</dd>
+												</dl>
+												<dl class="span4">
+													<dt>Technology</dt>
+													<dd>Analytics</dd>
+													<dd>Multivariate Testing</dd>
+													<dd>Email Platforms</dd>
+													<dd>Application Development</dd>
+													<dd>Custom Programming</dd>
+													<dd>Content Management</dd>
+													<dd>Managed Hosting</dd>
+												</dl>
+											</div>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+										  ORGANIZATION <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseTwo" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>Apollo is organized into five departments that span a diverse set of expertise. Our consulting group leverages insight and best practices attained by our real world experience.</p>
+											<img src="/img/consulting/organization.png" alt="Apollo Organization Pie Chart" class="block centered"/>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+										  RESEARCH + INSIGHT <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseThree" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>We utilize industry leading tools and partnerships to evaluate marketing technology assets.</p>
+											<img src="/img/consulting/research-insight.png" alt="Apollo Research + Insight" class="block centered"/>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+@

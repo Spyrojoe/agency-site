@@ -1,0 +1,343 @@
+head	1.12;
+access;
+symbols;
+locks
+	sysop:1.12; strict;
+comment	@# @;
+
+
+1.12
+date	2014.08.19.17.42.28;	author stgbrock;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.07.28.19.38.13;	author stgbrock;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.17.21.23.10;	author stgolson;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.07.17.20.56.22;	author stgolson;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.07.17.19.36.20;	author stgolson;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.07.17.18.23.58;	author stgolson;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.12.21.01.27.47;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.07.08.18.59.05;	author stgstewart;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.11.15;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.12
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+<title>Apollo Interactive | Insurance Practice | Deep Experience</title>
+<meta name="description" content="Our insurance practice helps insurers make online advertising a powerful source of consistent, profitable revenue.">
+
+</head>
+
+<body id="pg_insurance" class="bg-img">
+	
+	<div class="wrapper">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		
+		<div class="opacity-bg"></div>
+		<div class="container">
+		
+			<div class="content">
+				<div id="insurance_content" class="ins-page">
+					
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>
+					
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/insurance_sub_nav.php'); ?>
+
+					<div id="experience-sub">
+						<h2>Deep Experience</h2>
+						<p class="highlight-text">We posses unmatched experience in digital-centric insurance marketing</p>
+						<br/>
+						<img src="/img/insurance/affiliates_bcbs.png" alt="">
+						<img src="/img/insurance/affiliates_wellpoint.png" alt="">
+						<img src="/img/insurance/affiliates_hcsc.png" alt="">
+						<img src="/img/insurance/affiliates_transamerica.png" alt="">
+						<img src="/img/insurance/affiliates_westcoastlife.png" alt="">
+						<img src="/img/insurance/affiliates_cigna.png" alt="">
+						<img src="/img/insurance/affiliates_geico.png" alt="">
+						<img src="/img/insurance/affiliates_coventry.png" alt="">
+						<img src="/img/insurance/affiliates_wps.png" alt="">
+						<img src="/img/insurance/affiliates_mutualofomaha.png" alt="">
+						<img src="/img/insurance/affiliates_farmersinsurancegroup.png" alt="">
+						<img src="/img/insurance/affiliates_nationallifegroup.png" alt="">
+
+
+						<ul style="margin:20px 0 0 0;">We've worked with the largest carriers in the business across all insurance verticals:
+							<li style="margin-left: 40px;">Advertising experience since 1995</li>
+							<li style="margin-left: 40px;">Online media and marketing experience for insurance products since 2004</li>
+							<li style="margin-left: 40px;">Almost 1,000,000 insurance leads acquired every year through a wide variety of tactics</li>
+							<li style="margin-left: 40px;">Currently generate leads in all 50 states for health, auto, life, and Medicare insurance.</li>
+						</ul>
+						
+					</div>
+
+				</div>
+			</div>
+		
+		</div>	
+
+	</div>
+<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#insurance_side_sub').show();
+		//$('li.nav_insurance').removeClass('nav_selected');
+		//$('#insurance_side_sub ul li:nth-of-type(3)').addClass('nav_selected');
+		$('a[href="/insurance/experience.php"]').css('color', '#33ccff');
+		$('li.nav_selected a').hover().css('color', '#ddd');
+	});
+</script>
+</body>
+</html>@
+
+
+1.11
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d60 4
+@
+
+
+1.10
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d57 5
+@
+
+
+1.9
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 4
+a19 1
+				<div id="insurance_content">
+@
+
+
+1.8
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d17 1
+a17 3
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>	
+
+@
+
+
+1.7
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+a2 1
+<title>Apollo Interactive | Insurance Practice</title>
+@
+
+
+1.6
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d39 6
+a44 5
+						<ul>
+							<li>Advertising experience since 1995</li>
+							<li>Online media and marketing experience for insurance products since 2004</li>
+							<li>Almost 1,000,000 insurance leads acquired every year through a wide variety of tactics</li>
+							<li>Currently generate leads in all 50 states for health, auto, life, and Medicare insurance.</li>
+@
+
+
+1.5
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 9
+					<div class="page_sub_navigation">
+						<a class="sub-nav" href="program.php">The Program</a>
+						<a class="sub-nav" href="insight.php">Unique Insight</a>
+						<a class="sub-nav" href="products.php">Proprietary Products</a>
+						<a class="sub-nav" href="experience.php">Deep Experience</a>
+						<a class="sub-nav" href="carriers.php">Insurance Carriers</a>
+						<a class="sub-nav" href="agents.php">Agents/Brokers</a>
+						<a class="sub-nav" href="affiliates.php">Affiliate Marketing</a>
+					</div>
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 52
+a52 44
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_insurance_experience" class="pg_inside insurance_practice">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10 insurance_spacing">
+					<article class="row-fluid">
+						<div id="seo_content-sub">
+								<h1>Deep Experience</h1>
+								<h2>Unmatched experience in digital-centric insurance marketing</h2>
+								<div class="padded_content_border">
+									<div class="affiliate_brands">
+										<ul>
+											<li><img src="/img/insurance/affiliates_bcbs.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_wellpoint.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_hcsc.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_transamerica.png" alt=""></li>
+											
+											<li><img src="/img/insurance/affiliates_westcoastlife.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_cigna.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_geico.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_coventry.png" alt=""></li>
+											
+											<li><img src="/img/insurance/affiliates_wps.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_mutualofomaha.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_farmersinsurancegroup.png" alt=""></li>
+											<li><img src="/img/insurance/affiliates_nationallifegroup.png" alt=""></li>
+										</ul>
+									</div>
+									<br class="clear">
+									<ul>
+										<li>17 years of Internet Advertising experience</li>
+										<li>8+ years experience in online media and marketing for insurance products</li>
+										<li>Almost 1,000,000 insurance leads acquired every year through a wide variety of tactics</li>
+										<li>Currently generate leads in all 50 states for health, auto, life, and Medicare insurance.</li>
+									</ul>
+
+									<p>We can use our experience to create a consistent, profitable online marketing revenue stream for your company. <a href="/contact.php">contact us</a> to find out how.</p>
+								</div>
+						</div>
+d54 3
+a56 2
+					</article>
+				</section>
+d58 7
+a64 3
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d12 1
+a12 1
+						<div id="seo_content">
+@
+
+
+1.2
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_insurance.inc.php'); ?>
+d10 1
+a10 1
+				<section id="main_content" class="span10">
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+    <body id="pg_insurance_experience" class="pg_inside">
+d16 19
+a34 2
+									<img src="/img/insurance/deep-experience.png" alt="Apollo Interactive Insurance Practice - Deep Experience" style="margin-bottom:16px;">
+									
+a49 6
+		<script>
+			$(function(){
+				// location in /js/main.js
+				interactive_arrow_nav();
+			});
+		</script>
+@

@@ -1,0 +1,255 @@
+head	1.12;
+access;
+symbols;
+locks
+	sysop:1.12; strict;
+comment	@# @;
+
+
+1.12
+date	2014.08.11.21.04.41;	author stgbrock;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.08.11.20.56.29;	author stgbrock;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.08.11.20.55.05;	author stgbrock;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.08.11.20.50.25;	author stgbrock;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.08.11.20.45.06;	author stgbrock;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.08.11.19.53.52;	author stgbrock;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.08.11.19.50.46;	author stgbrock;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.08.11.18.30.04;	author stgbrock;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.08.11.18.26.34;	author stgbrock;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.07.28.19.37.31;	author stgbrock;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.07.17.18.23.58;	author stgolson;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.07.16.21.49.48;	author stgolson;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.12
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@/* IE8 Style sheet - Designed for small monitors */
+h1 { font-size: 32px; line-height: 32px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+p, ul { font-size: 14px; line-height: 18px; }
+p.highlight-text { font-size: 18px; line-height: 24px; }
+.content { width: 540px; }
+.service-box { width: 48%; }
+.service-box ul { width:100%; }
+.contact-info { width:48%; }
+#news_content article p { width: 356px; margin: 0; }
+.left-side { position:relative; width:497px; padding: 0 15px 0 20px; }
+.right-side { display:none; position:relative; border: 0; }
+.sub-proprietary p { width: 450px; margin: 10px 0 0 20px; }
+#main_nav a { margin: 2px 0 0 -8px; padding: 0 0 15px 16px; }
+.work_hdr img { width: 100%; }
+.work-images { width: 100%; height: 225px; }
+
+.side_sub_nav{ display: none !important; }
+
+/* removing the top-of-page subnav since it's been build into the side nav of "work" and "insurance" */
+.page_sub_navigation{
+	display: block;
+	/*margin: 20px 0 0 0;*/
+}
+#pg_insurance footer { bottom: 80px; }
+.sub-nav { margin-top: 0px; }
+#main_nav li { height: 22px; }
+#main_nav a{ display: inline; vertical-align: baseline; }
+.footer p {
+	text-align: center;
+	font-size: 14px;
+}@
+
+
+1.11
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d26 1
+a26 1
+#pg_insurance footer { position: static; }
+@
+
+
+1.10
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d26 1
+a26 1
+#pg_insurance footer { bottom: 0; }
+@
+
+
+1.9
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d26 1
+@
+
+
+1.8
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d28 1
+a28 1
+#main_nav a{ vertical-align: baseline; }
+@
+
+
+1.7
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d28 1
+@
+
+
+1.6
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d28 1
+a28 1
+footer p {
+@
+
+
+1.5
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@a4 1
+ul { margin-top: -4px; }
+d15 1
+a15 1
+#main_nav a { margin: 0; padding: 0; }
+d18 2
+a19 2
+footer{ display: block;}
+footer p{ text-align: center;}
+d23 1
+a23 1
+	display: none;
+d27 5
+a31 5
+
+/* height: 22px was causing side nav to not expand, added margin-bottom: 0 to get the side nav to fit in opacity-bg ;  */
+#main_nav li { /*height: 22px;*/ }
+/* vertically centers nav items */
+#main_nav a{ display: inline; vertical-align: baseline; }@
+
+
+1.4
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d19 1
+@
+
+
+1.3
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d5 1
+d16 1
+a16 1
+#main_nav a { margin: 2px 0 0 -8px; padding: 0 0 15px 16px; }
+d19 1
+d26 6
+a31 1
+.sub-nav { margin-top: 0px; }@
+
+
+1.2
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d18 6
+a23 1
+.page_sub_navigation { margin: 20px 0 0 0; }
+@
+
+
+1.1
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d1 1
+d8 3
+a10 2
+.service-box { width: 100%; }
+.service-box ul { width:45%; }
+d12 2
+a13 2
+.left-side { width:497px; padding: 0 15px 0 20px; }
+.right-side { border: 0; }
+d15 5
+a19 2
+#main_nav li { margin-bottom: 15px; }
+#main_nav a { margin: 2px 0 0 -8px; padding: 0 0 15px 16px; }@

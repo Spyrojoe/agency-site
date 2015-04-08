@@ -1,0 +1,162 @@
+head	1.2;
+access;
+symbols;
+locks
+	sysop:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@<?php
+	$toCollapse = $_REQUEST['collapseNum'];
+?>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_solutions" class="pg_inside">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content" class="span3">
+								<h1>Ideas + Solutions</h1>
+						</div>
+						<div id="interactive_content" class="span9">
+							<div class="gray-box">
+								<div class="accordion" id="accordion2">
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+										  TARGET + ENGAGE CONSUMERS <span class="icon icon-minus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseOne" class="accordion-body in collapse">
+										<div class="accordion-inner clearfix">
+											<p>Marketing is all about saying the right thing to the right people and the right time. We know the intrinsic link between pinpoint audience targeting and finely-tuned creative messaging, and we break down the silo between media and creative to make every advertising dollar work for our clients.</p>
+											<p>CASE IN POINT:<br/>
+											Curves: Increased lead volume and memberships by adjusting to changing audience demographics.</p>
+											<a href="/contact.php" class="btn pull-right">LEARN MORE <span class="icon icon-arrow-small"></span></a>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+										  ANALYZE + IMPROVE RESULTS <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseTwo" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>We removed "set it and forget it" from our lexicon from the outset. We know that great performance is a
+product of sound analytics and continual optimization, so we work tirelessly throughout the life cycle of every campaign, employing deep conversion analysis across all marketing channels and regularly exceed client objectives.</p>
+											<p>CASE IN POINT:<br/>
+											Einstein Noah's: Grew online catering revenue 500%. Deliver an ROI greater than 25:1.</p>
+											<a href="/contact.php" class="btn pull-right">LEARN MORE <span class="icon icon-arrow-small"></span></a>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+										  SOLVE MARKETING CHALLENGES <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseThree" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>Life is boring without challenges, so we jump at the chance to help our clients solve real, complex
+marketing and business challenges. We start with what our clients want to achieve, and develop solutions to achieve those goals - in some cases helping clients to discover and define what those goals are.</p>
+											<p>CASE IN POINT:<br/>
+										Blue Cross Blue Shield: Call center and automated feedback loop system increased conversion from lead to contract.</p>
+											<a href="/contact.php" class="btn pull-right">LEARN MORE <span class="icon icon-arrow-small"></span></a>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+										  LEVERAGE TECHNOLOGY <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseFour" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>Technology is at the very core of our business - it wouldn't exist without it! - and we leverage every
+bit of it not just to automate complex processes or create organizational efficiencies, but to improve the customer experience and maximize the business results of our clients. After all, if technology isn't working for our clients, it's not working at all.</p>
+											<p>CASE IN POINT:<br/>
+											Visionworks: Advanced, device-responsive web site ensures a consistent brand experience across all
+web-enabled platforms: desktop, smart phone, and tablet.</p>
+											<a href="/contact.php" class="btn pull-right">LEARN MORE <span class="icon icon-arrow-small"></span></a>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+										  GENERATE + DRIVE REVENUE <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseFive" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>To us, there is nothing more exciting than turning one dollar in advertising into ten dollars in revenue. It's what we do with a passion. From e-commerce transactions to leads that convert to sales, we don't deliver theoretically; our technology and tracking produces real and measureble ROI.</p>
+											<p>CASE IN POINT:<br/>
+											Stage Stores: $30MM+ per year in e-commerce and point-of-sale transactions. Learn more.</p>
+											<a href="/contact.php" class="btn pull-right">LEARN MORE <span class="icon icon-arrow-small"></span></a>
+										</div>
+									  </div>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+	<?php if($toCollapse != 'collapseOne'): ?>
+		<script>
+			$(function(){
+				// location in /js/main.js
+				$('.accordion-heading').first().addClass('active');
+				$('.accordion-toggle').each(function(){
+						if($(this).attr('href') == "#<?php echo $toCollapse;?>"){
+							$(this).trigger('click');
+						}
+				});
+			});
+		</script>
+	<?php endif; ?>
+    </body>
+</html>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d11 1
+a11 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_digital.inc.php'); ?>
+@

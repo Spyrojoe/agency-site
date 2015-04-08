@@ -1,0 +1,418 @@
+head	1.15;
+access;
+symbols;
+locks
+	sysop:1.15; strict;
+comment	@# @;
+
+
+1.15
+date	2014.08.19.17.42.28;	author stgbrock;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2014.08.07.20.28.01;	author stgbrock;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2014.07.28.19.38.13;	author stgbrock;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.07.17.21.23.10;	author stgolson;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.07.17.20.56.22;	author stgolson;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.07.17.19.36.20;	author stgolson;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.07.16.21.49.49;	author stgolson;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.01.09.00.45.37;	author stgvillanueva;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.12.21.01.27.47;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.07.11.23.07.56;	author stgbooth;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.07.08.18.59.05;	author stgstewart;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.11.15;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.15
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+<title>Apollo Interactive | Insurance Practice | Proprietary Tools</title>
+<meta name="description" content="Our insurance practice helps insurers make online advertising a powerful source of consistent, profitable revenue.">
+
+</head>
+
+<body id="pg_insurance" class="bg-img">
+	
+	<div class="wrapper">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		
+		<div class="opacity-bg"></div>
+		<div class="container">
+		
+			<div class="content">
+				<div id="insurance_content" class="ins-page">
+					
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>
+
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/insurance_sub_nav.php'); ?>
+
+					<div id="products-sub">
+						<h2>Proprietary Tools</h2>
+						<p class="highlight-text">We utilize powerful tools and properties that deliver prospects and convert them into customers</p>
+						
+						<h3>Affiliate Network</h3>
+						<div class="sub-proprietary">
+							<img src="/img/insurance/network.png" width="370" height="213"  alt=""/>
+							<p>Our Health Plans of America affiliate network unites hundreds of independent web sites that attract highly targeted consumers who are looking for insurance. Together, our network produces more than 50,000 prospects per month across all types of insurance products.</p>
+						</div>
+						
+						<h3>Consumer Portals</h3>
+						<div class="sub-proprietary">	
+							<p>Our portfolio of five insurance web portals spans health insurance, auto insurance, life insurance, and Medicare products. Through compelling consumer oriented content, licensed from leading industry sources, we attract hundreds of thousands of targeted visits monthly through natural search. Our clients leverage these properties to acquire highly qualified prospects.</p>
+							<img src="/img/portals.png" width="370" height="320"  alt=""/>
+						</div>
+						
+						<h3>LeadQueue</h3>
+						<div class="sub-proprietary noMobileImg">	
+							<img src="/img/insurance/db_system.png" width="370" height="320"  alt=""/>
+							<p>Our LeadQueue Database System is a proprietary lead management application that accepts, reviews, validates, de-duplicates, tracks and transmits leads through open source protocols. Our clients leverage this tool to increase conversion and sales.</p>
+						</div>
+
+						<h3>Lead Handling</h3>
+						<div class="sub-proprietary noMobileImg">	
+							<p>Conversion to contract is highly dependent on when and how you work your leads. We support our clients through lead handling services that include outbound calling, follow up, qualification, and hot transfer.</p>
+							<img src="/img/insurance/handling.png" width="400" height="268"  alt=""/>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		
+		</div>	
+
+	</div>
+<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#insurance_side_sub').show();
+		$('a[href="/insurance/products.php"]').css('color', '#33ccff');
+		$('li.nav_selected a').hover().css('color', '#ddd');
+	});
+</script>
+</body>
+</html>@
+
+
+1.14
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d62 2
+@
+
+
+1.13
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+a2 1
+<title>Apollo Interactive | Insurance Practice | Proprietary Products</title>
+d24 1
+a24 1
+						<h2>Proprietary Products</h2>
+@
+
+
+1.12
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d59 5
+@
+
+
+1.11
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 4
+a19 1
+				<div id="insurance_content">
+@
+
+
+1.10
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@a16 2
+					<h1><span style="font-weight:400;">We help our clients</span> acquire customers and drive sales…</h1>
+					<p class="highlight-text">…and take a sales-centric approach to reach consumers actively in the market.</p>	
+@
+
+
+1.9
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d2 1
+a2 1
+<title>Apollo Interactive | Insurance Practice</title>
+@
+
+
+1.8
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d28 1
+a28 1
+							<img src="/img/insurance/network.png" width="370" height="320"  alt=""/>
+@
+
+
+1.7
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 9
+					<div class="page_sub_navigation">
+						<a class="sub-nav" href="program.php">The Program</a>
+						<a class="sub-nav" href="insight.php">Unique Insight</a>
+						<a class="sub-nav" href="products.php">Proprietary Products</a>
+						<a class="sub-nav" href="experience.php">Deep Experience</a>
+						<a class="sub-nav" href="carriers.php">Insurance Carriers</a>
+						<a class="sub-nav" href="agents.php">Agents/Brokers</a>
+						<a class="sub-nav" href="affiliates.php">Affiliate Marketing</a>
+					</div>
+@
+
+
+1.6
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 43
+a43 62
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+	<style>
+	.arrow-nav { width: 303px; }
+	</style>
+    </head>
+    <body id="pg_insurance_products" class="pg_inside insurance_practice">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10 insurance_spacing">
+					<article class="row-fluid">
+						<div id="seo_content-sub">
+							<h1>Proprietary Products</h1>
+							<h2>Powerful tools and properties that deliver prospects and convert them into customers</h2>
+							
+							<div class="gray-box tabbable span12">
+								<nav class="arrow-nav span4 offset1">
+									<ul data-tabs="tabs">
+										<li class="active"><a href="#affiliate-network" data-toggle="tab">AFFILIATE NETWORK</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#consumer-portals" data-toggle="tab">CONSUMER PORTALS</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#leadqueue-database-system" data-toggle="tab">LEADQUEUE DATABASE SYSTEM</a><span class="icon icon-arrow"></span></li>
+										<li><a href="#lead-handling" data-toggle="tab">LEAD HANDLING</a><span class="icon icon-arrow"></span></li>
+									</ul>
+								</nav>
+								<div class="tab-content span6" id="products">
+									<div class="tab-pane fade in active" id="affiliate-network">
+										<img src="/img/insurance/network.png" width="370" height="320"  alt=""/>
+										<p>Our Health Plans of America affiliate network unites hundreds of independent web sites that attract highly targeted consumers who are looking for insurance. Together, our network produces more than 50,000 prospects per month across all types of insurance products.</p>
+									</div>
+									<div class="tab-pane fade" id="consumer-portals">
+									
+										<div id="myCarousel" class="carousel slide">
+											<ol class="carousel-indicators">
+												<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+												<li data-target="#myCarousel" data-slide-to="1"></li>
+												<li data-target="#myCarousel" data-slide-to="2"></li>
+												<li data-target="#myCarousel" data-slide-to="3"></li>
+											</ol>
+											<div class="carousel-inner">
+												<div class="active item"><img src="/img/insurance/portals-bai.png" width="370" height="320"  alt=""/></div>
+												<div class="item"><img src="/img/insurance/portals-gli.png" width="370" height="320"  alt=""/></div>
+												<div class="item"><img src="/img/insurance/portals-hio.png" width="370" height="320"  alt=""/></div>
+												<div class="item"><img src="/img/insurance/portals-mp.png" width="370" height="320"  alt=""/></div>
+											</div>
+											<a class="carousel-control left" href="#myCarousel" data-slide="prev">&nbsp;</a>
+											<a class="carousel-control right" href="#myCarousel" data-slide="next">&nbsp;</a>
+										</div>
+										<p>Our portfolio of five insurance web portals spans health insurance, auto insurance, life insurance, and Medicare products. Through compelling consumer oriented content, licensed from leading industry sources, we attract hundreds of thousands of targeted visits monthly through natural search. Our clients leverage these properties to acquire highly qualified prospects.</p>
+									</div>
+									<div class="tab-pane fade" id="leadqueue-database-system">
+										<img src="/img/insurance/db_system.png" width="370" height="320"  alt=""/>
+										<p>Our LeadQueue Database System is a proprietary lead management application that accepts, reviews, validates, de-duplicates, tracks and transmits leads through open source protocols. Our clients leverage this tool to increase conversion and sales.</p>
+									</div>
+									<div class="tab-pane fade" id="lead-handling">
+										<img src="/img/insurance/handling.png" width="478" height="320"  alt=""/>
+										<p>Conversion to contract is highly dependent on when and how you work your leads. We support our clients through lead handling services that include outbound calling, follow up, qualification, and hot transfer.</p>
+									</div>
+								</div>
+							</div>
+d46 14
+a59 2
+					</article>
+				</section>
+d61 7
+a67 3
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d28 1
+a28 1
+								<div class="tab-content span6">
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d15 1
+a15 1
+						<div id="seo_content">
+@
+
+
+1.3
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d11 1
+a11 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_insurance.inc.php'); ?>
+d13 1
+a13 1
+				<section id="main_content" class="span10">
+@
+
+
+1.2
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d20 1
+a20 1
+								<nav class="arrow-nav">
+d28 1
+a28 1
+								<div class="tab-content">
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d6 1
+a6 1
+    <body id="pg_insurance_products" class="pg_inside">
+d35 15
+a49 12
+									<div id="myCarousel" class="carousel slide">
+										<ol class="carousel-indicators">
+											<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+											<li data-target="#myCarousel" data-slide-to="1"></li>
+											<li data-target="#myCarousel" data-slide-to="2"></li>
+											<li data-target="#myCarousel" data-slide-to="3"></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="active item"><img src="/img/insurance/portals-bai.png" width="370" height="320"  alt=""/></div>
+											<div class="item"><img src="/img/insurance/portals-gli.png" width="370" height="320"  alt=""/></div>
+											<div class="item"><img src="/img/insurance/portals-hio.png" width="370" height="320"  alt=""/></div>
+											<div class="item"><img src="/img/insurance/portals-mp.png" width="370" height="320"  alt=""/></div>
+d51 1
+a51 4
+										<a class="carousel-control left" href="#myCarousel" data-slide="prev">&nbsp;</a>
+										<a class="carousel-control right" href="#myCarousel" data-slide="next">&nbsp;</a>
+									</div>
+									<p>Our portfolio of five insurance web portals spans health insurance, auto insurance, life insurance, and Medicare products. Through compelling consumer oriented content, licensed from leading industry sources, we attract hundreds of thousands of targeted visits monthly through natural search. Our clients leverage these properties to acquire highly qualified prospects.</p>
+@

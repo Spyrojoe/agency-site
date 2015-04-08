@@ -1,0 +1,87 @@
+head	1.4;
+access;
+symbols;
+locks
+	sysop:1.4; strict;
+comment	@# @;
+
+
+1.4
+date	2014.08.20.21.06.06;	author stgbrock;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.07.17.20.56.22;	author stgolson;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.07.16.21.49.48;	author stgolson;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.07.16.16.17.46;	author stgolson;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.4
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<div class="page_sub_navigation" id="ins-sub-nav">
+	<a class="sub-nav <?= inPage('/insurance/program.php') ? ' sub_nav_selected' : '' ?>" href="program.php">The Program</a>
+	<a class="sub-nav <?= inPage('/insurance/insight.php') ? ' sub_nav_selected' : '' ?>" href="insight.php">Unique Insight</a>
+	<a class="sub-nav <?= inPage('/insurance/experience.php') ? ' sub_nav_selected' : '' ?>" href="experience.php">Deep Experience</a>
+	<a class="sub-nav <?= inPage('/insurance/carriers.php') ? ' sub_nav_selected' : '' ?>" href="carriers.php">Insurance Carriers</a>
+	<a class="sub-nav <?= inPage('/insurance/agents.php') ? ' sub_nav_selected' : '' ?>" href="agents.php">Agents/Brokers</a>
+	<a class="sub-nav <?= inPage('/insurance/affiliates.php') ? ' sub_nav_selected' : '' ?>" href="affiliates.php">Affiliate Marketing</a>
+	<a class="sub-nav <?= inPage('/insurance/products.php') ? ' sub_nav_selected' : '' ?>" href="products.php">Proprietary Tools</a>
+</div>@
+
+
+1.3
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+	<a class="sub-nav <?= inPage('/insurance/products.php') ? ' sub_nav_selected' : '' ?>" href="products.php">Proprietary Products</a>
+@
+
+
+1.2
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@a3 1
+	<a class="sub-nav <?= inPage('/insurance/products.php') ? ' sub_nav_selected' : '' ?>" href="products.php">Proprietary Products</a>
+d8 1
+@
+
+
+1.1
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d2 7
+a8 7
+	<a class="sub-nav <?= inPage('/insurance/program.php') ? ' sub_nav_selected' : '' ?>" href="program.php#ins-sub-nav">The Program</a>
+	<a class="sub-nav <?= inPage('/insurance/insight.php') ? ' sub_nav_selected' : '' ?>" href="insight.php#ins-sub-nav">Unique Insight</a>
+	<a class="sub-nav <?= inPage('/insurance/products.php') ? ' sub_nav_selected' : '' ?>" href="products.php#ins-sub-nav">Proprietary Products</a>
+	<a class="sub-nav <?= inPage('/insurance/experience.php') ? ' sub_nav_selected' : '' ?>" href="experience.php#ins-sub-nav">Deep Experience</a>
+	<a class="sub-nav <?= inPage('/insurance/carriers.php') ? ' sub_nav_selected' : '' ?>" href="carriers.php#ins-sub-nav">Insurance Carriers</a>
+	<a class="sub-nav <?= inPage('/insurance/agents.php') ? ' sub_nav_selected' : '' ?>" href="agents.php#ins-sub-nav">Agents/Brokers</a>
+	<a class="sub-nav <?= inPage('/insurance/affiliates.php') ? ' sub_nav_selected' : '' ?>" href="affiliates.php#ins-sub-nav">Affiliate Marketing</a>
+@

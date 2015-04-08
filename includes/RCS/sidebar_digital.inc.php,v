@@ -1,0 +1,93 @@
+head	1.4;
+access;
+symbols;
+locks
+	sysop:1.4; strict;
+comment	@# @;
+
+
+1.4
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.01.29.00.21.47;	author stgbooth;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.01.01.32.12;	author stgtemp1;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@<?php if(!inSection('home')){ ?>
+					<a href="/" class="visible-desktop"><img src="/img/logo.png" alt="Apollo Interactive" id="logo"/></a>
+<?php } ?>					
+					<nav id="side_nav">
+						<ul>
+							<li <?php echo (inSection('aboutus.php'))? 'class="active"':'';?>><span></span><a href="/digital/aboutus.php">About Us</a></li>
+							<li <?php echo (inSection('capabilities.php'))? 'class="active"':'';?>><span></span><a href="/digital/capabilities.php">Capabilities</a></li>
+							<?php /*
+							<li <?php echo (inSection('ideas_and_solutions.php'))? 'class="active"':'';?>><span></span><a href="/digital/ideas_and_solutions.php">ideas + solutions</a></li>
+							*/ ?>
+							<li <?php echo (inSection('experience.php'))? 'class="active"':'';?>><span></span><a href="/digital/experience.php">Clients</a></li>
+							<li <?php echo (inSection(array('insurance')))?  'class="active"':''; ?>><span></span><a href="/insurance/">Insurance Practice</a></li>
+							<li <?php echo (inSection('contact.php'))? 'class="active"':'';?>><span></span><a href="/contact.php">Contact</a></li>
+							<li <?php echo (inSection('clientlounge.php'))? 'class="active"':'';?>><span></span><a href="http://www.clientlounge.com/public/login/">Clientlounge</a></li>
+						</ul>
+					</nav>@
+
+
+1.3
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d6 3
+a8 1
+							<li <?php echo (inSection('capabilities.php'))? 'class="active"':'';?>><span></span><a href="/digital/capabilities.php">capabilities</a></li>
+d10 5
+a14 3
+							<li <?php echo (inSection('experience.php'))? 'class="active"':'';?>><span></span><a href="/digital/experience.php">EXPERIENCE</a></li>
+							<li <?php echo (inSection('contact.php'))? 'class="active"':'';?>><span></span><a href="/contact.php">contact</a></li>
+							<li <?php echo (inSection('clientlounge.php'))? 'class="active"':'';?>><span></span><a href="http://www.clientlounge.com/public/login/">clientlounge</a></li>
+@
+
+
+1.2
+log
+@[stgtemp1] User stgtemp1 stupidly forgot a change comment! Tsk.
+@
+text
+@d10 1
+a10 1
+							<li <?php echo (inSection('clientlounge.php'))? 'class="active"':'';?>><span></span><a href="http://www.clientlounge.com">clientlounge</a></li>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d10 1
+a10 1
+							<?php /*?><li <?php echo (inSection('clientlounge.php'))? 'class="active"':'';?>><span></span><a href="/clientlounge.php">clientlounge</a></li><?php */?>
+@

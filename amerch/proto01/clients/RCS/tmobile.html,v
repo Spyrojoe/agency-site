@@ -1,0 +1,158 @@
+head	1.1;
+access;
+symbols;
+locks
+	dave:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2015.03.16.20.35.19;	author stgbrock;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.1
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<!DOCTYPE html>
+<html>
+	<head>
+		<title>Anderson Merchandisers - Prototype</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" media="screen and (max-width: 775px)" href="../css/935.css">
+		<link rel="stylesheet" media="screen and (max-width: 775px)" href="../css/775.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+
+			<header class="clfx">
+				<div class="logo">
+					<img src="../img/logo.jpg">
+				</div>
+				<nav>
+					<ul class="secondary">
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+					<ul class="primary">
+						<li><a href="#">What we do</a></li>
+						<li><a href="#">Who we work with</a></li>
+						<li><a href="#">About us</a></li>
+					</ul>
+					<span class="burger">|||</span>
+				</nav>
+			</header>
+		</div>
+		<div class="container">
+			<div class="client-nav">
+				<div class="tmobile client-nav-btn"><a href="#"></a></div>
+				<div class="walmart client-nav-btn"><a href="#"></a></div>
+				<div class="post client-nav-btn"><a href="#"></a></div>
+				<div class="pg client-nav-btn"><a href="#"></a></div>
+				<div class="nexium client-nav-btn"><a href="#"></a></div>
+				<div class="sony client-nav-btn"><a href="#"></a></div>
+				<div class="universal client-nav-btn"><a href="#"></a></div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="client page clfx">
+				<div class="side-nav">
+					<ul>
+						<li><a href="#">Our Clients</a></li>
+						<li><a href="#">Success Stories</a></li>
+					</ul>
+				</div>
+
+				<div class="content">
+					<div class="client-header clfx">
+						<img src="../img/gallery/tmobile.jpg">
+						<h1>T-Mobile</h1>
+					</div>
+					<div class="study">
+						<h2>Situation</h2>
+						<p>Within two weeks of their self-promoted and maintained product launch, they saw execution and implementation were in jeopardy. Walmart referred T-Mobile to Anderson.</p>
+						<h2>Solution</h2>
+						<p>We quickly designed and executed a shopper marketing and POP support plan.</p>
+						<h2>Results</h2>
+						<p>Improvements were immediate:</p>
+						<ul>
+							<li><a href="#">Implemented daily service plan to increase signing and end-cap installation rates.</a></li>
+							<li><a href="#">Increased on-shelf availability and sales through consistent program maintenance.</a></li>
+							<li><a href="#">Store signing, overall sales and key metric “grab-n-gos” all increase substantially.</a></li>
+						</ul>
+						<blockquote>“We’ve been working with Anderson for nearly four years now. During that time, they have adapted to our needs and helped us drive our business inside of Walmart in ways that we just can’t do on our own. Recently, they exceeded our expectations in a big way by setting over 900 displays for the launch of a brand-new product in under 48 hours. The ability to drive results that big in such a short time allowed us to make a big splash in-market.</blockquote>
+						<blockquote>“Because of the high-profile nature of our launch and the short time frame we had to pull it off, the need for me to keep my leadership up to date was intense. Starting on Sunday morning, I was getting pinged for updates. Fortunately for me, I was able to pull real-time data from the Anderson dashboard right on my phone. So I kept our leaders up to date while still spending time with my family.”</blockquote>
+						<span class="quote-source">Senior Manager, Store Operations, Partner Branded Services T-Mobile</span>
+						<a href="#">Back to all Success Stories</a>
+					</div>
+				</div><!-- content -->
+
+			</div><!-- page -->
+
+			<footer class="clfx">
+				<div class="copy">
+					<span>&copy;2014 Anderson Merchandisers</span>
+					<ul>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Site Map</a></li>
+					</ul>
+				</div>
+				<div class="social">
+					<a href="#"><img src="../img/facebook.jpg"></a>
+				</div>
+			</footer>
+		</div><!-- container -->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			var navButtonWidth = $(".client-nav div").width();
+			$(".client-nav div, .client-nav a").height(navButtonWidth);
+			//$(".client-nav div, .client-nav a").height(70);
+			//$("header").css("margin-bottom", "50px");
+
+		});
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@

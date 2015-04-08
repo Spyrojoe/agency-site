@@ -1,0 +1,690 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,600,500);
+
+* { margin:0; padding:0; border:0; }
+
+body {
+	font-size:17px;
+	line-height:1.3em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color:#fff;
+	background-color:transparent;
+	overflow:scroll;
+}
+
+img {
+	margin: 15px 0;
+}
+
+form {
+	margin-top: 20px;
+}
+
+input {
+	margin: 5px;
+	padding: 5px;
+}
+
+label {
+	width: 120px;
+	display: inline-block;
+}
+
+hr {
+	border: 1px solid #999;
+	margin: 50px 0 0 0;
+	width: 95%;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 48px;
+}
+
+h2 { 
+	font-size: 20px;
+	color: #33ccff;
+	margin: 50px 0 7px 0;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+#products-sub h3 { margin: 40px 0 0 30px; }
+
+a {
+	text-decoration: none;
+	color: #33ccff;
+	text-decoration: underline;
+}
+
+/*#pg_work a, #pg_insurance a { color:#ff8300; }*/
+
+p, ul {
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	margin-top: 10px;
+	color:#ddd;
+}
+
+p.highlight-text {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 10px;
+	line-height: 26px;
+	color: #fff;
+}
+
+button {
+	text-transform:uppercase;
+	width: 100px;
+	height:32px;
+	background-color: #33ccff;
+	color: #000000;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+.title-thin {
+	font-weight: 400;
+}
+
+.error {
+	color: #33ccff;
+}
+
+.wrapper {
+	padding-bottom: 80px;
+}
+
+.content ul {
+	margin: 20px 0 0 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#pg_careers .content ul {
+	display: block;
+}
+
+.content li {
+	margin-left: 20px;
+	color: #dddddd;
+}
+
+a.btn {
+	background-color: #33ccff;
+	padding: 5px 20px;
+	margin: 20px 0;
+	display: inline-block;
+	position: relative;
+	color: #000000;
+	text-decoration: none;
+}
+
+a.btn:hover {
+	color:#fff;
+}
+
+#pg_careers a.btn {
+	margin: 20px 30px 0;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+.bg-img {
+	/*
+	width: 100%;
+	height: 100%;
+	*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#pg_main, #pg_clientlounge { background: #333333 url(/img/img-home03.jpg) repeat fixed; background-size: cover; }
+#pg_about {	background: #333333 url(/img/img-about-blur.jpg) repeat  fixed; }
+#pg_capabilities { background: #333333 url(/img/img-capabilities.jpg) repeat fixed; }
+#pg_work { background: #333333 url(/img/img-clients.jpg) repeat fixed; }
+#pg_team { background: #333333 url(/img/img-team.jpg) repeat fixed; }
+#pg_insurance { background: #333333 url(/img/img-insurance.jpg) repeat fixed; }
+#pg_clients { background: #333333 url(/img/img-work.jpg) repeat fixed; }
+#pg_careers { background: #333333 url(/img/img-careers.jpg) repeat fixed; }
+#pg_news { background: #333333 url(/img/img-news.jpg) repeat fixed; }
+#pg_contact { background: #333333 url(/img/img-contact.jpg) repeat fixed; }
+
+#logo { 
+	display: block;
+	width: 160px;
+	height: 60px;
+	margin: 35px 0 68px 20px;
+}
+
+a.logo {
+	width: 200px;
+	height: 80px;
+	display: block;
+	margin-bottom: 0;
+}
+
+.main-navigation {
+	width: 200px;
+	display: inline-block;
+	position: fixed;
+	z-index: 100;
+}
+
+#side_nav a {
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+#main_nav a {
+	margin: 0 0 0 -8px;
+	width: 90%;
+	padding: 0 0 10px 16px;
+    padding-bottom: 0; /*reset padding-bottom for new sub nav*/
+	display: inline-block;
+	vertical-align: middle;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#main_nav li {
+	/* height: 22px; -- Removed to get the side nav items to expand for the sub navs */
+	width: 90%;
+	margin-bottom: 8px;
+	border-left: 4px #3cf solid;
+}
+/*
+#main_nav li:hover, .nav_selected {
+	width: 170px;
+}
+*/
+/*
+#main_nav > li:hover{
+	background-color: #33ccff;
+}*/
+#main_nav li a{
+	background-image: url(/img/slider180w.png);
+	background-repeat: no-repeat;
+	background-position: -180px 0;
+	-webkit-transition: background-position .3s;
+	transition: background-position .3s;
+
+}
+#main_nav li a:hover {
+	color: #fff;
+	background-position: 0 0;
+}
+.nav_selected{
+	background-color: #33ccff;
+}
+.subnav_selected{
+	color: #33ccff;
+}
+#main_nav li.side_sub_nav:hover{
+	background: none;
+}
+.nav-block {
+	display: inline-block;
+	width: 4px;
+	height: 22px;
+	background-color: #33ccff;
+    vertical-align: middle;
+}
+
+.side_sub_nav{
+	margin-left: 40px;
+	list-style: none;
+}
+#work_sub_nav{
+    height: auto;
+    margin-left: 24px;
+    list-style: none;
+}
+#work_sub_nav li{
+    list-style: none;
+}	
+.side_sub_nav ul li{
+	list-style-image: url('/img/bullet.png');
+}
+
+
+
+#work_sub_nav:hover, #work_sub_nav li:hover{
+    background: none !important;
+}
+
+.sub_nav {
+	display: none;
+}
+
+.container {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 200px;
+	top:154px;
+	position: relative;
+}
+
+.content {
+	width: 960px;
+	padding-bottom: 260px;
+}
+
+.opacity-bg, .opacity-bg-ins {
+	display: block;
+	width: 100%;
+	background-color: #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+	filter: alpha(opacity=65);
+	-moz-opacity: 0.65;
+	-khtml-opacity: 0.65;
+	opacity: 0.65;
+	top: 110px;
+	z-index: -1;
+	position: absolute;
+}
+/*
+#pg_insurance .opacity-bg{
+	height: 650px;
+}
+*/
+
+/* Controlled by js, might need this for ie8, js not working 
+
+#pg_clients .opacity-bg {	height: 1298px; }
+#pg_work .opacity-bg {	height: 20794px; }
+#pg_careers .opacity-bg {	height: 2473px; }
+#pg_insurance .opacity-bg {	height: 5746px; }
+#pg_news .opacity-bg {	height: 630px; }
+
+*/
+
+.service-box {
+	display: inline-block;
+	width: 280px;
+	vertical-align: top;
+}
+
+.service-box ul {
+	margin: 15px 0 5px;
+	line-height: 19px;
+	min-width: 150px;
+}
+
+.service-box ul li {
+	font-size: 14px;
+	color: #dddddd;
+}
+
+.logo-box {
+	margin-top: 30px;
+}
+
+.logo-box img {
+	margin: 0 0 5px 0;
+}
+
+.contact-info {
+	display: inline-block;
+	width:315px;
+	vertical-align: top;
+}
+
+#figure ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#products-sub img {
+	margin: 20px 0 0 30px;
+	display: inline-block;
+}
+
+#experience-sub img {
+	margin: 0 5px 0 0;
+}
+
+.portfolio-content {
+	height:250px;
+}
+.left-side {
+	width: 350px;
+	height: 230px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px 0 15px;
+	background-color: #000;
+}
+
+.right-side {
+	display: inline-block;
+	width: 570px;
+	height: 225px;
+	margin-left: 0px;
+	border-bottom: 2px solid #444;
+	border-top:2px solid #444;
+}
+
+.work-images {
+	text-align: center;
+}
+
+.page_sub_navigation {
+	margin: 0 0 0 0;
+}
+
+.sub-nav {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	margin-top: 20px;
+}
+#pg_work .container, #pg_insurance .container {
+	margin-left: 230px;
+}
+
+.sub_nav_selected { color:#33ccff; }
+
+#wingstop.work_client { border-left: 8px solid #284837; margin-top: 30px; }
+#wingstop h2 { color:#284837; }
+
+#curves.work_client { border-left: 8px solid #542F64; margin-top: 30px; }
+#curves h2 { color:#542F64; }
+
+#einstein_noah.work_client { border-left: 8px solid #b39d77; margin-top: 30px; }
+#einstein_noah h2 { color:#b39d77; }
+
+#visionworks.work_client {	border-left: 8px solid #d80a28;	margin-top: 30px; }
+#visionworks h2 { color:#d80a28; }
+
+#stage_stores.work_client { border-left: 8px solid #F01C28; margin-top: 30px; }
+#stage_stores h2 { color:#F01C28; }
+
+#yoshinoya.work_client { border-left: 8px solid #e87224; margin-top: 30px; }
+#yoshinoya h2 { color:#e87224; }
+
+#universal.work_client { border-left: 8px solid #4176b9; margin-top: 30px; }
+#universal h2 { color:#4176b9; }
+
+#bmw.work_client { border-left: 8px solid #5483aa; margin-top: 30px; }
+#bmw h2 { color:#5483aa; }
+
+input#submit-form.btn {
+	padding: 5px 20px;
+	background-color: #33ccff;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.sub-proprietary img, #news_content article img {
+	display: inline-block;
+}
+
+.sub-proprietary p, #news_content article p {
+	width:400px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 50px 0 0 40px;
+}
+#news_content article img{
+	margin-right: 40px;
+	vertical-align: middle;
+}
+#news_content article p.copy-text{
+	margin: 0;
+	vertical-align: middle;
+}
+
+#menu-btn {
+	width:42px;
+	height:42px;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	z-index: 110;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.mobile { display: none; }
+
+label.pull-left { padding: 5px 0; }
+form input[type="file"] { margin:0; padding:0; }
+form input[type="file"]::-ms-value { display: none; }
+
+#footer-links a {
+	margin: 0 0 0 7px;
+}
+
+footer {
+	font-size:12px;
+	width:100%;
+	height:40px;
+	position:relative;
+	bottom:100px;
+	left:0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 14px;
+}
+/*
+#pg_insurance footer{
+	bottom: -40px;
+}
+*/
+.cropped{
+	display: none;
+}
+/*
+li.side_sub_nav > ul > li:hover{
+	background-color: transparent;
+}
+*/
+.side_sub_nav#insurance_side_sub, .side_sub_nav#work_side_sub{
+	display: none;
+}
+.side_sub_nav#insurance_side_sub a:hover{
+	text-decoration: underline;
+}
+.side_sub_nav#work_side_sub a:hover{
+	text-decoration: underline;
+}
+@media only screen and (min-width: 940px){
+	#pg_insurance #insurance_side_sub, #pg_work #work_side_sub { display: block; }
+}
+@media only screen and (min-width:640px){
+    .page_sub_navigation { display: none; }
+}
+@media only screen and (max-width: 1160px) {
+	h1 { font-size: 42px; line-height: 42px; }
+	.content { width: 720px; }
+	.service-box { width: 235px; }
+	#news_content article p { width: 325px; margin: 10px 0 0 20px; }
+	.work_hdr { overflow: hidden; }
+	.left-side { width:100%; height: 180px; }
+	.right-side { width: 100%; }
+	.portfolio-content { height: auto; }
+	#products-sub img, #products-sub h3 { margin-left: 20px; }
+	.sub-proprietary p { width:250px; margin: 25px 0 0 20px; }
+	.sub_nav { width: 174px; }
+	/*#pg_insurance footer { bottom: 20px;}*/
+
+}
+
+@media only screen and (max-width: 940px) {
+	h1 { font-size: 32px; line-height: 32px; }
+	h2 { font-size: 18px; }
+	h3 { font-size: 16px; }
+	p, ul { font-size: 14px; line-height: 18px; }
+	p.highlight-text { font-size: 18px; line-height: 24px; }
+	.container {
+		display: block;
+		position: static;
+		margin-left: 0;
+	}
+	.content { width: 95%; margin: 0 auto; padding-bottom: 150px; }
+	.service-box { width: 100%; }
+	.service-box ul { width:48%; }
+	.contact-info { width:48%; }
+	#side_nav{ display: none; }
+	.mobile { display: block; }
+	.page_sub_navigation{ display: block; }
+	#news_content article p { width: 356px; margin: 0; }
+	.left-side { width:497px; padding: 0 15px 0 20px; }
+	.right-side { border: 0; }
+	.sub-proprietary p { width: 450px; margin: 10px 0 0 20px; }
+	#main_nav li { margin-bottom: 15px; }
+	#main_nav a { margin: 2px 0 0 -8px; padding: 7px 0 7px 16px; }
+	#pg_insurance footer { bottom: -30px;}
+	.main-navigation{
+		position: relative;
+		width: 100%;
+	}
+	#pg_insurance .container, #pg_work .container {
+		margin: 0 auto;
+	}
+	.cropped{
+		display: none;
+	}
+	footer{
+		bottom: 115px;
+	}
+	.wrapper{
+		padding: 0;
+	}
+	#side_nav{
+		margin-bottom: 5px;
+		display: none;
+	}
+	#main_nav li{
+		width:150px;
+		height: 32px;
+		display: inline-block;
+	}
+	#main_nav a{
+		margin: 0;
+		padding: 6px 0 0;
+		width: 88%;
+		text-indent: 7px;
+		height:26px;
+	}
+	#main_nav li:hover, .selected{
+		width: 150px;
+	}
+	#main_nav li#insurance_side_sub{
+		display: none;
+	}
+	.side_sub_nav#insurance_side_sub, .side_sub_nav#work_side_sub{
+		display: none !important;
+	}
+	.sub_nav_selected{
+		color: #ff8300;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#pg_main, #pg_about, #pg_capabilities, #pg_work, #pg_team, #pg_insurance, 
+	#pg_clients, #pg_careers, #pg_news, #pg_contact { background: #3f445a;}
+	h1 { font-size: 24px; line-height: 24px; }
+	h2 { font-size: 18px; font-weight: 600; margin: 25px 0 7px 0; }
+	h3 { font-size: 16px; }
+	img { max-width: 100%; }
+	hr { margin-top: 30px; }
+	p, ul { font-size: 16px; line-height: 21px; }
+	p.highlight-text { font-size: 17px; line-height: 21px; }
+	.wrapper { padding-bottom: 80px; }
+	#logo { margin: 18px 0 40px 20px;}
+	.opacity-bg, .opacity-bg-ins { display: none; }
+	.container { margin: 15px 0 0 3%; top: 0; }
+	.content { width: 95%; padding-bottom: 0; }
+ 	.service-box ul { width:230px; }
+	.contact-info { width:100%; }
+	#news_content article p { width: 95%; margin: 0; }
+	.left-side { width:90%; height: auto; padding: 0 15px 12px 20px; }
+	.left-side h2 { margin-top: 12px; }
+	.right-side { border: 0; height: 100%; }
+	.sub-proprietary p { width: 95%; margin: 10px 0 0 20px; }
+	.main-navigation { width: 100%; position: relative; background: #ff8300;}
+	.side_sub_nav#work_side_sub{ display: none; }
+	
+	.nav-block { height: 32px; }
+	
+	#figure ul { display: block; }
+	#products-sub img, #products-sub h3 { margin: 20px 0 0; }
+	footer { bottom: 50px; }
+	footer p { font-size: 13px;	}
+	#footer-links { display: block; }
+	.logo-box img, #experience-sub img { width: 45%; }
+	.noMobileImg img, #products-sub .noMobileImg img { display: none; }
+	.page_sub_navigation { margin: 0; }
+	.sub-nav { width: 145px; font-size: 15px; margin-top: 12px; color: #ff8300;}
+	.ins-page h1, .ins-page p:first-of-type { display: none; }
+	#insurance_content-sub p:first-of-type{ display: block; }
+	#insight-sub p:first-of-type{ display: block; }
+	#experience-sub p:first-of-type{ display: block; }
+	#carriers-sub p:first-of-type{ display: block; }
+	#agents-sub p:first-of-type{ display: block; }
+	#seo_content-sub p:first-of-type{ display: block; }
+	#products-sub p:first-of-type{ display: block; }
+	#products-sub img{
+		display: none;
+	}
+	
+	.cropped{
+		display: none;
+	}
+	.full{
+		display: inline;
+	}
+}
+
+/* iPad 3 & 4 - portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2){
+	#pg_insurance footer{
+		bottom: 115px;
+	}
+	#pg_insurance.ins-main footer{
+		bottom: -30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

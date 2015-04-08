@@ -1,0 +1,135 @@
+head	1.2;
+access;
+symbols;
+locks
+	sysop:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_about" class="pg_inside pg_dark">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content" class="span3">
+								<h1>About Us</h1>
+								<p>Apollo Interactive is a full service digital advertising agency with offices in Los Angeles and Dallas. We have planned and executed marketing strategies for Fortune 1000 clients since 1995. Our focus is on performance based initiatives that create powerful and measurable sources of profitable revenue.</p>
+						</div>
+						<div id="interactive_content" class="span9">
+							<div class="gray-box">
+								<div class="accordion" id="accordion2">
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+										 SERVICES + CAPABILITIES <span class="icon icon-minus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseOne" class="accordion-body in collapse">
+										<div class="accordion-inner clearfix">
+											<div class="row-fluid">
+												<dl class="span4">
+													<dt>Services</dt>
+													<dd>Website Development</dd>
+													<dd>Online Advertising</dd>
+													<dd>Search PPC/SEO/Local</dd>
+													<dd>Multimedia Production</dd>
+													<dd>Email Marketing</dd>
+													<dd>Social Media</dd>
+													<dd>Mobile Marketing</dd>
+												</dl>
+												<dl class="span4">
+													<dt>Solutions</dt>
+													<dd>Drive Sales</dd>
+													<dd>Lead Acquisition</dd>
+													<dd>Customer Acquisition</dd>
+													<dd>Build Awareness/Affinity</dd>
+													<dd>Customer Retention</dd>
+												</dl>
+												<dl class="span4">
+													<dt>Technology</dt>
+													<dd>Analytics</dd>
+													<dd>Multivariate Testing</dd>
+													<dd>Email Platforms</dd>
+													<dd>Application Development</dd>
+													<dd>Custom Programming</dd>
+													<dd>Content Management</dd>
+													<dd>Managed Hosting</dd>
+												</dl>
+											</div>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+										  ORGANIZATION <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseTwo" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>Apollo is organized into five departments that span a diverse set of expertise. Our consulting group leverages insight and best practices attained by our real world experience.</p>
+											<img src="/img/consulting/organization.png" alt="Apollo Organization Pie Chart" class="block centered"/>
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+										  RESEARCH + INSIGHT <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseThree" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<p>We utilize industry leading tools and partnerships to evaluate marketing technology assets.</p>
+											<img src="/img/consulting/research-insight.png" alt="Apollo Research + Insight" class="block centered"/>
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_consulting.inc.php'); ?>
+@

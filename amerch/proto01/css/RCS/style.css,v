@@ -1,0 +1,396 @@
+head	1.1;
+access;
+symbols;
+locks
+	dave:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2015.03.16.20.35.19;	author stgbrock;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.1
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@/* Set "box-sizing:border-box" on "HTML" */
+html{
+	box-sizing: border-box;
+}
+
+/* Cascade to everything else, allows you to reset box-sizing on an element and all it's children */
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+/* My personal preferences */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, img, ol, ul, li, article, footer, header, nav{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+ol, ul{
+	list-style: none;
+}
+li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #828282;
+}
+
+/* Chris Coyier micro clearfix. Supports IE8 and up */
+.clfx:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Just a container */
+.container{
+	display: block;
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 100%;
+	max-width: 1170px;
+}
+/* outline structure
+div, ul, li, a, img, nav, p, h1, h2, h3{
+	outline: 1px lightgray solid;
+}*/
+
+header{
+	
+}
+blockquote{
+	width: 90%;
+	margin: 0 auto 30px;
+	text-align: left;
+	font-style: italic;
+}
+.logo{
+	width: 50%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.burger{
+	display: none;
+}
+nav{
+	width: 50%;
+	float: right;
+	text-align: right;
+	height: 176px;
+	position: relative;
+}
+nav li{
+	display: inline-block;
+	margin-right: 24px;
+}
+nav a{
+	font-size: 22px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #828282;
+}
+.primary{
+	margin-top: 60px;
+}
+.secondary{
+	position: absolute;
+	top: 18px;
+	right: 0;
+}
+.secondary li{
+	margin: 0;
+}
+.secondary li:first-of-type{
+	border-right: 2px #828282 solid;
+	padding-right: 15px;
+	margin-right: 15px;
+}
+.secondary a{
+	font-size: 15px;
+	font-family: arial;
+	text-transform: none;
+}
+.side-nav{
+	width: 20%;
+	max-width: 195px;
+	margin: 195px 0 0 auto;
+	float: left;
+}
+.side-nav li:first-of-type{
+	border-top: 1px #828282 solid;
+}
+.side-nav li{
+	border-bottom: 1px #828282 solid;
+	padding: 14px 0;
+}
+.side-nav a{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 28px;
+	font-weight: 300;
+}
+.content{
+	width: 78.5%;
+	max-width: 941px;
+	float: right;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #828282;
+}
+.content h1{
+	padding: 50px 0;
+	border-bottom: 1px #828282 solid;
+	font-size: 68px;
+	font-weight: 100;
+}
+.content p{
+	padding: 50px 0;
+	font-size: 24px;
+	border-bottom: 1px #828282 solid;
+}
+.gallery{
+	max-width: 610px;
+	margin: 70px auto 0;
+}
+.gallery p{
+	width: 90%;
+	margin-bottom: 18px;
+	padding: 0;
+	border: 0;
+	position: relative;
+	font-size: 22px;
+	color: #fff;
+	z-index: 10;
+}
+.gallery a{
+	position: relative;
+	color: #fff;
+	font-size: 22px;
+	z-index: 10;
+}
+.row{
+	margin-bottom: 70px;
+}
+.row .gallery-item:last-of-type{
+	float: right;
+}
+.gallery-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 270px;
+	height: 270px;
+	/*padding: 110px 15px;*/
+	float: left;
+	position: relative;
+	background-size: cover;
+}
+.opaque-bg{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	background-color: #000;
+
+}
+.tmobile{background-image: url("../img/gallery/tmobile.jpg");}
+.walmartinnovations{background-image: url("../img/gallery/walmartinnovations.jpg");}
+.post{background-image: url("../img/gallery/post.jpg");}
+.pg{background-image: url("../img/gallery/pg.jpg");}
+.frozen{background-image: url("../img/gallery/frozen.jpg");}
+.nexium{background-image: url("../img/gallery/nexium.jpg");}
+.sony{background-image: url("../img/gallery/sony.jpg");}
+.walmart{background-image: url("../img/gallery/walmart.jpg");}
+.universal{background-image: url("../img/gallery/universal.jpg");}
+
+footer{
+	border-top: 1px solid #828282;
+	padding: 32px 0;
+	clear: left;
+	color: #333333;
+}
+footer div{
+	width: 50%;
+}
+.copy{
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.copy span{
+	margin-right: 18px;
+	color: inherit;
+}
+.copy ul{
+	display: inline-block;
+}
+.copy a{
+	color: inherit;
+	font-family: inherit;
+	text-decoration: underline;
+}
+.social{
+	float: left;
+	text-align: right;
+}
+.social img{
+	max-width: 40px;
+}
+footer li{
+	display: inline-block;
+}
+footer li:first-of-type{
+	border-right: 1px #333333 solid;
+	padding-right: 8px;
+	margin-right: 8px;
+}
+
+.client.page{
+	margin-top: 36px;
+}
+.client.page .content{
+	max-width: 941px;
+}
+.client.page .side-nav{
+	margin-top: 0;
+}
+.client.page .content p{
+	margin-bottom: 20px;
+	padding: 0;
+	border: 0;
+	font-size: inherit;
+	text-align: left;
+}
+.client.page .content h2{
+	margin-bottom: 20px;
+	font-size: inherit;
+	font-weight: 500;
+	text-align: left;
+}
+/*.client.page .content p:last-of-type{
+	margin-bottom: 70px;
+}*/
+.client-nav{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.client-nav div{
+	-webkit-flex-basis: 13%;
+	flex-basis: 13%;
+	/*flex-grow: 1;
+	width: 13%;
+	margin-right: 1.2857142857%;
+	float: left;*/
+	background-size: cover;
+	background-position: center;
+}
+.client-nav img{
+	width: 100%;
+}
+.client-nav a{
+	display: block;
+}
+.client-header{
+	margin-bottom: 30px;
+	padding: 24px 0;
+	border-top: 1px solid #828282;
+	border-bottom: 1px solid #828282;
+	text-align: center;
+}
+.client-header img{
+	max-width: 15%;
+	vertical-align: middle;
+	margin-right: 36px;
+}
+.client-header h1{
+	display: inline;
+	border: 0;
+	vertical-align: middle;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #828282;
+}
+
+.study{
+	font-size: 1.4em;
+	text-align: left;
+}
+.client.page .content .study h2{
+	font-size: 2em;	
+}
+.study ul{
+	margin-bottom: 30px;
+	text-align: left;
+	list-style: inherit;
+	list-style-position: inside;
+	font-size: .9em;
+}
+.study > a{
+	display: block;
+	margin-bottom: 72px;
+	color: #679fe4;
+	text-decoration: none;
+}
+.study span{
+	display: block;
+	margin-bottom: 20px;
+}
+.quote-source{
+	display: block;
+	font-style: italic;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@

@@ -1,0 +1,94 @@
+head	1.3;
+access;
+symbols;
+locks
+	dave:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2014.07.10.19.06.56;	author stgolson;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.01.09.00.45.36;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.3
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@<?php
+function inSection($section)
+{
+	if(empty($section)) return false;
+	if(is_array($section)){
+		$inSection = false;
+		foreach ($section as $s){
+			if(inSection($s)) $inSection = true;
+		}
+		return $inSection;
+	}
+	if($section == $_SERVER['SCRIPT_NAME']) return true;
+	if($section == 'home'){
+		return $_SERVER['SCRIPT_NAME'] == '/index.php';
+	} else {
+		$dirs = explode('/',$_SERVER['SCRIPT_NAME']);
+		if(is_array($section)){
+			foreach($section as $s){
+				if(in_array($s,$dirs)) return true;
+			}
+		} else {
+			return in_array($section,$dirs);
+		}
+	}
+	return false;
+}
+
+function inPage($page) 
+{
+	if($page == $_SERVER['SCRIPT_NAME']) {
+		return true;
+	} 
+
+	return false;
+}
+
+?>@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d2 2
+a3 2
+
+function inSection($section){
+d28 9
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d26 3
+a28 1
+}@

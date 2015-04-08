@@ -1,0 +1,88 @@
+head	1.3;
+access;
+symbols;
+locks
+	sysop:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2013.01.31.00.19.56;	author stgbooth;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2012.12.06.19.38.01;	author stgtemp1;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.3
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@.vegas-loading {
+	/* Loading Gif by http://preloaders.net/ */
+	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
+	background:#000 url(images/loading.gif) no-repeat center center;
+	background:rgba(0, 0, 0, 0.7) url(images/loading.gif) no-repeat center center;
+	height:32px;
+	left:2px;
+	position:fixed;
+	top:2px;
+	width:32px; 
+	z-index:0;
+}
+
+.vegas-overlay {
+	background:transparent url(overlays/01.png);
+	opacity:0.5;
+	z-index:-1;
+}
+
+.vegas-background {
+	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic;
+	z-index:-2;
+    /* counteracts global img modification by twitter bootstrap library */
+    max-width: none !important;
+}@
+
+
+1.2
+log
+@[stgtemp1] User stgtemp1 stupidly forgot a change comment! Tsk.
+@
+text
+@d7 1
+a7 1
+	left:5px;
+d9 1
+a9 1
+	top:5px;
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d7 1
+a7 1
+	left:20px;
+d9 1
+a9 1
+	top:20px;
+@

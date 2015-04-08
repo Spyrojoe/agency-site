@@ -1,0 +1,71 @@
+head	1.3;
+access;
+symbols;
+locks
+	sysop:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2013.07.12.21.40.04;	author stgbooth;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.07.11.23.07.56;	author stgbooth;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.25.00.10.56;	author stgstewart;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.3
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@					<a href="/" class="visible-desktop"><img src="/img/logo.png" alt="Apollo Interactive" id="logo"/></a>
+					<nav id="side_nav">
+						<ul>
+							<li <?php echo (inSection('program.php'))? 'class="active"':'';?>><span></span><a href="/insurance/program.php">the program</a></li>
+							<li <?php echo (inSection('insight.php'))? 'class="active"':'';?>><span></span><a href="/insurance/insight.php">unique insight</a></li>
+							<li <?php echo (inSection('products.php'))? 'class="active"':'';?>><span></span><a href="/insurance/products.php" class="visible-desktop">proprietary products</a><a href="/insurance/products.php" class="visible-tablet visible-phone">products</a></li>
+							<li <?php echo (inSection('experience.php'))? 'class="active"':'';?>><span></span><a href="/insurance/experience.php">deep experience</a></li>
+							<li <?php echo (inSection('carriers.php'))? 'class="active"':'';?>><span></span><a href="/insurance/carriers.php">carriers</a></li>
+							<li <?php echo (inSection('agents.php'))? 'class="active"':'';?>><span></span><a href="/insurance/agents.php">agents/brokers</a></li>
+							<li <?php echo (inSection('affiliates.php'))? 'class="active"':'';?>><span></span><a href="/insurance/affiliates.php">affiliates</a></li>
+							<li class="nav-blank">&nbsp;</li>
+							<li><span></span><a href="/contact.php">contact</a></li>
+							<li><span></span><a href="http://www.clientlounge.com/public/login/">clientlounge</a></li>
+						</ul>
+					</nav>@
+
+
+1.2
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d11 1
+a11 1
+							<li>&nbsp;</li>
+@
+
+
+1.1
+log
+@[stgstewart] User stgstewart stupidly forgot a change comment! Tsk.
+@
+text
+@d6 1
+a6 1
+							<li <?php echo (inSection('products.php'))? 'class="active"':'';?>><span></span><a href="/insurance/products.php">proprietary products</a></li>
+@

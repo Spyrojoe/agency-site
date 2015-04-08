@@ -1,0 +1,2708 @@
+head	1.48;
+access;
+symbols;
+locks
+	dave:1.48; strict;
+comment	@# @;
+
+
+1.48
+date	2015.03.30.14.58.33;	author stgolson;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2015.03.02.21.48.29;	author stgbrock;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2015.03.02.21.48.07;	author stgbrock;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2015.02.25.22.51.36;	author stgbrock;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2015.02.23.19.44.30;	author stgbrock;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2015.02.19.21.29.30;	author stgolson;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2015.01.30.15.32.30;	author stgbrock;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2015.01.15.22.19.58;	author stgbrock;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2015.01.15.21.45.51;	author stgbrock;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2015.01.15.21.44.22;	author stgbrock;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2015.01.14.19.31.43;	author stgbrock;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2014.12.30.21.48.15;	author stgbrock;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2014.12.16.19.26.56;	author stgbrock;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2014.11.21.19.53.41;	author stgbrock;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2014.11.14.00.37.59;	author lopez;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2014.11.13.20.33.45;	author stgbrock;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2014.11.12.20.19.08;	author stgbrock;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2014.10.13.19.32.42;	author stgbrock;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2014.10.09.14.38.38;	author stgolson;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2014.10.07.14.57.57;	author stgolson;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2014.09.24.15.05.43;	author stgolson;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2014.08.07.21.12.24;	author stgbrock;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2014.07.17.18.23.58;	author stgolson;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2014.06.27.23.09.15;	author stgvillanueva;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2014.06.27.18.31.27;	author stgvillanueva;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2014.06.10.17.21.28;	author stgvillanueva;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2014.05.29.00.43.37;	author stgvillanueva;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2014.05.22.17.07.41;	author stgvillanueva;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2014.05.21.18.14.15;	author raede;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2014.05.19.17.41.21;	author stgvillanueva;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2014.05.16.18.44.27;	author stgvillanueva;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2014.05.16.18.40.44;	author stgvillanueva;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2014.05.08.22.41.52;	author parrish;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2014.05.07.00.37.32;	author stgvillanueva;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2014.05.06.17.10.01;	author stgvillanueva;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.04.30.18.51.00;	author stgvillanueva;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.04.28.18.33.18;	author stgvillanueva;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.04.25.16.08.46;	author stgvillanueva;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.04.24.17.16.20;	author stgvillanueva;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.04.21.19.05.45;	author stgvillanueva;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.04.21.17.04.47;	author stgvillanueva;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.04.17.17.43.31;	author stgvillanueva;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.04.07.17.59.20;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.04.07.17.07.20;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.04.07.17.06.16;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.04.05.00.11.05;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.04.05.00.07.29;	author stgvillanueva;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.48
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+<title>Apollo Interactive | Digital Agency | Careers</title>
+<meta name="description" content="">
+</head>
+<body id="pg_careers" class="bg-img">
+	<div class="wrapper">			
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		<div class="opacity-bg"></div>
+		<div class="container">
+			<div class="content">
+				<div id="careers_content">
+					<h1><span class="title-thin">We hire</span> talented people...</h1>
+					<p class="highlight-text">...who get the value of hard work.</h1>
+					<div class="job-listing">
+						<h2>HR Coordinator – Los Angeles Office</h2>
+						<p>Apollo Interactive is a full-service digital advertising agency with offices in Los Angeles and Dallas.  We are proudly independent and have been doing digital marketing since 1995 for such prestigious and well-known brands as Jack in the Box, Chuck E. Cheese’s, Wingstop, Curves, Visionworks, and Universal Sports Network to name a few.  We are excellent at what we do and take tremendous pride in delivering services that positively affect our client’s bottom line.</p>
+						<p>We are looking to hire an HR Coordinator in our Los Angeles office.</p>
+						<p>Reporting to the Managing Director, this position is a hands-on professional who coordinates and facilitates various aspects of our HR functions at Apollo as well as other administrative tasks and projects.  This includes serving as a liaison between the general team and upper management of the agency, paying bills, maintaining records and team member communications, and additional general support to the Office Manager.</p>
+						<br />
+						<h3>Responsibilities</h3>
+						<ul>Human Resources:
+							<li>Process weekly HR tasks such as benefit setup and changes for new hires, terminations, status changes, etc.</li>
+							<li>Manage posting, recruitment, and hiring of personnel</li>
+							<li>Maintain files and filing system (including personnel files).</li>
+							<li>Assist with employee annual reviews</li>
+							<li>Medical insurance liaison and COBRA administration</li>
+							<li>Process retirement plan and contributions</li>
+						</ul>
+						<ul>Other:
+							<li>Assist with processing of monthly invoices</li>
+							<li>General office duties such as preparing and managing internal and external communications, answering phones, coordinating travel schedules, etc.</li>
+							<li>Projects as needed </li>
+						</ul>
+						<ul>Qualifications:
+							<li>Strong desire to grow and learn</li>
+							<li>4 year degree required</li>
+							<li>At least 1 year prior relevant work experience in HR/Admin role</li>
+							<li>Detail oriented with excellent organization and prioritization skills</li>
+							<li>Excellent communication skills</li>
+							<li>Ability to manage multiple priorities while maintaining enthusiasm and composure</li>
+							<li>Demonstrated professionalism with ability to maintain highly confidential information</li>
+						</ul>
+						<ul>Benefits:
+							<li>Annual salary and performance review</li>
+							<li>Medical and dental benefits</li>
+							<li>401(K)</li>
+							<li>Dynamic work environment and diverse client portfolio </li>
+						</ul>
+						<p>Applicants will not be considered unless a cover letter and resume are provided.</p>
+						<a href='/careers/apply-form.php?pos=hr_coordinator' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+
+					<div class="job-listing">
+						<h2>Advertising Analyst - Los Angeles Office</h2>
+						<p>Apollo Interactive is seeking an analytical, operational and team-oriented Advertising Analyst to join our Los Angeles (El Segundo) office.  This is a full-time position. As an Analyst, you will be part of our growing Insurance team; analyzing, tracking, optimizing and reporting on online advertising and lead generation campaigns for our clients.  You will work closely with our Account Executives, Account Managers and the Vice President of the division on a daily basis to maximize revenue for the company.</p>
+						<ul>Responsibilities include:
+							<li>Monitor performance of campaigns and implement strategies for optimization</li>
+							<li>Hands-on bid adjustments to meet and exceed volume and ROI targets</li>
+							<li>A/B test landing pages, creative, messaging and multiple user experiences</li>
+							<li>Develop, maintain and analyze detailed reporting of campaigns</li>
+							<li>Diagnose and assist with time sensitive issues relating to data errors and trends</li>
+							<li>Provide comprehensive analysis of key metrics and trends</li>
+							<li>Generate quantitative analysis and models to enhance campaigns</li>
+							<li>Keep up to date with online advertising best practices and strategies</li>
+						</ul>
+						<ul>Qualifications:
+							<li>BA/BS degree from 4-year university required</li>
+							<li>Strong quantitative and analytical background</li>
+							<li>Basic understanding of lead generation and the insurance industry is a plus</li>
+							<li>Ability to strategize, analyze, and optimize around data</li>
+							<li>Team player with strong collaboration and multi-tasking abilities.</li>
+							<li>Excellent time management skills and strong attention to detail are essential</li>
+							<li>Microsoft Excel fluency (Ability to macro is a plus)</li>
+							<li>Desire to learn and grow!</li>
+						</ul>
+						<ul>Benefits:
+							<li>Annual salary and performance review</li>
+							<li>Medical and dental benefits</li>
+							<li>401(K)</li>
+							<li>Dynamic work environment and diverse client portfolio </li>
+						</ul>
+						<p>Only resumes with a cover letter stating your interest and salary requirements will be considered. </p>
+						<a href='/careers/apply-form.php?pos=advertising_analyst' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+
+					<div class="job-listing">
+						<h2>Intern – Los Angeles Office</h2>
+						<p>Apollo Interactive is seeking an energetic, talented and team-oriented Intern to join our Los Angeles (El Segundo) office.  This is a part-time, unpaid position. As an Intern you will be part of our Insurance Practice team and will work closely with our Account team in preparing, executing, tracking, and reporting on online advertising campaigns to generate leads for new and existing clients.</p>
+						<p>Ideal candidates will be organized, out-going, quick learners, and extremely analytical with an interest in Internet marketing. Applicants must have excellent communication and time management skills, be able to work efficiently in a small team environment and be able to manage multiple projects at once.</p>
+						<ul>Responsibilities include:
+							<li>Support the lead generation team that services our clients in the insurance industry</li>
+							<li> Assist Account Coordinator in on-boarding new vendors</li>
+							<li>Assist Account Manager in on-boarding new clients</li>
+							<li>Traffic ad units and assemble creative assets for new campaigns</li>
+							<li>Monitor and analyze and existing advertising campaigns</li>
+							<li>Conduct research on industry and market trends, potential clients, and new vendors</li>
+							<li>Find and create content for Search Engine Optimization Strategies</li>
+							<li>Posting and sharing content on social media sites</li>
+							<li>Inspect and test existing lead forms</li>
+							<li>Linkbuilding outreach</li>
+							<li>Updating existing databases</li>
+						</ul>
+						<ul>Qualifications:
+							<li>BA/BS degree from 4-year university</li>
+							<li>Basic understanding of online advertising space </li>
+							<li>Ability to strategize, analyze, and optimize around data</li>
+							<li>Proficient MS Office skills are a must</li>
+							<li>Desire to learn and grow!</li>
+						</ul>
+						<a href='/careers/apply-form.php?pos=lax_intern' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.47
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d15 8
+a22 38
+						<h2>Account Coordinator – Los Angeles Office</h2>
+						<p>Apollo Interactive is seeking an organized and team-oriented Account Coordinator to join our Los Angeles (El Segundo) office.  This is a full-time position. As an Account Coordinator, you will be part of our Insurance Practice division and assist in our Affiliate Department – managing, tracking and optimizing our company’s new and existing online affiliate database and advertising networks.</p>
+						<p>Ideal candidates will be organized, methodical, quick learners, possess great communication and negotiation skills, and have at least one year experience in internet marketing. Applicants must be motivated, professional and have excellent time management skills. Applicant must also be able to work efficiently in a small team environment and manage multiple projects at once. Proficiency in Microsoft Excel is a must as data will be analyzed for information regarding industry trends, optimization of campaigns and scaling of volume to maximize revenue.</p>
+						<ul>Responsibilities include:
+							<li>Support the lead generation team that services our clients in the insurance industry</li>
+							<li>Assist Affiliate Director in managing and optimizing all affiliate and network accounts</li>
+							<li>Contact potential affiliates and networks to join Apollo’s program</li>
+							<li>Maintain level of familiarity with all aspects of accounts – including marketing methods</li>
+							<li>Manage and optimize campaigns from start to finish</li>
+							<li>Build and grow affiliate relationships to provide excellent level of support</li>
+							<li>Monitor performance of campaigns and suggest strategies for optimization</li>
+							<li>Conduct research on industry and market trends, potential clients, and new networks</li>
+							<li>Attend meetings and conferences with current affiliates and networks</li>
+						</ul>
+						<ul>Qualifications:
+							<li>BA/BS degree from 4-year university required</li>
+							<li>Online advertising or agency experience is preferred</li>
+							<li>Basic understanding of lead generation and the insurance industry is a plus</li>
+							<li>Team player with strong collaboration skills.</li>
+							<li>Excellent MS Excel skills are required</li>
+							<li>Desire to learn and grow!</li>
+						</ul>
+						<ul>Benefits:
+							<li>Annual salary and performance review</li>
+							<li>Medical and dental benefits</li>
+							<li>401(K)</li>
+							<li>Dynamic work environment and diverse client portfolio </li>
+						</ul>
+						<a href='/careers/apply-form.php?pos=account_coordinator' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+					<div class="job-listing">
+						<h2>Administrative Coordinator - Los Angeles Office</h2>
+						<p>Apollo Interactive is seeking to hire an Administrative Coordinator to join our Los Angeles (El Segundo) office in a full-time role.</p>
+						<p>Reporting to the Managing Director, this position is a hands-on professional who coordinates and facilitates all aspects of our Administrative and HR functions of Apollo.  This includes paying bills, maintaining records and team member communications, managing the receptionist area, serving as a liaison between the general team and upper management of the agency, and additional general support to the Office Manager.</p>
+						<ul>Responsibilities include:
+							<li>General office duties such as preparing and managing internal and external communications, answering phones, coordinating travel schedules, etc.</li>
+a23 2
+							<li>Manage on-boarding/exit interviews of employees</li>
+							<li>Manage compliance and regulatory needs</li>
+d25 1
+a25 1
+							<li>General administrative support (payroll, A/R, A/P, etc.)</li>
+d27 6
+d35 3
+a37 2
+							<li>2-3 years prior relevant work experience in Administrative role (large or small company)</li>
+							<li>4 year degree</li>
+d39 1
+a39 1
+							<li>Excellent communication skills </li>
+d45 1
+a45 1
+							<li>Medical, dental and vision coverage</li>
+d49 2
+a50 1
+						<a href='/careers/apply-form.php?pos=administrative_coordinator' class="btn btn-directions">
+@
+
+
+1.46
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d109 1
+a109 1
+						<a href='/careers/apply-form.php?pos=administrative_coordinator' class="btn btn-directions">
+@
+
+
+1.45
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d14 33
+a46 1
+					
+d78 1
+d80 2
+a81 3
+						<h2>Account Coordinator – Los Angeles Office</h2>
+						<p>Apollo Interactive is seeking an organized and team-oriented Account Coordinator to join our Los Angeles (El Segundo) office.  This is a full-time position. As an Account Coordinator, you will be part of our Insurance Practice division and assist in our Affiliate Department – managing, tracking and optimizing our company’s new and existing online affiliate database and advertising networks.</p>
+						<p>Ideal candidates will be organized, methodical, quick learners, possess great communication and negotiation skills, and have at least one year experience in internet marketing. Applicants must be motivated, professional and have excellent time management skills. Applicant must also be able to work efficiently in a small team environment and manage multiple projects at once. Proficiency in Microsoft Excel is a must as data will be analyzed for information regarding industry trends, optimization of campaigns and scaling of volume to maximize revenue.</p>
+d83 8
+a90 9
+							<li>Support the lead generation team that services our clients in the insurance industry</li>
+							<li>Assist Affiliate Director in managing and optimizing all affiliate and network accounts</li>
+							<li>Contact potential affiliates and networks to join Apollo’s program</li>
+							<li>Maintain level of familiarity with all aspects of accounts – including marketing methods</li>
+							<li>Manage and optimize campaigns from start to finish</li>
+							<li>Build and grow affiliate relationships to provide excellent level of support</li>
+							<li>Monitor performance of campaigns and suggest strategies for optimization</li>
+							<li>Conduct research on industry and market trends, potential clients, and new networks</li>
+							<li>Attend meetings and conferences with current affiliates and networks</li>
+d94 1
+a94 1
+							<li>Online advertising or agency experience is preferred</li>
+d96 4
+a99 2
+							<li>Team player with strong collaboration skills.</li>
+							<li>Excellent MS Excel skills are required</li>
+d108 2
+a109 1
+						<a href='/careers/apply-form.php?pos=account_coordinator' class="btn btn-directions">
+d113 1
+@
+
+
+1.44
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d16 31
+d75 1
+a75 1
+						<a href='/careers/apply-form.php?pos=lax_intern' class="btn btn-directions">
+@
+
+
+1.43
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 33
+@
+
+
+1.42
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d14 1
+a14 34
+					<div class="job-listing">
+						<h2>New Business Development Manager - Dallas Office</h2>
+						<p>Apollo Interactive is a full-service digital centric advertising agency with offices in Dallas and Los Angeles.  We are proudly independent and have been doing digital marketing since 1995 for such prestigious and well-known brands as Jack in the Box, Chuck E. Cheese’s, Wingstop, Curves, Visionworks, and Universal Sports Network, to name a few.  Our services include Web site development, digital advertising, and traditional marketing.  We are excellent at what we do and take tremendous pride in delivering services that positively affect our client’s bottom line.</p>
+						<p>We are looking to hire a New Business Development Manager in our Dallas office.</p>
+						<ul>Responsibilities include:
+							<li>Build a prospecting strategy focused on generating qualified leads</li>
+							<li>Engage prospects through various channels</li>
+							<li>Present Apollo’s capabilities and experience both in person and virtually</li>
+							<li>Determine the validity of the opportunity: relevant marketing need, competitive conflict, revenue expectations, location, etc.</li>
+							<li>Collaborate with Management to develop the proper approach for each opportunity</li>
+							<li>Be an active participant in crafting the approach, strategy, and solution when responding to RFIs/RFPs as well as other potential projects</li>
+							<li>Serve as part of the development pitch team</li>
+							<li>Attend local events, advertising meetings, networking functions, etc. to expand your reach</li>
+						</ul>
+						<ul>Qualifications:
+							<li>Excited about the challenge of pursuing and closing business</li>
+							<li>3-5 years of new business development experience</li>
+							<li>Ad Sales / Digital agency experience a plus but not required</li>
+							<li>Self-starter and independent thinker</li>
+							<li>Good organizational and time management skills</li>
+							<li>Strong verbal and written communication skills, including good grammar, spelling, punctuation and attention to detail</li>
+						</ul>
+						<ul>Benefits:
+							<li>Annual salary and performance review</li>
+							<li>Commissions based on meeting performance goals</li>
+							<li>Medical, dental and vision coverage</li>
+							<li>401(K)</li>
+							<li>Dynamic work environment and intimate exposure to the area of advertising and specifically digital</li>
+						</ul>
+						<p>Applicants will not be considered unless a cover letter and resume are provided.</p>
+						<a href='/careers/apply-form.php?pos=new_business_development_manager' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+@
+
+
+1.41
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@a13 38
+
+					<div class="job-listing">
+						<h2>PHP Programmer - Los Angeles Office</h2>
+						<p>Apollo Interactive is seeking a team-oriented, PHP Programmer to join our Los Angeles (El Segundo) office. This is a full-time position. Salary will be in line with candidate’s experience, however please provide requirements in your cover letter. Likely candidates will have 1-2 years experience in similar position using PHP/MySQL. You will be part of an established team that is responsible for the development of new Web sites from inception to completion and for performing updates to existing Web sites. Ideal candidates have excellent code/commenting, are able to manage multiple projects, have good communication skills, and a solid understanding of the Web site development process.</p>
+						<ul>Responsibilities:
+							<li>Program large, database-driven Web sites</li>
+							<li>Requirements gathering and preparing functional/technical specifications </li>
+							<li>Ability to communicate well with both staff and clients</li>
+							<li>Work closely with Account Services, Creative, and Web Producers</li>
+							<li>Self-motivator and good attitude</li>
+							<li>Willingness to learn and apply new technologies as needed</li>
+						</ul>
+						<ul>Qualifications:
+							<li>2+ years programming in Agency or similar environment</li>
+							<li>Must be able to create a functional Webpage using only Notepad or similar text editor</li>
+							<li>Basic SQL Knowledge</li>
+							<li>Good understanding of Object Oriented Programming</li>
+							<li>Good understanding of JavaScript, JQuery, XML</li>
+							<li>BS degree in CS (or similar)</li>
+						</ul>
+						<ul>Experience with the following is helpful but not required
+							<li>Frameworks</li>
+							<li>Web Services</li>
+							<li>Online Marketing</li>
+							<li>Lead Generation</li>
+						</ul>
+						<ul>Benefits:
+							<li>Annual salary and performance review</li>
+							<li>Medical and dental benefits</li>
+							<li>401(K)</li>
+							<li>Dynamic work environment and diverse client portfolio </li>
+						</ul>
+						<p>Please be aware that this is a full-time, in-house position and potential candidates should reside in the Los Angeles area. Only resumes with a cover letter stating your interest and salary requirements will be considered.</p>
+						<a href='/careers/apply-form.php?pos=new_business_development_manager' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+
+a48 34
+						<h2>Account Coordinator - Los Angeles Office</h2>
+						<p>Apollo Interactive is seeking an organized and team-oriented Account Coordinator to join our Los Angeles (El Segundo) office. This is a full-time position. As an Account Coordinator, you will be part of our Insurance Practice division and assist in our Affiliate Department – managing, tracking and optimizing our company’s new and existing online affiliate database and advertising networks.</p>
+						<p>Ideal candidates will be organized, methodical, quick learners, possess great communication and negotiation skills, and have at least one year experience in internet marketing. Applicants must be motivated, professional and have excellent time management skills. Applicant must also be able to work efficiently in a small team environment and manage multiple projects at once. Proficiency in Microsoft Excel is a must as data will be analyzed for information regarding industry trends, optimization of campaigns and scaling of volume to maximize revenue.</p>
+						<ul>Responsibilities include:
+							<li>Support the lead generation team that services our clients in the insurance industry</li>
+							<li>Assist Affiliate Manager in managing and optimizing all affiliate and network accounts</li>
+							<li>Contact potential affiliates and networks to join Apollo’s program</li>
+							<li>Maintain level of familiarity with all aspects of accounts – including marketing methods</li>
+							<li>Manage and optimize campaigns from start to finish</li>
+							<li>Build and grow affiliate relationships to provide excellent level of support</li>
+							<li>Monitor performance of campaigns and suggest strategies for optimization</li>
+							<li>Conduct research on industry and market trends, potential clients, and new networks</li>
+							<li>Attend meetings and conferences with current affiliates and networks</li>
+						</ul>
+						<ul>Qualifications:
+							<li>BA/BS degree from 4-year university required</li>
+							<li>Online advertising or agency experience is preferred</li>
+							<li>Basic understanding of lead generation and the insurance industry is a plus</li>
+							<li>Team player with strong collaboration skills.</li>
+							<li>Excellent MS Excel skills are required</li>
+							<li>Desire to learn and grow!</li>
+						</ul>
+						<ul>Benefits:
+							<li>Annual salary and performance review</li>
+							<li>Medical and dental benefits</li>
+							<li>401(K)</li>
+							<li>Dynamic work environment and diverse client portfolio</li>
+						</ul>
+						<p>Only resumes with a cover letter stating your interest and salary requirements will be considered.</p>
+						<a href='/careers/apply-form.php?pos=account_executive' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>	
+					<div class="job-listing">
+@
+
+
+1.40
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d87 1
+a87 1
+						<h2>Account Coordinator</h2>
+@
+
+
+1.39
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@a147 25
+					<div class="job-listing">
+						<h2>Interactive Strategy Intern – Los Angeles Office</h2>
+						<p>We are currently seeking Interactive Strategy Interns to work in our Los Angeles office for the summer. Get a behind the scenes look and an experience at what we do for our clients. You will be included in the day to day management across multiple clients and campaigns. This is a part-time, unpaid position.</p>
+						<p>Expect 2 – 3 days a week and a maximum of 20 hours.</p>
+						<p>As an intern you should be prepared to work in a fast-paced team environment and expect to finish the internship having gained experience in various aspects of digital media.</p>
+						<ul>Responsibilities include:
+							<li>Implement social media campaigns</li>
+							<li>Analyze performance data</li>
+							<li>Special industry research projects</li>
+							<li>Involvement in new client research</li>
+						</ul>
+						<ul>We're looking for interns that:
+							<li>Are going to be a Junior or Senior</li>
+							<li>Have an interest in a career in Advertising</li>
+							<li>Have excellent math skills</li>
+							<li>Have experience in Excel</li>
+							<li>Held previous internships in media, marketing or relevant extracurricular activities</li>
+							<li>Is looking for college credit</li>
+							<li>And of course the disclaimer: you need to be organized, motivated, detail oriented, and able to multi-task.</li>
+						</ul>
+						<a href='/careers/apply-form.php?pos=lax_strategyIntern' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+									
+@
+
+
+1.38
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d16 1
+a16 1
+						<h2>PHP Programmer</h2>
+d53 1
+a53 1
+						<h2>New Business Development Manager (Dallas)</h2>
+@
+
+
+1.37
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d14 38
+@
+
+
+1.36
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d15 34
+@
+
+
+1.35
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d15 2
+a16 2
+						<h2>Account Executive</h2>
+						<p>Apollo Interactive is seeking an organized and team-oriented Account Executive to join our Los Angeles (El Segundo) office. This is a full-time position. As an Account Executive, you will be part of our Insurance Practice division and assist in our Affiliate Department – managing, tracking and optimizing our company’s new and existing online affiliate database and advertising networks.</p>
+d54 1
+a54 1
+							<li> Assist Account Executive in on-boarding new vendors</li>
+@
+
+
+1.34
+log
+@User lopez stupidly forgot a change comment. Tsk!
+@
+text
+@d2 1
+a2 1
+<title>Apollo Interactive | Careers</title>
+@
+
+
+1.33
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d44 1
+a44 1
+						<a href='/careers/apply-form.php?pos=lax_intern' class="btn btn-directions">
+@
+
+
+1.32
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@a1 1
+
+a3 1
+
+a4 1
+
+a7 1
+		
+d13 35
+a47 1
+					<p class="highlight-text">...who get the value of hard work.</h1>			
+a51 1
+								
+a75 1
+					
+a80 1
+							
+a86 1
+
+a105 1
+		
+@
+
+
+1.31
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d17 1
+a17 228
+					<p class="highlight-text">...who get the value of hard work.</h1>
+					
+					<div class="job-listing">
+						<h2>Account Executive</h2>
+						<p>
+							Apollo Interactive is seeking an analytical, operational and team-oriented Account Executive to join our Los Angeles (El Segundo) office. This is a full-time position. As an Account Executive, you will be part of our Insurance Practice division and assist in evaluating, tracking, optimizing and reporting numerous online advertising and lead generation campaigns for new and existing clients.
+						</p>
+						<p>
+							Ideal candidates will be analytical, organized, methodical, quick learners, with at least one year experience in internet marketing. Applicants must have excellent communication and time management skills, be able to work efficiently in a small team environment and manage multiple projects at once. Proficiency in Microsoft Excel is a must.
+						</p>
+								
+						<ul>Responsibilities include:
+							<li>
+								Support the lead generation team that services our clients in the insurance industry
+							</li>
+							<li> 
+								Assist Account Manager in preparing media plans and online media buying
+							</li>
+							<li>
+								Traffic ad units and assemble creative assets for campaigns and vendors 
+							</li>
+							<li>
+								Manage and optimize campaigns from start to finish
+							</li>
+							<li>
+								Generate and analyze detailed campaign reports and provide recommendations
+							</li>
+							<li>
+								Monitor performance of campaigns and suggest strategies for optimization
+							</li>
+							<li>
+								Conduct research on industry and market trends, potential clients, and new vendors
+							</li>
+							<li>
+								Attend meetings and conferences with current partners, potential clients and vendors
+							</li>
+						</ul>
+								
+						<ul>Qualifications:
+							<li>
+								BA/BS degree from 4-year university required
+							</li>
+							<li>
+								Online advertising or agency experience is preferred
+							</li>
+							<li>
+								Basic understanding of lead generation and the insurance industry is a plus
+							</li>
+							<li>
+								Ability to strategize, analyze, and optimize around data
+							</li>
+							<li>
+								Team player with strong collaboration skills
+							</li>
+							<li>
+								Excellent MS Excel skills are required
+							</li>
+							<li>
+								Desire to learn and grow!
+							</li>
+						</ul>
+								
+						<ul>Benefits:
+							<li>
+								Annual salary and performance review
+							</li>
+							<li>
+								Medical and dental benefits
+							</li>
+							<li>
+								401(K)
+							</li>
+							<li>
+								Dynamic work environment and diverse client portfolio
+							</li>
+						</ul>
+
+						<p>Only resumes with a cover letter stating your interest and salary requirements will be considered.</p>
+					
+						<a href='/careers/apply-form.php?pos=account_executive' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+
+					<div class="job-listing">
+						<h2>Search Engine Marketing (SEM) Account Executive</h2>
+						<p>
+							Apollo Interactive is seeking a proven, analytical, and team-oriented Search Engine Marketing (SEM) Manager. This is a full-time position in our Los Angeles office. You will also be responsible for the overall digital strategy, media planning, media buying, trafficking, optimizing, and reporting of these campaigns. You will also be responsible for managing multiple paid search accounts, hundreds of campaigns, and tens of thousands of keywords aimed at generating traffic and leads for our clients.
+						</p>
+						<p>
+							You will work closely with our Account Executives, Account Managers and the Director of the division on a daily basis to maximize revenue. Ideal candidates will have a combination of strong mathematical and analytical skills coupled with a strong marketing insight and training. The candidate will be a proven multi-tasking specialist, with strong critical thinking and problem solving skills. Advanced skills in SEM, Adwords, Adcenter and Microsoft Excel are a must.
+						</p>
+								
+						<ul>Responsibilities include:
+							<li>
+								Manage daily execution of paid search campaigns
+							</li>
+							<li> 
+								Conceptualize and implement optimization strategies and tests for SEM campaigns
+							</li>
+							<li>
+								Keep up to date with paid search best practices and strategies 
+							</li>
+							<li>
+								Hands-on bid optimization to meet and exceed volume and ROI targets
+							</li>
+							<li>
+								Build and develop keyword expansion plans
+							</li>
+							<li>
+								A/B test landing pages, creative, messaging and multiple user experiences
+							</li>
+							<li>
+								Competitive Research
+							</li>
+							<li>
+								Search Analytics
+							</li>
+							<li>
+								Search Query Optimization
+							</li>
+							<li>
+								Quality Score Optimization
+							</li>
+							<li>
+								Develop, maintain and analyze detailed reporting of campaigns
+							</li>
+							<li>
+								Generate quantitative analysis and models to optimize campaigns
+							</li>
+						</ul>
+								
+						<ul>Qualifications:
+							<li>
+								1+ years of strong Search Engine Marketing / Paid Search experience
+							</li>
+							<li>
+								Familiarity with lead generation in the online space
+							</li>
+							<li>
+								An understanding of the Insurance industry a plus
+							</li>
+							<li>
+								Strong analytical background and can define, report on, and optimize key metrics on a weekly/monthly/quarterly basis
+							</li>
+							<li>
+								Google and Microsoft certifications are a plus.
+							</li>
+							<li>
+								Microsoft Excel fluency. Ability to macro is a plus.
+							</li>
+							<li>
+								Excellent time management skills and strong attention to detail are essential
+							</li>
+							<li>
+								Excellent verbal and written communication skills
+							</li>
+							<li>
+								Team player with strong collaboration skills.
+							</li>
+							<li>
+								BA/BS degree from 4-year university
+							</li>
+						</ul>
+								
+						<ul>Benefits:
+							<li>
+								Annual salary and performance review
+							</li>
+							<li>
+								100% fully covered medical and dental benefits
+							</li>
+							<li>
+								401(K)
+							</li>
+							<li>
+								Dynamic work environment
+							</li>
+						</ul>
+
+						<p>ONLY RESUMES WITH A COVER LETTER STATING SALARY REQUIREMENTS WILL BE CONSIDERED.</p>
+						<p>Apollo Interactive is a full-service Interactive Agency with offices in Los Angeles and Dallas. Our services include Web Development and Online Advertising for some of America’s largest well-known companies including Curves, Chuck E. Cheese’s, Visionworks, and Wingstop.</p>
+
+						<a href='/careers/apply-form.php?pos=SEM_account_executive' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+
+					<div class="job-listing">
+						<h2>Search Marketing Analyst</h2>
+						<p>Apollo Interactive is seeking an analytical and detail-oriented team player to join our team as a Search Marketing Analyst. This is a full-time position in our Los Angeles (El Segundo) office. The position will be involved with managing multiple paid search accounts, hundreds of campaigns, and tens of thousands of keywords that generate leads for our clients in the insurance industry. You will also contribute to the overall strategy, media planning, media buying, trafficking, optimizing, and reporting of these campaigns.</p>
+						<p>We are looking for a proven multi-tasking specialist, with strong critical thinking and problem solving skills. You will work closely with our Account Executives, Account Managers and the Director of the division on a daily basis to maximize revenue for the company. Ideal candidates will have strong mathematical and analytical background and are ready and eager to learn. Experience in SEM, Adwords, and Adcenter is a plus, but not required. Proficiency in Microsoft Excel is a must.</p>
+						<ul>Responsibilities include:
+							<li>Manage daily execution of paid search campaigns</li>
+							<li>Conceptualize and implement optimization strategies and tests for SEM campaigns</li>
+							<li>Keep up to date with paid search best practices and strategies</li>
+							<li>Hands-on bid optimization to meet and exceed volume and ROI targets</li>
+							<li>Build and develop keyword expansion plans</li>
+							<li>A/B test landing pages, creative, messaging and multiple user experiences</li>
+							<li>Competitive Research</li>
+							<li>Search Analytics</li>
+							<li>Search Query Optimization</li>
+							<li>Quality Score Optimization</li>
+							<li>Develop, maintain and analyze detailed reporting of campaigns</li>
+							<li>Generate quantitative analysis and models to optimize campaigns</li>
+						</ul>
+						<ul>Qualifications:
+							<li>BA/BS degree from 4-year university</li>
+							<li>Strong quantitative and analytical background</li>
+							<li>Excellent time management skills and strong attention to detail are essential</li>
+							<li>Team player with strong collaboration skills</li>
+							<li>Excellent verbal and written communication skills</li>
+							<li>Microsoft Excel fluency (Ability to macro is a plus)</li>
+							<li>Familiarity with lead generation in the online space</li>
+							<li>An understanding of the Insurance industry a plus</li>
+						</ul>
+						<ul>
+							<li>Annual salary and performance review</li>
+							<li>100% fully covered medical and dental benefits</li>
+							<li>401(K)</li>
+							<li>Dynamic work environment</li>
+						</ul>
+						<p>ONLY RESUMES WITH A COVER LETTER STATING SALARY REQUIREMENTS WILL BE CONSIDERED.</p>
+						<a href='/careers/apply-form.php?pos=lax_intern' class="btn btn-directions">
+							<span id="txt-apply">APPLY NOW</span>
+						</a>
+					</div>
+																								
+d24 11
+a34 33
+							<li>
+								Support the lead generation team that services our clients in the insurance industry
+							</li>
+							<li> 
+								Assist Account Executive in on-boarding new vendors
+							</li>
+							<li>
+								Assist Account Manager in on-boarding new clients
+							</li>
+							<li>
+								Traffic ad units and assemble creative assets for new campaigns
+							</li>
+							<li>
+								Monitor and analyze and existing advertising campaigns
+							</li>
+							<li>
+								Conduct research on industry and market trends, potential clients, and new vendors
+							</li>
+							<li>
+								Find and create content for Search Engine Optimization Strategies
+							</li>
+							<li>
+								Posting and sharing content on social media sites
+							</li>
+							<li>
+								Inspect and test existing lead forms
+							</li>
+							<li>
+								Linkbuilding outreach
+							</li>
+							<li>
+								Updating existing databases
+							</li>
+a35 1
+						
+d37 5
+a41 15
+							<li>
+								BA/BS degree from 4-year university
+							</li>
+							<li>
+								Basic understanding of online advertising space 
+							</li>
+							<li>
+								Ability to strategize, analyze, and optimize around data
+							</li>
+							<li>
+								Proficient MS Office skills are a must
+							</li>
+							<li>
+								Desire to learn and grow!
+							</li>
+@
+
+
+1.30
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d204 40
+@
+
+
+1.29
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d96 1
+a96 1
+						<a href='/careers/apply-form.php?pos=art_director' class="btn btn-directions">
+d200 1
+a200 1
+						<a href='/careers/apply-form.php?pos=art_director' class="btn btn-directions">
+@
+
+
+1.28
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 82
+@
+
+
+1.27
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@a18 1
+					<!--
+d20 7
+a26 2
+						<h2>Art Director – Los Angeles/Dallas Office</h2>
+						<p>At our agency, the Art Director is responsible for the visual design of any and all creative endeavors, including both Digital and Traditional efforts. He/she reports directly to the Managing Director and works collaboratively on a daily basis with the Account and Production teams to bring our Client’s visions to life. The individual must have a passion for graphic design and keenly understand the balance between aesthetics and function. Adding his/her own style is key while remaining within the boundaries of established Client brand guidelines and standards.</p>
+d30 1
+a30 1
+								Develop original design concepts (Comps) for Web sites, landing pages, promotional microsites, and banners
+d33 1
+a33 1
+								Develop and produce original design concepts for Print and Outdoor
+d36 1
+a36 1
+								Extrapolate visions from wire frames, sketches, other Client collateral, etc. 
+d39 1
+a39 1
+								Oversee production of your design through execution
+d42 1
+a42 1
+								Design innovative and intuitive layouts that utilize a diverse range of visuals (photography, illustration, animation, infographics, icons, etc.).
+d45 1
+a45 1
+								Produce exceptional work in short time frames, manage time efficiently while multi-tasking across different projects and clients.
+d48 1
+a48 1
+								Communicate conceptual ideas and design rationale to internal and external (Client) stakeholders
+d51 13
+a63 1
+								Design concepts for mobile rendering
+d69 4
+a72 1
+								Strong conceptual thinker with knowledge of visual storytelling, typography, iconography, color theory, proportion and layout for Web and offline
+d75 1
+a75 1
+								Proven experience and excellent portfolio of similar work
+d78 1
+a78 1
+								Bachelor’s degree in design or equivalent work experience
+d81 1
+a81 1
+								3+ years of experience in design and art production
+d84 13
+a96 1
+								Positive, enthusiastic attitude
+d105 1
+a105 1
+								Medical, dental and vision coverage
+d111 1
+a111 1
+								Dynamic work environment and diverse client portfolio
+d115 3
+a121 1
+					-->
+@
+
+
+1.26
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d19 1
+d88 1
+@
+
+
+1.25
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d16 2
+a17 1
+					<h1><span class="title-thin">We hire talented people who get the</span> value of hard work…</h1>
+@
+
+
+1.24
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d1 175
+a175 39
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+	
+	<script type="text/javascript">
+		<?php if($_POST) : ?>
+			$(function() {
+				$('#application-modal').modal('show');
+			});
+			
+			
+		<?php endif;?>
+	</script>
+    </head>
+    <body id="pg_capabilities" class="pg_inside">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content" class="row-fluid">
+							<h1>Careers</h1>
+						</div>
+						<div class="row-fluid">
+							<p>
+								We are actively seeking talented individuals to fill the positions listed below.   Even if you don’t see a position listed that's right for you, please feel free to contact us at 
+								<script type="text/javascript">
+									<!-- 
+									email=('careers@@' + 'apollointeractive.com')
+									document.write('<a href="mailto:' + email + '" style="color:#ffff00">' + email + '</a>')
+									 //-->
+								</script>.
+							</p>
+						</div>
+						<div id="interactive_content" class="row-fluid">
+							<div class="gray-box">
+														
+								<div class="accordion" id="accordion_career">
+d177 1
+a177 236
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseOne">
+													Art Director – Los Angeles/Dallas Office <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseOne" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+													At our agency, the Art Director is responsible for the visual design of any and all creative endeavors, including both Digital and Traditional efforts. He/she reports directly to the Managing Director and works collaboratively on a daily basis with the Account and Production teams to bring our Client’s visions to life. The individual must have a passion for graphic design and keenly understand the balance between aesthetics and function. Adding his/her own style is key while remaining within the boundaries of established Client brand guidelines and standards. 							
+												</p>
+												Responsibilities include:
+												<ul>
+													<li>
+														Develop original design concepts (Comps) for Web sites, landing pages, promotional microsites, and banners
+													</li>
+													<li> 
+														Develop and produce original design concepts for Print and Outdoor
+													</li>
+													<li>
+														Extrapolate visions from wire frames, sketches, other Client collateral, etc. 
+													</li>
+													<li>
+														Oversee production of your design through execution
+													</li>
+													<li>
+														Design innovative and intuitive layouts that utilize a diverse range of visuals (photography, illustration, animation, infographics, icons, etc.).
+													</li>
+													<li>
+														Produce exceptional work in short time frames, manage time efficiently while multi-tasking across different projects and clients.
+													</li>
+													<li>
+														Communicate conceptual ideas and design rationale to internal and external (Client) stakeholders
+													</li>
+													<li>
+														Design concepts for mobile rendering
+													</li>
+												</ul>
+												Qualifications:
+												<ul>
+													<li>
+														Strong conceptual thinker with knowledge of visual storytelling, typography, iconography, color theory, proportion and layout for Web and offline
+													</li>
+													<li>
+														Proven experience and excellent portfolio of similar work
+													</li>
+													<li>
+														Bachelor’s degree in design or equivalent work experience
+													</li>
+													<li>
+														3+ years of experience in design and art production
+													</li>
+													<li>
+														Positive, enthusiastic attitude
+													</li>
+												</ul>
+												Benefits:
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														Medical, dental and vision coverage
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment and diverse client portfolio
+													</li>
+												</ul>
+												<a href='/careers/apply-form.php?pos=art_director' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+																									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseTwo">
+													Intern – Los Angeles Office <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseTwo" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+													Apollo Interactive is seeking an energetic, talented and team-oriented Intern to join our Los Angeles (El Segundo) office.  This is a part-time, unpaid position. As an Intern you will be part of our Insurance Practice team and will work closely with our Account team in preparing, executing, tracking, and reporting on online advertising campaigns to generate leads for new and existing clients.  
+												</p>
+												<p>
+													Ideal candidates will be organized, out-going, quick learners, and extremely analytical with an interest in Internet marketing. Applicants must have excellent communication and time management skills, be able to work efficiently in a small team environment and be able to manage multiple projects at once.
+												</p>
+												Responsibilities include:
+												<ul>
+													<li>
+														Support the lead generation team that services our clients in the insurance industry
+													</li>
+													<li> 
+														Assist Account Executive in on-boarding new vendors
+													</li>
+													<li>
+														Assist Account Manager in on-boarding new clients
+													</li>
+													<li>
+														Traffic ad units and assemble creative assets for new campaigns
+													</li>
+													<li>
+														Monitor and analyze and existing advertising campaigns
+													</li>
+													<li>
+														Conduct research on industry and market trends, potential clients, and new vendors
+													</li>
+													<li>
+														Find and create content for Search Engine Optimization Strategies
+													</li>
+													<li>
+														Posting and sharing content on social media sites
+													</li>
+													<li>
+														Inspect and test existing lead forms
+													</li>
+													<li>
+														Linkbuilding outreach
+													</li>
+													<li>
+														Updating existing databases
+													</li>
+												</ul>
+												Qualifications:
+												<ul>
+													<li>
+														BA/BS degree from 4-year university
+													</li>
+													<li>
+														Basic understanding of online advertising space 
+													</li>
+													<li>
+														Ability to strategize, analyze, and optimize around data
+													</li>
+													<li>
+														Proficient MS Office skills are a must
+													</li>
+													<li>
+														Desire to learn and grow!
+													</li>
+												</ul>
+												<a href='/careers/apply-form.php?pos=lax_intern' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseThree">
+													Interactive Strategy Intern – Los Angeles Office <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseThree" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+													We are currently seeking Interactive Strategy Interns to work in our Los Angeles office for the summer. Get a behind the scenes look and an experience at what we do for our clients. You will be included in the day to day management across multiple clients and campaigns. This is a part-time, unpaid position. 
+												</p>
+												<p>
+													Expect 2 – 3 days a week and a maximum of 20 hours.
+												</p>
+												<p>
+													As an intern you should be prepared to work in a fast-paced team environment and expect to finish the internship having gained experience in various aspects of digital media.
+												</p>
+												Responsibilities include:
+												<ul>
+													<li>
+														Implement social media campaigns
+													</li>
+													<li> 
+														Analyze performance data
+													</li>
+													<li>
+														Special industry research projects
+													</li>
+													<li>
+														Involvement in new client research
+													</li>
+												</ul>
+												We're looking for interns that:
+												<ul>
+													<li>
+														Are going to be a Junior or Senior
+													</li>
+													<li>
+														Have an interest in a career in Advertising
+													</li>
+													<li>
+														Have excellent math skills
+													</li>
+													<li>
+														Have experience in Excel
+													</li>
+													<li>
+														Held previous internships in media, marketing or relevant extracurricular activities
+													</li>
+													<li>
+														Is looking for college credit
+													</li>
+													<li>
+														And of course the disclaimer: you need to be organized, motivated, detail oriented, and able to multi-task.
+													</li>
+												</ul>
+												<a href='/careers/apply-form.php?pos=lax_strategyIntern' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<? /*
+									<!--NO POSITIONS-->
+									<p>
+										There are no available positions at this time.
+									</p>
+								*/ ?>
+							</div>
+						</div>
+					</article>
+				</section>
+d179 2
+d182 1
+a182 6
+		<script>
+			require(['app/main'], function($){
+				// location in /js/main.js
+				interactive_arrow_nav();
+			});
+		</script>
+@
+
+
+1.23
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d45 1
+a45 1
+													Art Director – Los Angeles Office <span class="icon icon-plus"></span>
+@
+
+
+1.22
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d40 1
+a40 1
+																										
+d45 81
+d130 1
+a130 1
+										<div id="collapseOne" class="accordion-body collapse">
+d203 1
+a203 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseTwo">
+d208 1
+a208 1
+										<div id="collapseTwo" class="accordion-body collapse">
+@
+
+
+1.21
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d40 1
+a40 1
+																	
+d45 1
+a45 1
+													Search Engine Marketing (SEM) Account Manager – Los Angeles Office <span class="icon icon-plus"></span>
+a51 111
+													Apollo Interactive is seeking a proven, analytical, and team-oriented Search Engine Marketing (SEM) Manager. This is a full-time position in our Los Angeles office. You will also be responsible for the overall digital strategy, media planning, media buying, trafficking, optimizing, and reporting of these campaigns. You will also be responsible for managing multiple paid search accounts, hundreds of campaigns, and tens of thousands of keywords aimed at generating traffic and leads for our clients.  
+												</p>
+												<p>
+													You will work closely with our Account Executives, Account Managers and the Director of the division on a daily basis to maximize revenue. Ideal candidates will have a combination of strong mathematical and analytical skills coupled with a strong marketing insight and training. The candidate will be a proven multi-tasking specialist, with strong critical thinking and problem solving skills. Advanced skills in SEM, Adwords, Adcenter and Microsoft Excel are a must. 
+												</p>
+												Responsibilities include:
+												<ul>
+													<li>
+														Manage daily execution of paid search campaigns
+													</li>
+													<li> 
+														Conceptualize and implement optimization strategies and tests for SEM campaigns
+													</li>
+													<li>
+														Keep up to date with paid search best practices and strategies
+													</li>
+													<li>
+														Hands-on bid optimization to meet and exceed volume and ROI targets
+													</li>
+													<li>
+														Build and develop keyword expansion plans
+													</li>
+													<li>
+														A/B test landing pages, creative, messaging and multiple user experiences
+													</li>
+													<li>
+														Competitive Research
+													</li>
+													<li>
+														Search Analytics
+													</li>
+													<li>
+														Search Query Optimization
+													</li>
+													<li>
+														Quality Score Optimization
+													</li>
+													<li>
+														Develop, maintain and analyze detailed reporting of campaigns
+													</li>
+													<li>
+														Generate quantitative analysis and models to optimize campaigns
+													</li>
+												</ul>
+												Qualifications:
+												<ul>
+													<li>
+														2+ years of strong Search Engine Marketing / Paid Search experience 
+													</li>
+													<li>
+														Familiarity with lead generation in the online space
+													</li>
+													<li>
+														An understanding of the Insurance industry a plus
+													</li>
+													<li>
+														Strong analytical background and can define, report on, and optimize key metrics on a weekly/monthly/quarterly basis
+													</li>
+													<li>
+														Google and Microsoft certifications are a plus.
+													</li>
+													<li>
+														Excellent time management skills and strong attention to detail are essential
+													</li>
+													<li>
+														Excellent verbal and written communication skills
+													</li>
+													<li>
+														Team player with strong collaboration skills.
+													</li>
+													<li>
+														BA/BS degree from 4-year university
+													</li>
+												</ul>
+												Benefits:
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														100% fully covered medical and dental benefits
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment
+													</li>
+												</ul>
+												<p>
+													ONLY RESUMES WITH A COVER LETTER STATING SALARY REQUIREMENTS WILL BE CONSIDERED.
+												</p>
+												<a href='/careers/apply-form.php?pos=lax_sem' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseTwo">
+													Intern – Los Angeles Office <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseTwo" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+d122 1
+a122 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseThree">
+d127 1
+a127 1
+										<div id="collapseThree" class="accordion-body collapse">
+@
+
+
+1.20
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d45 111
+d160 1
+a160 1
+										<div id="collapseOne" class="accordion-body collapse">
+d233 1
+a233 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseTwo">
+d238 1
+a238 1
+										<div id="collapseTwo" class="accordion-body collapse">
+@
+
+
+1.19
+log
+@User raede stupidly forgot a change comment. Tsk!
+@
+text
+@d40 1
+a40 1
+								
+d45 1
+a45 1
+													Search Marketing Manager – Los Angeles Office <span class="icon icon-plus"></span>
+a51 312
+													Apollo Interactive is seeking a proven, analytical, operational and team-oriented Search Marketing Manager to join our El Segundo office. This is a full-time position. You will be responsible for managing multiple paid search accounts, hundreds of campaigns, and over 100k keywords aimed at generating leads for our clients in the Insurance industry. In addition you will be responsible for overall strategy, media planning, media buying, trafficking, optimizing, and reporting on online advertising campaigns.
+												</p>
+												<p>
+													Applicants must have at least two years experience in search engine marketing. As a Search Marketing Manager, you will be part of our Insurance Division and will work closely with our Account Executives, Account Managers and the Director of the division. Ideal candidates will have a combination of strong mathematical and analytical skills coupled with a strong marketing insight and training. The candidate will be a proven multi-tasking specialist, with strong critical thinking and problem solving skills. Advanced skills in SEM, Adwords, Adcenter and Microsoft Excel are a must. 
+												</p>
+												Responsibilities include:
+												<ul>
+													<li>
+														Manage daily execution of paid search campaigns
+													</li>
+													<li>
+														Conceptualize and implement optimization strategies and tests for SEM campaigns
+													</li>
+													<li>
+														Keep up to date with paid search best practices and strategies
+													</li>
+													<li>
+														Hands-on bid optimization to meet and exceed volume and ROI targets
+													</li>
+													<li>
+														Build and develop keyword expansion plans
+													</li>
+													<li>
+														A/B test landing pages, creative, messaging and multiple user experiences
+													</li>
+													<li>
+														Competitive Research
+													</li>
+													<li>
+														Search Analytics
+													</li>
+													<li>
+														Search Query Optimization
+													</li>
+													<li>
+														Quality Score Optimization
+													</li>
+													<li>
+														Develop, maintain and analyze detailed reporting of campaigns
+													</li>
+													<li>
+														Generate quantitative analysis and models to optimize campaigns
+													</li>
+												</ul>
+												Qualifications
+												<ul>
+													<li>
+														2+ years experience in Search Engine Marketing.
+													</li>
+													<li> 
+														Strong familiarity with lead generation and an understanding of the insurance industry
+													</li>
+													<li>
+														Ability to strategize, analyze, and optimize around data
+													</li>
+													<li>
+														Advanced MS Excel, Adwords, and Adcenter skills are required
+													</li>
+													<li>
+														Google and Microsoft certifications are a plus.
+													</li>
+													<li>
+														Excellent time management skills and strong attention to detail are essential
+													</li>
+													<li>
+														Excellent verbal and written communication skills
+													</li>
+													<li>
+														Team player with strong collaboration skills.
+													</li>
+													<li>
+														BA/BS degree from 4-year university
+													</li>
+												</ul>
+												Benefits: 
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														100% fully covered medical and dental benefits
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment
+													</li>
+												</ul>
+												<p>
+													Only resumes with a cover letter stating your interest and salary requirements will be considered.
+												</p>
+												<a href='/careers/apply-form.php?pos=lax_semManager' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+																		
+									<!-- <div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseTwo">
+													PHP Programmer - Los Angeles <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseTwo" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+													We are seeking a team-oriented, skilled PHP Programmer to join Apollo in our El Segundo office. This is a full-time position. Salary will be in line with candidate's experience, however please provide requirements in your cover letter. Likely candidates will have 2-4 years experience in similar position using PHP/MySQL. You will be part of an established team that is responsible for the development of new Web sites from inception to completion and for performing updates to existing Web sites. Ideal candidates have excellent code/commenting, are able to manage multiple projects, have good communication skills, and a solid understanding of the Web site development process. 
+												</p>
+												Responsibilities:
+												<ul>
+													<li>
+														Program large, database-driven Web sites
+													</li>
+													<li>
+														Requirements gathering and preparing functional/technical specifications
+													</li>
+													<li>
+														Ability to communicate well with both staff and clients
+													</li>
+													<li>
+														Work closely with Account Services, Creative, and Web Producers
+													</li>
+													<li>
+														Self-motivator and good attitude
+													</li>
+													<li>
+														Willingness to learn and apply new technologies as needed
+													</li>
+												</ul>
+												Qualifications:
+												<ul>
+													<li>
+														2+ years programming in Agency or similar environment
+													</li>
+													<li> 
+														Must be able to create a functional Webpage using only Notepad or similar text editor
+													</li>
+													<li>
+														Expert SQL Knowledge
+													</li>
+													<li>
+														Strong understanding of Object Oriented Programming
+													</li>
+													<li>
+														Good understanding of JavaScript, JQuery, XML
+													</li>
+													<li>
+														BS degree in CS (or similar)
+													</li>
+												</ul>
+												Experience with the following is helpful but not required
+												<ul>
+													<li>
+														Unit Testing
+													</li>
+													<li>
+														Design Patterns
+													</li>
+													<li>
+														Frameworks
+													</li>
+													<li>
+														Web Services
+													</li>
+													<li>
+														Online Marketing
+													</li>
+													<li>
+														Lead Generation
+													</li>	
+												</ul>
+												Benefits: 
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														Medical, dental and vision coverage
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment and diverse client portfolio
+													</li>
+												</ul>
+												<p>
+													Please be aware that this is a full-time, in-house position and potential candidates should reside in the Los Angeles area.
+												</p>
+												<a href='/careers/apply-form.php?pos=lax_programmer' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div> -->
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseThree">
+													PHP Programmer - Dallas <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseThree" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+													We are seeking a team-oriented, skilled PHP Programmer to join Apollo in our Dallas office. This is a full-time position. Salary will be in line with candidate’s experience, however please provide requirements in your cover letter. Likely candidates will have 2-4 years experience in similar position using PHP/MySQL. You will be part of an established team that is responsible for the development of new Web sites from inception to completion and for performing updates to existing Web sites. Ideal candidates have excellent code/commenting, are able to manage multiple projects, have good communication skills, and a solid understanding of the Web site development process.
+												</p>
+												Responsibilities:
+												<ul>
+													<li>
+														Program large, database-driven Web sites
+													</li>
+													<li>
+														Requirements gathering and preparing functional/technical specifications
+													</li>
+													<li>
+														Ability to communicate well with both staff and clients
+													</li>
+													<li>
+														Work closely with Account Services, Creative, and Web Producers
+													</li>
+													<li>
+														Self-motivator and good attitude
+													</li>
+													<li>
+														Willingness to learn and apply new technologies as needed
+													</li>
+												</ul>
+												Qualifications:
+												<ul>
+													<li>
+														2+ years programming in Agency or similar environment
+													</li>
+													<li> 
+														Must be able to create a functional Webpage using only Notepad or similar text editor
+													</li>
+													<li>
+														Expert SQL Knowledge
+													</li>
+													<li>
+														Strong understanding of Object Oriented Programming
+													</li>
+													<li>
+														Good understanding of JavaScript, JQuery, XML
+													</li>
+													<li>
+														BS degree in CS (or similar)
+													</li>
+												</ul>
+												Experience with the following is helpful but not required
+												<ul>
+													<li>
+														Unit Testing
+													</li>
+													<li>
+														Design Patterns
+													</li>
+													<li>
+														Frameworks
+													</li>
+													<li>
+														Web Services
+													</li>
+													<li>
+														Online Marketing
+													</li>
+													<li>
+														Lead Generation
+													</li>	
+												</ul>
+												Benefits: 
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														Medical, dental and vision coverage
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment and diverse client portfolio
+													</li>
+												</ul>
+												<a href='/careers/apply-form.php?pos=dfw_programmer' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFour">
+													Intern – Los Angeles Office <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseFour" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+d122 1
+a122 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFive">
+d127 1
+a127 1
+										<div id="collapseFive" class="accordion-body collapse">
+@
+
+
+1.18
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d152 1
+a152 1
+									<div class="accordion-group">
+d252 1
+a252 1
+									</div>
+@
+
+
+1.17
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d156 1
+a156 1
+													Front End Web Developer – Los Angeles Office <span class="icon icon-plus"></span>
+a162 69
+													We are looking for a Front-End Web Developer to join our team in our Los Angeles office. 
+												</p>
+												<p>
+													This person will be responsible for producing HTML/CSS and Web graphic work for a variety of our clients, including full Web site redesigns, Microsites, Landing Pages, Emails, and maintenance requests. In addition, this person will work closely with our Account Services, Creative, and Programming departments on a daily basis to come up with solutions for the client’s digital presences.
+												</p>
+												<p>
+													Applicants must be able to hand-code HTML (candidates dependent upon WYSIWYG applications will not be considered) and demonstrated proficiency in HTML/CSS-based Web design optimized for all major browsers. Any Flash or PHP Programming knowledge is a plus; however, we have full-time personnel who handle these responsibilities for the sites. 
+												</p>
+												Additional Qualifications
+												<ul>
+													<li>
+														2 years of experience in front end development.
+													</li>
+													<li> 
+														Experience working within agency a plus.
+													</li>
+													<li>
+														Proficient in HTML, CSS, Photoshop.
+													</li>
+													<li>
+														Knowledge of JavaScript and JQuery.
+													</li>
+													<li>
+														Experience in building PHP-driven sites or pages (to be delivered to in-house programmers).
+													</li>
+													<li>
+														Ability to take a PSD, slice the images and hand code the resulting images into a Web page.
+													</li>
+													<li>
+														Mobile Web experience desired, particularly responsive design but not required.
+													</li>
+												</ul>
+												Benefits: 
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														Medical, dental and vision coverage
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment and diverse client portfolio
+													</li>
+												</ul>
+												<p>
+													Please be aware that this is a full-time, in-house position and potential candidates should reside in the Los Angeles area.
+												</p>
+												<a href='/careers/apply-form.php?pos=lax_frontEnd' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseThree">
+													PHP Programmer - Los Angeles <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseThree" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+d257 1
+a257 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFour">
+d262 1
+a262 1
+										<div id="collapseFour" class="accordion-body collapse">
+d356 1
+a356 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFive">
+d361 1
+a361 1
+										<div id="collapseFive" class="accordion-body collapse">
+d434 1
+a434 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseSix">
+d439 1
+a439 1
+										<div id="collapseSix" class="accordion-body collapse">
+@
+
+
+1.16
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@a413 3
+												<p>
+													Please be aware that this is a full-time, in-house position and potential candidates should reside in the Los Angeles area.
+												</p>
+@
+
+
+1.15
+log
+@User parrish stupidly forgot a change comment. Tsk!
+@
+text
+@d151 1
+a151 1
+									<?php /* ?>
+d220 1
+a220 1
+									<?php /**/ ?>
+d327 102
+d433 1
+a433 1
+										<div id="collapseFour" class="accordion-body collapse">
+d506 1
+a506 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFive">
+d511 1
+a511 1
+										<div id="collapseFive" class="accordion-body collapse">
+@
+
+
+1.14
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d151 1
+a151 1
+																		
+d220 1
+a220 1
+									
+@
+
+
+1.13
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d45 1
+a45 1
+													SEM Account Manager – Los Angeles Office <span class="icon icon-plus"></span>
+d141 3
+@
+
+
+1.12
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d40 108
+d152 1
+a152 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseOne">
+d157 1
+a157 1
+										<div id="collapseOne" class="accordion-body collapse">
+d221 1
+a221 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseTwo">
+d226 1
+a226 1
+										<div id="collapseTwo" class="accordion-body collapse">
+d323 1
+a323 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseThree">
+d328 1
+a328 1
+										<div id="collapseThree" class="accordion-body collapse">
+d401 1
+a401 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFour">
+d406 1
+a406 1
+										<div id="collapseFour" class="accordion-body collapse">
+@
+
+
+1.11
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d40 1
+d45 1
+a45 1
+													Analyst – Los Angeles Office <span class="icon icon-plus"></span>
+a51 104
+													Apollo Interactive is seeking an analytical, operational and team-oriented Analyst to join our Los Angeles (El Segundo) office.  This is a full-time position. As an Analyst, you will be part of our Insurance Practice team and assist in analyzing, tracking, optimizing and reporting on online advertising and lead generation campaigns for new and existing clients.  You will also be responsible for a variety of our billing procedures, including managing the month end close, invoicing clients, paying vendors and monitoring credit terms.
+												</p>
+												<p>
+													Ideal candidates will be organized, strategic thinking, quick learners, and extremely analytical with an interest in Internet marketing. Applicants must have excellent communication and time management skills, be able to work efficiently in a small team environment and be able to manage multiple projects at once. Advanced skills in Microsoft Excel are a must. 
+												</p>
+												Responsibilities include:
+												<ul>
+													<li>
+														Develop, maintain and analyze detailed reporting of campaigns
+													</li>
+													<li>
+														Generate quantitative analysis and models to optimize advertising campaigns
+													</li>
+													<li>
+														Provide comprehensive analysis of key metrics and trends
+													</li>
+													<li>
+														Monitor performance of campaigns and suggest strategies for improvement
+													</li>
+													<li>
+														Recommend steps to improve efficiency of current processes
+													</li>
+													<li>
+														Diagnose and assist with time sensitive issues relating to data errors and trends
+													</li>
+													<li>
+														Create streamlined process for billing and invoicing with vendors, clients and affiliates
+													</li>
+													<li>
+														Manage monthly billing and invoicing procedures for Insurance Practice
+													</li>
+													<li>
+														Reconcile client and vendor numbers to confirm accurate billing
+													</li>
+													<li>
+														Verify new client credit references and monitor existing client credit terms 
+													</li>
+												</ul>
+												Qualifications:
+												<ul>
+													<li>
+														BA/BS degree from 4-year university
+													</li>
+													<li>
+														Coursework in finance, accounting, or business is preferred
+													</li>
+													<li>
+														Basic understanding of lead generation and the insurance industry
+													</li>
+													<li>
+														Digital advertising or agency experience is a plus
+													</li>
+													<li>
+														Ability to strategize, analyze, and optimize around data
+													</li>
+													<li>
+														Excellent time management skills and strong attention to detail are essential
+													</li>
+													<li>
+														Excellent verbal and written communication skills
+													</li>
+													<li>
+														Advanced MS Excel skills are required
+													</li>
+													<li>
+														Desire to learn and grow!
+													</li>
+												</ul>
+												Benefits: 
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														100% fully covered medical and dental benefits
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment
+													</li>
+												</ul>
+												Only resumes with a cover letter stating your interest and salary requirements will be considered.
+												<br />
+												<a href='/careers/apply-form.php?pos=lax_analyst' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseTwo">
+													Front End Web Developer – Los Angeles Office <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseTwo" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+d113 1
+a113 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseThree">
+d118 1
+a118 1
+										<div id="collapseThree" class="accordion-body collapse">
+d215 1
+a215 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFour">
+d220 1
+a220 1
+										<div id="collapseFour" class="accordion-body collapse">
+d293 1
+a293 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFive">
+d298 1
+a298 1
+										<div id="collapseFive" class="accordion-body collapse">
+@
+
+
+1.10
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d304 3
+@
+
+
+1.9
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d217 1
+a217 1
+													Front End Web Developer – Dallas Office <span class="icon icon-plus"></span>
+a223 66
+													We are looking for a Front-End Web Developer to join our team in our Dallas office. 
+												</p>
+												<p>
+													This person will be responsible for producing HTML/CSS and Web graphic work for a variety of our clients, including full Web site redesigns, Microsites, Landing Pages, Emails, and maintenance requests. In addition, this person will work closely with our Account Services, Creative, and Programming departments on a daily basis to come up with solutions for the client’s digital presences.
+												</p>
+												<p>
+													Applicants must be able to hand-code HTML (candidates dependent upon WYSIWYG applications will not be considered) and demonstrated proficiency in HTML/CSS-based Web design optimized for all major browsers. Any PHP Programming knowledge is a plus; however, we have full-time personnel who handle these responsibilities for the sites. 
+												</p>
+												Additional Qualifications
+												<ul>
+													<li>
+														1-2 years of experience in front end development
+													</li>
+													<li> 
+														Experience working within agency a plus
+													</li>
+													<li>
+														Proficient in HTML, CSS, Photoshop
+													</li>
+													<li>
+														Knowledge of JavaScript and JQuery
+													</li>
+													<li>
+														Experience in building PHP-driven sites or pages (to be delivered to in-house programmers)
+													</li>
+													<li>
+														Ability to take a PSD, slice the images and hand code the resulting images into a Web page
+													</li>
+													<li>
+														Mobile Web experience desired, particularly responsive design but not required
+													</li>
+												</ul>
+												Benefits: 
+												<ul>
+													<li>
+														Annual salary and performance review
+													</li>
+													<li>
+														Medical, dental and vision coverage
+													</li>
+													<li>
+														401(K)
+													</li>
+													<li>
+														Dynamic work environment and diverse client portfolio
+													</li>
+												</ul>
+												<a href='/careers/apply-form.php?pos=dfw_frontEnd' class="btn btn-directions">
+													<span id="txt-apply">APPLY NOW</span>
+													<span class="icon icon-arrow-small"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									
+									<div class="accordion-group">
+										<div class="accordion-heading">
+											<h2>
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFour">
+													PHP Programmer - Los Angeles <span class="icon icon-plus"></span>
+												</a>
+											</h2>
+										</div>
+										<div id="collapseFour" class="accordion-body collapse">
+											<div class="accordion-inner clearfix">
+												<p>
+d315 1
+a315 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFive">
+d320 1
+a320 1
+										<div id="collapseFive" class="accordion-body collapse">
+d393 1
+a393 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseSix">
+d398 1
+a398 1
+										<div id="collapseSix" class="accordion-body collapse">
+@
+
+
+1.8
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d283 99
+d386 1
+a386 1
+										<div id="collapseFour" class="accordion-body collapse">
+d459 1
+a459 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseFive">
+d464 1
+a464 1
+										<div id="collapseFive" class="accordion-body collapse">
+@
+
+
+1.7
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d357 66
+@
+
+
+1.6
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d148 69
+d221 1
+a221 1
+										<div id="collapseTwo" class="accordion-body collapse">
+d282 1
+a282 1
+												<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_career" href="#collapseThree">
+d287 1
+a287 1
+										<div id="collapseThree" class="accordion-body collapse">
+@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d2 10
+d30 1
+a30 1
+									email=('jobs@@' + 'apollointeractive.com')
+d135 5
+d148 1
+a148 1
+													Intern – Los Angeles Office <span class="icon icon-plus"></span>
+d155 4
+a158 1
+													Apollo Interactive is seeking an energetic, talented and team-oriented Intern to join our Los Angeles (El Segundo) office.  This is a part-time, unpaid position. As an Intern you will be part of our Insurance Practice team and will work closely with our Account team in preparing, executing, tracking, and reporting on online advertising campaigns to generate leads for new and existing clients.  
+d161 1
+a161 1
+													Ideal candidates will be organized, out-going, quick learners, and extremely analytical with an interest in Internet marketing. Applicants must have excellent communication and time management skills, be able to work efficiently in a small team environment and be able to manage multiple projects at once.
+d163 1
+a163 1
+												Responsibilities include:
+d166 1
+a166 1
+														Support the lead generation team that services our clients in the insurance industry
+d169 1
+a169 1
+														Assist Account Executive in on-boarding new vendors
+d172 1
+a172 1
+														Assist Account Manager in on-boarding new clients
+d175 1
+a175 1
+														Traffic ad units and assemble creative assets for new campaigns
+d178 1
+a178 1
+														Monitor and analyze and existing advertising campaigns
+d181 1
+a181 1
+														Conduct research on industry and market trends, potential clients, and new vendors
+d184 1
+a184 13
+														Find and create content for Search Engine Optimization Strategies
+													</li>
+													<li>
+														Posting and sharing content on social media sites
+													</li>
+													<li>
+														Inspect and test existing lead forms
+													</li>
+													<li>
+														Linkbuilding outreach
+													</li>
+													<li>
+														Updating existing databases
+d187 1
+a187 1
+												Qualifications:
+d190 1
+a190 1
+														BA/BS degree from 4-year university
+d193 1
+a193 1
+														Basic understanding of online advertising space 
+d196 1
+a196 1
+														Ability to strategize, analyze, and optimize around data
+d199 1
+a199 4
+														Proficient MS Office skills are a must
+													</li>
+													<li>
+														Desire to learn and grow!
+d202 4
+d214 1
+a214 1
+													Front End Web Developer – Dallas Office <span class="icon icon-plus"></span>
+d221 1
+a221 1
+													We are looking for a Front-End Web Developer to join our team in our Dallas office. 
+d224 1
+a224 1
+													Apollo Interactive is a full-service Interactive Agency with offices in Dallas and Los Angeles. Our services include Web Development and Online Advertising for some of America’s largest well-known companies including Curves, Chuck E. Cheese’s, Visionworks, and Wingstop.
+d226 1
+a226 7
+												<p>
+													This person will be responsible for producing HTML/CSS and Web graphic work for a variety of our clients, including full Web site redesigns, Microsites, Landing Pages, Emails, and maintenance requests. In addition, this person will work closely with our Account Services, Creative, and Programming departments on a daily basis to come up with solutions for the client’s digital presences.
+												</p>
+												<p>
+													Applicants must be able to hand-code HTML (candidates dependent upon WYSIWYG applications will not be considered) and demonstrated proficiency in HTML/CSS-based Web design optimized for all major browsers. Any PHP Programming knowledge is a plus; however, we have full-time personnel who handle these responsibilities for the sites. 
+												</p>
+												RAdditional Qualifications
+d229 1
+a229 1
+														1-2 years of experience in front end development
+d232 13
+a244 1
+														Experience working within agency a plus
+d247 1
+a247 1
+														Proficient in HTML, CSS, Photoshop
+d250 1
+a250 1
+														Knowledge of JavaScript and JQuery
+d253 1
+a253 1
+														Experience in building PHP-driven sites or pages (to be delivered to in-house programmers)
+d256 1
+a256 1
+														Ability to take a PSD, slice the images and hand code the resulting images into a Web page
+d259 1
+a259 1
+														Mobile Web experience desired, particularly responsive design but not required
+d262 1
+a262 1
+												Benefits: 
+d265 4
+a268 1
+														Annual salary and performance review
+d271 1
+a271 1
+														Medical, dental and vision coverage
+d274 1
+a274 1
+														401(K)
+d277 1
+a277 1
+														Dynamic work environment and diverse client portfolio
+d280 4
+a294 9
+								<p style="margin-left:2em;">
+									Email resumes and cover letters to
+									<script type="text/javascript">
+										<!-- 
+										email=('jobs@@' + 'apollointeractive.com')
+										document.write('<A href="mailto:' + email + '">' + email + '</a>')
+										 //-->
+									</script>
+								</p>
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d34 1
+a34 1
+													Analyst – Los Angeles Office <span class="icon icon-minus"></span>
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d133 1
+a133 1
+													Intern – Los Angeles Office <span class="icon icon-minus"></span>
+d207 1
+a207 1
+													Front End Web Developer – Dallas Office <span class="icon icon-minus"></span>
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d17 7
+a23 1
+								Apollo Interactive is a full-service Interactive Advertising Agency with offices in El Segundo, CA and Dallas, TX. Our services include Web Development and Online Advertising for some of America’s largest well-known companies like Curves International, Blue Cross Blue Shield, Noah's Bagels, Wingstop and Extraco Banks.
+d34 1
+a34 1
+													Analyst – Ad Agency <span class="icon icon-minus"></span>
+d133 1
+a133 1
+													Intern – Ad Agency <span class="icon icon-minus"></span>
+d148 3
+a150 1
+														Support the lead generation team that services our clients in the insurance industry   
+d152 2
+d155 2
+d158 2
+d161 2
+d164 2
+d167 2
+d170 2
+d173 2
+d176 2
+d202 66
+d276 1
+a276 1
+									Email resumes to
+@
+
+
+1.1
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d184 7
+a190 1
+									Email resumes to <a href="">jobs@@apollointeractive.com</a>
+@

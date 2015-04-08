@@ -1,0 +1,2442 @@
+head	1.25;
+access;
+symbols;
+locks
+	sysop:1.25; strict;
+comment	@# @;
+
+
+1.25
+date	2014.08.19.17.43.04;	author stgbrock;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2014.08.07.20.27.48;	author stgbrock;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2014.07.28.19.40.26;	author stgbrock;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2014.07.17.19.36.19;	author stgolson;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2014.07.16.16.17.47;	author stgolson;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2014.07.08.21.23.32;	author stgolson;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2014.07.03.19.28.17;	author stgolson;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2014.07.03.16.28.03;	author stgolson;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2014.07.02.21.41.09;	author stgolson;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2014.05.29.00.00.49;	author stgvillanueva;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2014.04.25.00.00.50;	author stgvillanueva;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2014.01.09.23.26.04;	author stgvillanueva;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2014.01.09.23.24.45;	author stgvillanueva;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2014.01.09.00.45.37;	author stgvillanueva;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2014.01.02.21.51.43;	author stgvillanueva;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2013.12.27.01.09.02;	author stgvillanueva;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2013.12.20.00.25.39;	author stgvillanueva;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.12.13.23.05.27;	author stgvillanueva;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2013.12.13.22.24.24;	author stgvillanueva;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2013.12.13.01.18.47;	author stgvillanueva;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2013.12.10.20.51.42;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.12.06.23.08.32;	author stgvillanueva;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.12.06.06.16.43;	author stgvillanueva;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.25
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    
+    <title>Apollo Interactive | Work</title>
+	<meta name="description" content="Our ideas and solutions help consumer brands achieve practical marketing goals through engaging messaging, targeted media, and exceptional analysis.">
+
+    </head>
+
+    <body id="pg_work" class="bg-img">
+		
+		<div class="wrapper">
+				<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				<div class="opacity-bg"></div>
+				<div class="container">
+				
+					<div class="content">
+
+						<h1><span style="font-weight:400">We aspire to</span> deliver programs that work…</h1>
+						<p class="highlight-text">…by establishing, then exceeding, stated goals to drive the client’s business.</p>
+
+						<div class="page_sub_navigation">
+							<a class="sub-nav" href="#visionworks">Visionworks</a>
+							<a class="sub-nav" href="#einstein_noah">Einstein Noah</a>
+							<a class="sub-nav" href="#universal">Universal Sports</a>
+							<a class="sub-nav" href="#curves">Curves</a>
+							<a class="sub-nav" href="#bmw">BMW</a>
+							<a class="sub-nav" href="#stage_stores">Stage Stores</a>
+							<a class="sub-nav" href="#wingstop">Wingstop</a>
+							<a class="sub-nav" href="#yoshinoya">Yoshinoya</a>
+						</div>
+
+						<div id="work_content">
+							
+							<h2 id="visionworks">Visionworks</h2>
+							<div id="visionworks" class="work_client">
+								<div id="hdr-visionworks" class="work_hdr">
+									<img src="/img/work-visionworks-header.jpg" alt="" class="full" />
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Virtual Try On Frame Finder
+										</h2>
+										<p>
+											Interactive wizard allows consumers to "try on" eyeglass frames by uploading a picture of themselves or choosing from a variety of model shots. Images can be saved to one's profile and shared via email and Facebook.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/visionworks-block1_1.png" alt="" width="240" height="180" />
+											<img src="/img/work/visionworks-block1_2.jpg" alt="" width="240" height="180" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Content Marketing
+										</h2>
+										<p>
+											Continuous development of content that serves as both engaging, fresh information on the Web site as well as interesting material to be used as the “hook” in native advertising.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/visionworks-block1_3.png" alt="" width="510" height="180" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Customer Lifecycle Email Program
+										</h2>
+										<p>
+											Email marketing program endeavors to build upon a relationship that begins at the POS and keep Visionworks in the mind of the consumer as he/she nears their recurring purchase of glasses.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/visionworks-block2_1.png" alt="" width="185" height="200" />
+											<img src="/img/work/visionworks-block2_2.png" alt="" width="85" height="200" />
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<h2 id="einstein_noah">Einstein Noah</h2>
+							<div id="einstein_noah" class="work_client">
+								<div id="hdr-einstein_noah" class="work_hdr">
+									<img src="/img/work-einstein-header.jpg" alt="" class="full" />
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>Multi-Channel Digital Advertising</h2>
+										<p>Our multi-channel approach (designed to raise awareness, consideration and activate purchase) increased orders and online catering revenue by over 70%.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/noah-block1_1.jpg" alt="" width="172" height="200" />
+											<img src="/img/work/noah-block1_2.png" alt="" width="172" height="200" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>Social Media Campaign</h2>
+										<p>The office lunch, sales meeting, and employee breakfast are all perfect opportunities for catering.  We use social media to reach the key employees who make these purchase decisions.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/noah-block2_1.png" alt="" width="240" height="150" />
+											<img src="/img/work/noah-block2_2.png" alt="" width="240" height="150" />
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<h2 id="universal">Universal Sports</h2>
+							<div id="universal" class="work_client">
+								<div id="hdr-universal" class="work_hdr">
+									<img src="/img/work-universal-header.jpg" alt="" class="full" />
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											118th Boston Marathon
+										</h2>
+										<p>
+											An integrated campaign built awareness of this historic event in key markets around the country. The event was broadcast live on Universal Sports Network. 
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/universal-block1_1.png" alt="" width="349" height="200" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Mavericks Invitational
+										</h2>
+										<p>
+											For the first time ever, the 2014 big wave surfing competition was broadcast live on TV. The event time and date are announced only when conditions are right. With less than 48 hours advance notice, a digital campaign was executed to support coverage of the event. 
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/universal-block2_1.jpg" alt="" width="121" height="180" />
+											<img src="/img/work/universal-block2_2.png" alt="" width="290" height="162" />
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<h2 id="curves">Curves</h2>
+							<div id="curves" class="work_client">
+								<div id="hdr-curves" class="work_hdr">
+									<img src="/img/work-curves-header.jpg" alt="" class="full" />
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>New Web Site and Local Club Solution</h2>
+										<p>Developed web sites and applications to meet the needs of both Curves and the local franchisees.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/curves-block1_1.png" alt="" width="239" height="180" />
+											<img src="/img/work/curves-block1_2.png" alt="" width="240" height="180" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Curves Complete
+										</h2>
+										<p>
+											An online weight loss solution that enables women to plan their meals, develop shopping lists, and track their progress.  Leveraging technology to help women achieve their weight loss goals.  
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/curves-block2_1.png" alt="" width="240" height="180" />
+											<img src="/img/work/curves-block2_2.png" alt="" width="185" height="180" />
+											
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+
+							<h2 id="bmw">BMW</h2>
+							<div id="bmw" class="work_client">
+								<div id="hdr-bmw" class="work_hdr">
+									<img src="/img/work-bmw-header.jpg" alt="" class="full" />
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Integrated Promotional Advertising Campaign
+										</h2>
+										<p>
+											Experiential Marketing, Geo-Targeted Social Media &amp; In-Store Contest Sweepstakes 
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/bmw-block1_1.jpg" alt="" width="286" height="159" />
+											<img src="/img/work/bmw-block1_2.jpg" alt="" width="240" height="160" />
+										</div>
+									</div>
+								</div>
+							</div>
+							
+
+							<h2 id="stage_stores">Stage Stores</h2>
+							<div id="stage_stores" class="work_client">
+								<div id="hdr-stage_stores" class="work_hdr">
+									<img src="/img/work-stage-header.jpg" alt="" / class="full">
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											20:1 ROI on Digital Advertising
+										</h2>
+										<p>
+											With PPC as the anchor of performance, able to layer on digital display, audio, video, and more to generate millions of highly targeted branding impressions that ultimately results in increased searches to drive revenue.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/stage-block1_1.png" alt="" width="209" height="200" />
+											<img src="/img/work/stage-block1_2.png" alt="" width="197" height="200" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Campaign Microsites
+										</h2>
+										<p>
+											Developed standalone microsites to serve as the destination for traditional and digital advertising efforts.  Sourced revenue to unique channels using individual coupon bar codes.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/stage-block2_1.png" alt="" width="190" height="180" />
+											<img src="/img/work/stage-block2_2.png" alt="" width="290" height="162" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Responsive Landing Pages
+										</h2>
+										<p>
+											Destination advertising landing pages are developed using responsive design, to allow consumers to easily retrieve the current offers and coupons via desktop, tablet, or phone for in store redemption.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/stage-block3_1.png" alt="" width="240" height="190" />
+											<img src="/img/work/stage-block3_2.png" alt="" width="78" height="180" />
+										</div>
+									</div>
+								</div>
+							</div>	
+
+
+							<h2 id="wingstop">Wingstop</h2>
+							<div id="wingstop" class="work_client">
+								<div id="hdr-wingstop" class="work_hdr">
+									<img src="/img/work-wingstop-header.jpg" width="960" alt="Promoting the Best wings on the planet. Increased online ordering and site visits by 35% in 2013." class="full" />
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>New Web Site and Online Ordering System</h2>
+										<p>Order wings online, find a location, connect with social media, or own your own restaurant. Our new web site is growing all the numbers.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/wingstop-block1_1.jpg" alt="" width="240" height="180" />
+											<img src="/img/work/wingstop-block1_2.jpg" alt="" width="240" height="180" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>Device Responsive Design</h2>
+										<p>Same site, fluid layouts, thoughtfully designed interfaces to reach all consumers regardless of screen size or device.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/wingstop-block1_3.png" alt="" height="190" width="364" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>Wingstop Radio Pandora Campaign</h2>
+										<p>Campaign engaged consumers with six different Wingstop inspired flavor-branded stations. Mobile advertisements targeted potential customers by geography and demographics.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/wingstop-block2_1.png" alt="" width="189" height="178" />
+											<img src="/img/work/wingstop-block2_2.jpg" alt="" width="240" height="180" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>No Bones About It</h2>
+										<p>User-generated video contest challenging fans to create the next Wingstop commercial. Campaign included social media integration and television commercial.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/wingstop-block3_1.jpg" alt="" width="155" height="190" />
+											<img src="/img/work/wingstop-block3_2.jpg" alt="" width="290" height="162" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>Triple Double Pack LTO Promotion</h2>
+										<p>Digital campaign tied to NBA playoffs designed to build product awareness for the new Triple-Double menu offering. Drove more than 70,000 orders and 90,000 location searches.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/wingstop-block4_1.jpg" alt="" width="157" height="190" />
+											<img src="/img/work/wingstop-block4_2.png" alt="" width="290" height="162" />
+										</div>
+									</div>
+								</div>
+
+							</div>
+								
+
+							<h2 id="yoshinoya">Yoshinoya</h2>
+							<div id="yoshinoya" class="work_client">
+								<div id="hdr-yoshinoya" class="work_hdr">
+									<img src="/img/work-yoshinoya-header.jpg" alt="" class="full" />
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Utilizing Print to Drive Demand
+										</h2>
+										<p>
+											Achieved high ROI through targeted FSI distribution to drive sales at select locations.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/yoshinoya-block1_1.jpg" alt="" width="192" height="200" />
+											<img src="/img/work/yoshinoya-block1_2.png" alt="" width="192" height="200" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Asiana Grill
+										</h2>
+										<p>
+											Supported launch and built awareness of a new restaurant concept from Yoshinoya.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/yoshinoya-block2_1.jpg" alt="" width="240" height="180" />
+											<img src="/img/work/yoshinoya-block2_2.jpg" alt="" width="240" height="180" />
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+			</div>
+		</div>
+	</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			toggleSubnav();
+			var pos = $('#visionworks').offset(),
+				pos2 = $('#einstein_noah').offset();
+			console.log(pos.top, pos2.top);
+
+
+			var scrollPos = $(window).scrollTop();
+			$('a[href="#visionworks"]').css('color', '#33ccff');
+
+			$(window).scroll(function(){
+				scrollPos = $(this).scrollTop();
+				console.log(scrollPos);
+				if(scrollPos <= 1534){
+					$('a[href="#visionworks"]').css('color', '#33ccff');
+					$('a[href="#einstein_noah"]').css('color', '#fff');
+					$('a[href="#universal"]').css('color', '#fff');
+					$('a[href="#curves"]').css('color', '#fff');
+					$('a[href="#bmw"]').css('color', '#fff');
+					$('a[href="#stage_stores"]').css('color', '#fff');
+					$('a[href="#wingstop"]').css('color', '#fff');
+					$('a[href="#yoshinoya"]').css('color', '#fff');
+				} else if (scrollPos > 1534 && scrollPos < 2610){
+					$('a[href="#visionworks"]').css('color', '#fff');
+					$('a[href="#einstein_noah"]').css('color', '#33ccff');
+					$('a[href="#universal"]').css('color', '#fff');
+					$('a[href="#curves"]').css('color', '#fff');
+					$('a[href="#bmw"]').css('color', '#fff');
+					$('a[href="#stage_stores"]').css('color', '#fff');
+					$('a[href="#wingstop"]').css('color', '#fff');
+					$('a[href="#yoshinoya"]').css('color', '#fff');
+				} else if (scrollPos > 2610 && scrollPos < 3688){
+					$('a[href="#visionworks"]').css('color', '#fff');
+					$('a[href="#einstein_noah"]').css('color', '#fff');
+					$('a[href="#universal"]').css('color', '#33ccff');
+					$('a[href="#curves"]').css('color', '#fff');
+					$('a[href="#bmw"]').css('color', '#fff');
+					$('a[href="#stage_stores"]').css('color', '#fff');
+					$('a[href="#wingstop"]').css('color', '#fff');
+					$('a[href="#yoshinoya"]').css('color', '#fff');
+				} else if (scrollPos > 3688 && scrollPos < 4765){
+					$('a[href="#visionworks"]').css('color', '#fff');
+					$('a[href="#einstein_noah"]').css('color', '#fff');
+					$('a[href="#universal"]').css('color', '#fff');
+					$('a[href="#curves"]').css('color', '#33ccff');
+					$('a[href="#bmw"]').css('color', '#fff');
+					$('a[href="#stage_stores"]').css('color', '#fff');
+					$('a[href="#wingstop"]').css('color', '#fff');
+					$('a[href="#yoshinoya"]').css('color', '#fff');
+				} else if (scrollPos > 4765 && scrollPos < 5592){
+					$('a[href="#visionworks"]').css('color', '#fff');
+					$('a[href="#einstein_noah"]').css('color', '#fff');
+					$('a[href="#universal"]').css('color', '#fff');
+					$('a[href="#curves"]').css('color', '#fff');
+					$('a[href="#bmw"]').css('color', '#33ccff');
+					$('a[href="#stage_stores"]').css('color', '#fff');
+					$('a[href="#wingstop"]').css('color', '#fff');
+					$('a[href="#yoshinoya"]').css('color', '#fff');
+				} else if (scrollPos > 5592 && scrollPos < 6919){
+					$('a[href="#visionworks"]').css('color', '#fff');
+					$('a[href="#einstein_noah"]').css('color', '#fff');
+					$('a[href="#universal"]').css('color', '#fff');
+					$('a[href="#curves"]').css('color', '#fff');
+					$('a[href="#bmw"]').css('color', '#fff');
+					$('a[href="#stage_stores"]').css('color', '#33ccff');
+					$('a[href="#wingstop"]').css('color', '#fff');
+					$('a[href="#yoshinoya"]').css('color', '#fff');
+				} else if (scrollPos > 6919 && scrollPos < 8709){
+					$('a[href="#visionworks"]').css('color', '#fff');
+					$('a[href="#einstein_noah"]').css('color', '#fff');
+					$('a[href="#universal"]').css('color', '#fff');
+					$('a[href="#curves"]').css('color', '#fff');
+					$('a[href="#bmw"]').css('color', '#fff');
+					$('a[href="#stage_stores"]').css('color', '#fff');
+					$('a[href="#wingstop"]').css('color', '#33ccff');
+					$('a[href="#yoshinoya"]').css('color', '#fff');
+				} else {
+					$('a[href="#visionworks"]').css('color', '#fff');
+					$('a[href="#einstein_noah"]').css('color', '#fff');
+					$('a[href="#universal"]').css('color', '#fff');
+					$('a[href="#curves"]').css('color', '#fff');
+					$('a[href="#bmw"]').css('color', '#fff');
+					$('a[href="#stage_stores"]').css('color', '#fff');
+					$('a[href="#wingstop"]').css('color', '#fff');
+					$('a[href="#yoshinoya"]').css('color', '#33ccff');
+				}
+			});
+
+			
+			
+			
+
+			function toggleSubnav(){
+				if($(window).width() > 640){
+					$('#work_side_sub').show();
+				}
+			}
+		});
+	</script>
+	
+    </body>
+</html>
+@
+
+
+1.24
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d413 90
+@
+
+
+1.23
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d36 1
+a36 1
+									<img src="/img/work-visionworks-header.jpg" alt="" />
+d94 1
+a94 1
+									<img src="/img/work-einstein-header.jpg" alt="" />
+d125 1
+a125 1
+							<h2 id="universal">Universal Sports Network</h2>
+d128 1
+a128 1
+									<img src="/img/work-universal-header.jpg" alt="" />
+d169 1
+a169 1
+									<img src="/img/work-curves-header.jpg" alt="" />
+d209 1
+a209 1
+									<img src="/img/work-bmw-header.jpg" alt="" />
+d234 1
+a234 1
+									<img src="/img/work-stage-header.jpg" alt="" />
+d293 1
+a293 1
+									<img src="/img/work-wingstop-header.jpg" width="960" alt="Promoting the Best wings on the planet. Increased online ordering and site visits by 35% in 2013." />
+d366 1
+a366 1
+									<img src="/img/work-yoshinoya-header.jpg" alt="" />
+@
+
+
+1.22
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d410 10
+@
+
+
+1.21
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+    <title>Apollo Interactive | Our Work</title>
+@
+
+
+1.20
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d59 1
+a59 1
+											Content Creation and Marketing
+d78 1
+a78 1
+											Email marketing program endeavors to build upon a relationship that begins at the POS and periodically keep Visionworks in the mind of the consumer over the course of 1 to 2 years as he/she nears their recurring purchase of glasses.
+d408 1
+a408 1
+
+@
+
+
+1.19
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d20 11
+d33 1
+a33 2
+
+							<h2>Visionworks</h2>
+d91 1
+a91 1
+							<h2>Einstein Bros.</h2>
+d125 1
+a125 1
+							<h2>Universal Sports Newtwork</h2>
+d166 1
+a166 1
+							<h2>Curves</h2>
+d206 1
+a206 1
+							<h2>BMW</h2>
+d231 1
+a231 1
+							<h2>Stage Stores</h2>
+d290 1
+a290 1
+							<h2>Wingstop</h2>
+d363 1
+a363 1
+							<h2>Yoshinoya</h2>
+@
+
+
+1.18
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d213 1
+a213 1
+											<img src="/img/work/bmw-block1_1.jpg" alt="" width="288" height="160" />
+@
+
+
+1.17
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d22 5
+a26 3
+							<div id="wingstop" class="work_client">
+								<div id="hdr-wingstop" class="work_hdr">
+									<img src="/img/work-wingstop-header.jpg" width="960" alt="Promoting the Best wings on the planet. Increased online ordering and site visits by 35% in 2013." />
+d31 6
+a36 2
+										<h2>New Web Site and Online Ordering System</h2>
+										<p>Order wings online, find a location, connect with social media, or own your own restaurant. Our new web site is growing all the numbers.</p>
+d40 2
+a41 2
+											<img src="/img/work/wingstop-block1_1.jpg" alt="" width="240" height="180" />
+											<img src="/img/work/wingstop-block1_2.jpg" alt="" width="240" height="180" />
+d48 6
+a53 2
+										<h2>Device Responsive Design</h2>
+										<p>Same site, fluid layouts, thoughtfully designed interfaces to reach all consumers regardless of screen size or device.</p>
+d57 1
+a57 1
+											<img src="/img/work/wingstop-block1_3.png" alt="" height="190" width="364" />
+d64 6
+a69 2
+										<h2>Wingstop Radio Pandora Campaign</h2>
+										<p>Campaign engaged consumers with six different Wingstop inspired flavor-branded stations. Mobile advertisements targeted potential customers by geography and demographics.</p>
+d73 2
+a74 2
+											<img src="/img/work/wingstop-block2_1.png" alt="" width="189" height="178" />
+											<img src="/img/work/wingstop-block2_2.jpg" alt="" width="240" height="180" />
+d78 8
+d89 2
+a90 2
+										<h2>No Bones About It</h2>
+										<p>User-generated video contest challenging fans to create the next Wingstop commercial. Campaign included social media integration and television commercial.</p>
+d94 2
+a95 2
+											<img src="/img/work/wingstop-block3_1.jpg" alt="" width="155" height="190" />
+											<img src="/img/work/wingstop-block3_2.jpg" alt="" width="290" height="162" />
+d102 2
+a103 2
+										<h2>Triple Double Pack LTO Promotion</h2>
+										<p>Digital campaign tied to NBA playoffs designed to build product awareness for the new Triple-Double menu offering. Drove more than 70,000 orders and 90,000 location searches.</p>
+d107 2
+a108 2
+											<img src="/img/work/wingstop-block4_1.jpg" alt="" width="157" height="190" />
+											<img src="/img/work/wingstop-block4_2.png" alt="" width="290" height="162" />
+a111 1
+
+a112 1
+								
+d115 4
+a118 3
+							<div id="curves" class="work_client">
+								<div id="hdr-curves" class="work_hdr">
+									<img src="/img/work-curves-header.jpg" alt="" />
+d123 6
+a128 2
+										<h2>New Web Site and Local Club Solution</h2>
+										<p>Developed web sites and applications to meet the needs of both Curves and the local franchisees.</p>
+d132 1
+a132 2
+											<img src="/img/work/curves-block1_1.png" alt="" width="239" height="180" />
+											<img src="/img/work/curves-block1_2.png" alt="" width="240" height="180" />
+d140 1
+a140 1
+											Curves Complete
+d143 1
+a143 1
+											An online weight loss solution that enables women to plan their meals, develop shopping lists, and track their progress.  Leveraging technology to help women achieve their weight loss goals.  
+d148 2
+a149 3
+											<img src="/img/work/curves-block2_1.png" alt="" width="240" height="180" />
+											<img src="/img/work/curves-block2_2.png" alt="" width="185" height="180" />
+											
+a152 1
+
+d156 4
+a159 4
+
+							<div id="einstein_noah" class="work_client">
+								<div id="hdr-einstein_noah" class="work_hdr">
+									<img src="/img/work-einstein-header.jpg" alt="" />
+d164 2
+a165 2
+										<h2>Multi-Channel Digital Advertising</h2>
+										<p>Our multi-channel approach (designed to raise awareness, consideration and activate purchase) increased orders and online catering revenue by over 70%.</p>
+d169 2
+a170 15
+											<img src="/img/work/noah-block1_1.jpg" alt="" width="172" height="200" />
+											<img src="/img/work/noah-block1_2.png" alt="" width="172" height="200" />
+										</div>
+									</div>
+								</div>
+
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>Social Media Campaign</h2>
+										<p>The office lunch, sales meeting, and employee breakfast are all perfect opportunities for catering.  We use social media to reach the key employees who make these purchase decisions.</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/noah-block2_1.png" alt="" width="240" height="150" />
+											<img src="/img/work/noah-block2_2.png" alt="" width="240" height="150" />
+a173 8
+							</div>
+
+
+
+							<div id="visionworks" class="work_client">
+								<div id="hdr-visionworks" class="work_hdr">
+									<img src="/img/work-visionworks-header.jpg" alt="" />
+								</div>
+d178 1
+a178 1
+											Virtual Try On Frame Finder
+d181 1
+a181 1
+											Interactive wizard allows consumers to "try on" eyeglass frames by uploading a picture of themselves or choosing from a variety of model shots. Images can be saved to one's profile and shared via email and Facebook.
+d186 3
+a188 2
+											<img src="/img/work/visionworks-block1_1.png" alt="" width="240" height="180" />
+											<img src="/img/work/visionworks-block1_2.jpg" alt="" width="240" height="180" />
+d193 7
+a199 14
+								<div class="portfolio-content">
+									<div class="left-side">
+										<h2>
+											Content Creation and Marketing
+										</h2>
+										<p>
+											Continuous development of content that serves as both engaging, fresh information on the Web site as well as interesting material to be used as the “hook” in native advertising.
+										</p>
+									</div>
+									<div class="right-side">
+										<div class="work-images">
+											<img src="/img/work/visionworks-block1_3.png" alt="" width="510" height="180" />
+										</div>
+									</div>
+d205 1
+a205 1
+											Customer Lifecycle Email Program
+d208 1
+a208 1
+											Email marketing program endeavors to build upon a relationship that begins at the POS and periodically keep Visionworks in the mind of the consumer over the course of 1 to 2 years as he/she nears their recurring purchase of glasses.
+d213 2
+a214 2
+											<img src="/img/work/visionworks-block2_1.png" alt="" width="185" height="200" />
+											<img src="/img/work/visionworks-block2_2.png" alt="" width="85" height="200" />
+d219 1
+d221 1
+a221 2
+
+
+d280 5
+d286 11
+a296 3
+							<div id="yoshinoya" class="work_client">
+								<div id="hdr-yoshinoya" class="work_hdr">
+									<img src="/img/work-yoshinoya-header.jpg" alt="" />
+d301 2
+a302 6
+										<h2>
+											Utilizing Print to Drive Demand
+										</h2>
+										<p>
+											Achieved high ROI through targeted FSI distribution to drive sales at select locations.
+										</p>
+d306 1
+a306 2
+											<img src="/img/work/yoshinoya-block1_1.jpg" alt="" width="192" height="200" />
+											<img src="/img/work/yoshinoya-block1_2.png" alt="" width="192" height="200" />
+d313 2
+a314 6
+										<h2>
+											Asiana Grill
+										</h2>
+										<p>
+											Supported launch and built awareness of a new restaurant concept from Yoshinoya.
+										</p>
+d318 2
+a319 2
+											<img src="/img/work/yoshinoya-block2_1.jpg" alt="" width="240" height="180" />
+											<img src="/img/work/yoshinoya-block2_2.jpg" alt="" width="240" height="180" />
+a322 1
+							</div>
+d324 11
+a334 5
+
+
+							<div id="universal" class="work_client">
+								<div id="hdr-universal" class="work_hdr">
+									<img src="/img/work-universal-header.jpg" alt="" />
+d339 2
+a340 6
+										<h2>
+											118th Boston Marathon
+										</h2>
+										<p>
+											An integrated campaign built awareness of this historic event in key markets around the country. The event was broadcast live on Universal Sports Network. 
+										</p>
+d344 2
+a345 1
+											<img src="/img/work/universal-block1_1.png" alt="" width="349" height="200" />
+d350 9
+d362 1
+a362 1
+											Mavericks Invitational
+d365 1
+a365 1
+											For the first time ever, the 2014 big wave surfing competition was broadcast live on TV. The event time and date are announced only when conditions are right. With less than 48 hours advance notice, a digital campaign was executed to support coverage of the event. 
+d370 2
+a371 2
+											<img src="/img/work/universal-block2_1.jpg" alt="" width="121" height="180" />
+											<img src="/img/work/universal-block2_2.png" alt="" width="290" height="162" />
+a374 8
+							</div>
+
+
+
+							<div id="bmw" class="work_client">
+								<div id="hdr-bmw" class="work_hdr">
+									<img src="/img/work-bmw-header.jpg" alt="" />
+								</div>
+d379 1
+a379 1
+											Integrated Promotional Advertising Campaign
+d382 1
+a382 1
+											Experiential Marketing, Geo-Targeted Social Media &amp; In-Store Contest Sweepstakes 
+d387 2
+a388 2
+											<img src="/img/work/bmw-block1_1.jpg" alt="" width="288" height="160" />
+											<img src="/img/work/bmw-block1_2.jpg" alt="" width="240" height="160" />
+d393 2
+a394 1
+							
+@
+
+
+1.16
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d97 1
+a97 1
+									<img src="/img/work/hdr-curves.jpg" alt="" />
+d137 1
+a137 1
+									<img src="/img/work/hdr-einstein_noah.jpg" alt="" />
+d171 1
+a171 1
+									<img src="/img/work/hdr-visionworks.jpg" alt="" />
+d229 1
+a229 1
+									<img src="/img/work/hdr-stage_stores.jpg" alt="" />
+d288 1
+a288 1
+									<img src="/img/work/hdr-yoshinoya.jpg" alt="" />
+d330 1
+a330 1
+									<img src="/img/work/hdr-universal.jpg" alt="" />
+d371 1
+a371 1
+									<img src="/img/work/hdr-bmw.jpg" alt="" />
+@
+
+
+1.15
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@a97 13
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-curves.png" alt="Curves" />
+										</div>
+										<div class="copy">
+											<h2>
+												HELPING MILLIONS OF WOMEN GET FIT
+											</h2>
+											<p>
+												Acquired 300,000 new members
+											</p>
+										</div>
+									</div>
+d99 5
+a103 8
+								<div class="work_clrblk_temp blk_bg">
+									<div class="content curves_bg_clr">
+										<h2>
+											New Web Site and Local Club Solution
+										</h2>
+										<p>
+											Developed web sites and applications to meet the needs of both Curves and the local franchisees. 
+										</p>
+d105 2
+a106 2
+									<div class="img">
+										<div class="img_blk">
+a107 11
+											<span>
+												<i class="up_arrow"></i>
+												<a href="http://www.curves.com/" target="_blank">
+													Brand Site
+												</a>
+											</span>
+										</div>
+										
+									</div>
+									<div class="img">
+										<div class="img_blk">
+a108 4
+											<span>
+												<i class="up_arrow"></i>
+												Local Curves Club
+											</span>
+a109 1
+										
+d112 3
+a114 2
+								<div class="work_clrblk_temp blk_bg">
+									<div class="content curves_bg_clr">
+d122 2
+a123 2
+									<div class="img">
+										<div class="img_blk">
+a124 10
+											<span>
+												<i class="up_arrow"></i>
+												<a href="http://www.curvescomplete.com/" target="_blank">
+													Desktop Version
+												</a>
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+d126 1
+a126 4
+											<span>
+												<i class="up_arrow"></i>
+												Mobile Version
+											</span>
+d130 1
+d132 3
+d138 11
+a148 3
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-noah.png" alt="Einstein Noah" />
+d150 12
+a161 7
+										<div class="copy">
+											<h2>
+												Keeping more offices happy and well fed
+											</h2>
+											<p>
+												Increased catering sales by over 70% in 2013
+											</p>
+d165 11
+a175 2
+								<div class="work_bdr_temp blk_bg noah_bdr_clr">
+									<div class="content">
+d177 1
+a177 1
+											Multi-Channel Digital Advertising
+d180 1
+a180 1
+											Our multi-channel approach (designed to raise awareness, consideration and activate purchase) increased orders and online catering revenue by over 70%
+d183 4
+a186 16
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/noah-block1_1.jpg" alt="" width="240" height="280" />
+											<span>
+												<i class="up_arrow"></i>
+												Paid Search
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/noah-block1_2.png" alt="" width="240" height="280" />
+											<span>
+												<i class="up_arrow"></i>
+												Display Ads
+											</span>
+d190 3
+a192 2
+								<div class="work_bdr_temp blk_bg noah_bdr_clr">
+									<div class="content">
+d194 1
+a194 1
+											Social Media Campaign
+d197 1
+a197 1
+											The office lunch, sales meeting, and employee breakfast are all perfect opportunities for catering.  We use social media to reach the key employees who make these purchase decisions.
+d200 3
+a202 16
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/noah-block2_1.png" alt="" width="240" height="150" />
+											<span>
+												<i class="up_arrow"></i>
+												Facebook
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/noah-block2_2.png" alt="" width="240" height="150" />
+											<span>
+												<i class="up_arrow"></i>
+												LinkedIn
+											</span>
+d206 3
+a208 77
+							</div>
+							<div id="visionworks" class="work_client">
+								<div id="hdr-visionworks" class="work_hdr">
+									<img src="/img/work/hdr-visionworks.jpg" alt="" />
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-visionworks.png" alt="Visionworks" />
+										</div>
+										<div class="copy">
+											<h2>
+												HELPING CONSUMERS SEE CLEARLY
+											</h2>
+											<p>
+												Activated the shopping experience for more than 2 million consumers in 2013
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="work_dbl_temp blk_bg">
+									<div class="t_row visionworks_bg_clr">
+										<div class="content">
+											<h2>
+												Virtual Try On Frame Finder
+											</h2>
+											<p>
+												Interactive wizard allows consumers to "try on" eyeglass frames by uploading a picture of themselves or choosing from a variety of model shots. Images can be saved to one's profile and shared via email and Facebook.
+											</p>
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/visionworks-block1_1.png" alt="" width="240" height="180" />
+												<span>
+													<i class="up_arrow"></i>
+													<a href="http://www.visionworks.com/a-better-you/" target="_blank">
+														Frame Finder
+													</a>
+												</span>
+											</div>
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/visionworks-block1_2.jpg" alt="" width="240" height="180" />
+												<span>
+													<i class="up_arrow"></i>
+													<a href="http://www.visionworks.com/a-better-you/try-it-on.php?image_id=round1&department_id=3" target="_blank">
+														Virtual Try-On
+													</a>
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="t_row">
+										<div class="content">
+											<h2>
+												Content Creation and Marketing
+											</h2>
+											<p>
+												Continuous development of content that serves as both engaging, fresh information on the Web site as well as interesting material to be used as the “hook” in native advertising.
+											</p>
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/visionworks-block1_3.png" alt="" width="510" height="180" />
+												<span class="fL">
+													<i class="up_arrow"></i>
+													Onsite Content
+												</span>
+												<span class="fL dbl_lbl">
+													<i class="up_arrow"></i>
+													Native Advertising 
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="work_bdr_temp blk_bg visionworks_bdr_clr">
+									<div class="content">
+d216 4
+a219 16
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/visionworks-block2_1.png" alt="" width="240" height="260" />
+											<span>
+												<i class="up_arrow"></i>
+												HTML Email 
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/visionworks-block2_2.png" alt="" width="91" height="215" />
+											<span>
+												<i class="up_arrow"></i>
+												Mobile Version
+											</span>
+d224 3
+a229 13
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-stage.png" alt="Stage Stores" />
+										</div>
+										<div class="copy">
+											<h2>
+												Making black friday come a little earlier every year
+											</h2>
+											<p>
+												Delivering more than $150MM in retail sales
+											</p>
+										</div>
+									</div>
+d231 3
+a233 2
+								<div class="work_bdr_temp blk_bg stage_bdr_clr">
+									<div class="content">
+d241 4
+a244 16
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/stage-block1_1.png" alt="" width="240" height="230" />
+											<span>
+												<i class="up_arrow"></i>
+												Landing Page 
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/stage-block1_2.png" alt="" width="240" height="244" />
+											<span>
+												<i class="up_arrow"></i>
+												Desktop/Mobile Ads
+											</span>
+d248 3
+a250 2
+								<div class="work_bdr_temp blk_bg stage_bdr_clr">
+									<div class="content">
+d258 2
+a259 2
+									<div class="img">
+										<div class="img_blk">
+a260 8
+											<span>
+												<i class="up_arrow"></i>
+												Landing Page
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+a261 4
+											<span>
+												<i class="up_arrow"></i>
+												Display Ad 
+											</span>
+d265 3
+a267 2
+								<div class="work_bdr_temp blk_bg stage_bdr_clr">
+									<div class="content">
+d275 2
+a276 2
+									<div class="img">
+										<div class="img_blk">
+a277 8
+											<span>
+												<i class="up_arrow"></i>
+												Desktop Version 
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+a278 4
+											<span>
+												<i class="up_arrow"></i>
+												Mobile Version 
+											</span>
+d283 3
+a288 13
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-yoshinoya.png" alt="Yoshinoya" />
+										</div>
+										<div class="copy">
+											<h2>
+												THE EVOLUTION OF A CLASSIC
+											</h2>
+											<p>
+												Increased advertising effectiveness 34% in 2013
+											</p>
+										</div>
+									</div>
+d290 3
+a292 2
+								<div class="work_clrblk_temp blk_bg">
+									<div class="content yoshinoya_bg_clr">
+d300 4
+a303 16
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/yoshinoya-block1_1.jpg" alt="" width="240" height="250" />
+											<span>
+												<i class="up_arrow"></i>
+												Print FSI Front
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/yoshinoya-block1_2.png" alt="" width="240" height="250" />
+											<span>
+												<i class="up_arrow"></i>
+												Print FSI Back 
+											</span>
+d307 3
+a309 2
+								<div class="work_clrblk_temp blk_bg ">
+									<div class="content yoshinoya_bg_clr">
+d317 2
+a318 2
+									<div class="img">
+										<div class="img_blk">
+a319 8
+											<span>
+												<i class="up_arrow"></i>
+												Outdoor
+											</span>
+										</div>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+a320 6
+											<span>
+												<i class="up_arrow"></i>
+												<a href="http://www.youtube.com/user/AsianaGrill" target="_blank">
+													YouTube Channel 
+												</a>
+											</span>
+d325 3
+a330 13
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-universal.png" alt="Universal Sports" />
+										</div>
+										<div class="copy">
+											<h2>
+												Building Awareness and Driving Demand
+											</h2>
+											<p>
+												The year-round destination for Olympic and endurance sports programming
+											</p>
+										</div>
+									</div>
+d332 3
+a334 2
+								<div class="work_bdr_temp blk_bg universal_bdr_clr">
+									<div class="content">
+d342 3
+a344 3
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/universal-block1_1.png" alt="" width="509" height="292" />
+d348 3
+a350 2
+								<div class="work_bdr_temp blk_bg universal_bdr_clr">
+									<div class="content">
+d358 2
+a359 2
+									<div class="img">
+										<div class="img_blk">
+a360 9
+											<span>
+												<i class="up_arrow"></i>
+												Pandora
+											</span>
+										</div>
+										
+									</div>
+									<div class="img">
+										<div class="img_blk">
+a361 4
+											<span>
+												<i class="up_arrow"></i>
+												YouTube
+											</span>
+d366 3
+d372 10
+a381 12
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-bmw.gif" alt="BMW" />
+										</div>
+										<div class="copy">
+											<h2>
+												Launching the neW 2014 BMW R <span class="lowercase">nine</span>T in America
+											</h2>
+											<p>
+												Most Successful Social Media campaign for BMW Motorcycles in California
+											</p>
+										</div>
+d383 4
+a386 48
+								</div>
+								<div class="work_dbl_temp blk_bg">
+									<div class="t_row bmw_bg_clr">
+										<div class="content">
+											<h2>
+												Integrated Promotional Advertising Campaign
+											</h2>
+											<p>
+												Experiential Marketing, Geo-Targeted Social Media & In-Store Contest Sweepstakes 
+											</p>
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/bmw-block1_1.jpg" alt="" width="540" height="300" />
+												<span>
+													<i class="up_arrow"></i>
+													Custom Facebook Page Design
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="t_row">
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/bmw-block1_2.jpg" alt="" width="300" height="200" />
+												<span>
+													<i class="up_arrow"></i>
+													2014 International Motorcycle Show
+												</span>
+											</div>
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/bmw-block1_3.jpg" alt="" width="240" height="200" />
+												<span>
+													<i class="up_arrow"></i>
+													BMW Experiential Booth
+												</span>
+											</div>
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/bmw-block1_4.jpg" alt="" width="240" height="200" />
+												<span>
+													<i class="up_arrow"></i>
+													Contest Entry Form
+												</span>
+											</div>
+@
+
+
+1.14
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@a0 3
+<?php
+	$toCollapse = $_REQUEST['collapseNum'];
+?>
+d2 4
+d7 2
+a8 1
+    <body id="pg_work" class="pg_inside">
+d10 12
+a21 13
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">
+			<a name="top"></a>			
+			<div class="row-fluid">
+				<aside id="work_nav_float" class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content" class="span3">
+							<h1>Work</h1>
+						</div>
+						<div id="interactive_content">
+d24 12
+a35 12
+									<img src="/img/work/hdr-wingstop.jpg" alt="" />
+									<div class="content blk_bg">
+										<div class="work_hdr_logo">
+											<img src="/img/work/logo-wingstop.png" alt="Wingstop" />
+										</div>
+										<div class="copy">
+											<h2>
+												Promoting the Best Wings on the Planet
+											</h2>
+											<p>
+												Increased online ordering and site visits by 35% in 2013
+											</p>
+d39 5
+a43 33
+								<div class="work_dbl_temp blk_bg">
+									<div class="t_row wingstop_bg_clr">
+										<div class="content">
+											<h2>
+												New Web Site and Online Ordering System
+											</h2>
+											<p>
+												Order wings online, find a location, connect with social media, or own your own restaurant. Our new web site is growing all the numbers. 
+											</p>
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/wingstop-block1_1.jpg" alt="" width="240" height="180" />
+												<span>
+													<i class="up_arrow"></i>
+													<a href="http://www.wingstop.com/" target="_blank">
+														Brand Site
+													</a>
+												</span>
+											</div>
+											
+										</div>
+										<div class="img">
+											<div class="img_blk">
+												<img src="/img/work/wingstop-block1_2.jpg" alt="" width="240" height="180" />
+												<span>
+													<i class="up_arrow"></i>
+													<a href="http://www.wingstop.com/online-ordering/" target="_blank">
+														Online Ordering
+													</a>
+												</span>
+											</div>
+										</div>
+d45 3
+a47 13
+									<div class="t_row">
+										<div class="content">
+											<h2>
+												Device Responsive Design
+											</h2>
+											<p>
+												Same site, fluid layouts, thoughtfully designed interfaces to reach all consumers regardless of screen size or device. 
+											</p>
+										</div>
+										<div class="img no_btm_pad">
+											<div class="img_blk">
+												<img src="/img/work/wingstop-block1_3.png" alt="" height="210" width="402" />
+											</div>
+d51 5
+a55 8
+								<div class="work_bdr_temp blk_bg wingstop_bdr_clr">
+									<div class="content">
+										<h2>
+											Wingstop Radio Pandora Campaign
+										</h2>
+										<p>
+											Campaign engaged consumers with six different Wingstop inspired flavor-branded stations. Mobile advertisements targeted potential customers by geography and demographics. 
+										</p>
+d57 2
+a58 2
+									<div class="img">
+										<div class="img_blk">
+a59 9
+											<span>
+												<i class="up_arrow"></i>
+												Mobile Ads
+											</span>
+										</div>
+										
+									</div>
+									<div class="img">
+										<div class="img_blk">
+a60 4
+											<span>
+												<i class="up_arrow"></i>
+												Atomic Flavor Station
+											</span>
+d64 10
+a73 28
+								<div class="work_bdr_temp blk_bg wingstop_bdr_clr">
+									<div class="content">
+										<h2>
+											No Bones About It
+										</h2>
+										<p>
+											User-generated video contest challenging fans to create the next Wingstop commercial. Campaign included social media integration and television commercial.
+										</p>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/wingstop-block3_1.jpg" alt="" width="190" height="240" />
+										</div>
+										
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/wingstop-block3_2.jpg" alt="" height="162" width="290" />
+											<span>
+												<i class="up_arrow"></i>
+												<a href="http://www.youtube.com/watch?v=Lw5eSy_fazw" target="_blank">
+													TV Commercial
+												</a>
+											</span>
+											<span>
+												<i class="left_arrow"></i>
+												Contest Facebook Page
+											</span>
+a74 1
+										
+d77 9
+a85 20
+								<div class="work_bdr_temp blk_bg wingstop_bdr_clr">
+									<div class="content">
+										<h2>
+											Triple Double Pack LTO Promotion
+										</h2>
+										<p>
+											Digital campaign tied to NBA playoffs designed to build product awareness for the new Triple-Double menu offering. Drove more than 70,000 orders and 90,000 location searches.
+										</p>
+									</div>
+									<div class="img">
+										<div class="img_blk">
+											<img src="/img/work/wingstop-block4_1.jpg" alt="" width="190" height="230" />
+											<span>
+												<i class="up_arrow"></i>
+												Microsite
+											</span>
+										</div>									
+									</div>
+									<div class="img">
+										<div class="img_blk">
+a86 4
+											<span>
+												<i class="up_arrow"></i>
+												Display Ads
+											</span>
+a87 1
+										
+d90 1
+d92 3
+a661 2
+					</article>
+				</section>
+d663 2
+d666 1
+a666 158
+	<div id="mobile_toTop">
+		<a href="#top">
+			<i class="up_arrow"></i>Back To Top
+		</a>
+	</div>
+	<?php if($toCollapse != 'collapseOne'): ?>
+		<script>
+			var scrollToAnchor;
+			var id_obj = {};
+			var isMobile = false;
+			var isSafari = false;
+			var active_id = '#wingstop_nav';
+			var _offset = 0;
+			var wW = $(window).width();
+			$(function(){
+				// location in /js/main.js
+				$('.accordion-heading').first().addClass('active');
+				$('.accordion-toggle').each(function(){
+						if($(this).attr('href') == "#<?php echo $toCollapse;?>"){
+							$(this).trigger('click');
+						}
+				});
+				
+				//Is Mobile?
+				if(wW<767) isMobile = true;
+				//Animates to the anchor tags
+				scrollToAnchor = function(aid)
+				{
+					var client_tag = $(aid);
+					var ele_id = aid.replace('#','');
+					if(!isMobile)
+					{
+						$('html,body').animate({scrollTop: client_tag.offset().top + 3},'fast');
+						return false;
+					} else {
+						if($('.show-nav').length > 0)
+						{
+							showNav();
+						}
+						return true;	
+					}
+				}
+				//Listener for the scrolling; detects where in the window is each DIV id
+				if(!isMobile)
+				{
+					$(window).scroll(function(e) {
+						makeActive();
+					});
+				} else {
+					var inactive_area=false;
+					var active_area = false;
+					var wingstop_top = $('#wingstop').offset().top;
+					$(window).scroll(function(){
+						_offset = $(window).scrollTop();
+						if(wingstop_top < _offset)
+						{
+							//Scrolling Past Wingstop
+							if(!active_area)
+							{
+								//This Code only happens once
+								active_area=true;
+								inactive_area=false;
+								$('#mobile_toTop').css('display','block');
+							}
+						} else {
+							//Scrolling Before Wingstop
+							if(!inactive_area)
+							{
+								//This code only happens once
+								active_area=false;
+								inactive_area=true;
+								$('#mobile_toTop').css('display','none');
+							}
+						}
+						//makeActive($('#interactive_content'));
+						//makeActive();
+					});
+				}
+				//Function below Activates and Deactivates the 'active' class in the work subnav
+				function makeActive()
+				{
+					var w_top = $(window).scrollTop() + 3;
+					var wingstop_top = $('#wingstop').offset().top;
+					var curves_top = $('#curves').offset().top;
+					var noah_top = $('#einstein_noah').offset().top;
+					var visionworks_top = $('#visionworks').offset().top;
+					var stage_top = $('#stage_stores').offset().top;
+					var yoshinoya_top = $('#yoshinoya').offset().top;
+					var universal_top = $('#universal').offset().top;
+					var bmw_top = $('#bmw').offset().top;
+										
+					if(curves_top > w_top)
+					{
+						active_id = '.wingstop_nav';
+					} else if((w_top > curves_top) && (noah_top > w_top))
+					{
+						active_id = '.curves_nav';
+					} else if((w_top > noah_top) && (visionworks_top > w_top))
+					{
+						active_id = '.noah_nav';
+					} else if((w_top > visionworks_top) && (stage_top > w_top))
+					{
+						active_id = '.visionworks_nav';
+					} else if((w_top > stage_top) && (yoshinoya_top > w_top))
+					{
+						active_id = '.stage_nav';
+					} else if((w_top > yoshinoya_top) && (universal_top > w_top))
+					{
+						active_id = '.yoshinoya_nav';
+					} else if((w_top > universal_top) && (bmw_top > w_top))
+					{
+						active_id = '.universal_nav';
+					} else if(w_top > bmw_top)
+					{
+						active_id = '.bmw_nav';
+					}
+					resetActives(active_id);
+					function resetActives(id)
+					{
+						var nav_array = Array('.wingstop_nav','.curves_nav','.noah_nav','.visionworks_nav','.stage_nav','.yoshinoya_nav','.universal_nav','.bmw_nav');
+						for(var i in nav_array)
+						{
+							if(id != nav_array[i]) $(nav_array[i]).removeClass('active');
+							else $(nav_array[i]).addClass('active');
+						}
+					}
+				}
+			});
+			$(window).load(function() {
+				$('.img').each(function(index, element) {
+					var img_blk = $(this).find('.img_blk');
+					var img_obj = img_blk.find('img')
+					var img_w = img_obj.width();
+					var ratio = 1;
+					//_offset = $('#side_nav').height() + $('.active_sub_nav').height();
+					var orig_w = 650;//maximum size possible for image area.
+					var new_w = 970;//Maximum size of container
+					new_w = new_w - ((new_w/100) * 33);
+					ratio = new_w/orig_w;
+					var img_container_w = $(this).outerWidth(true);
+					
+					var percent = ((img_w/img_container_w)*100);
+					percent = percent * ratio;
+					img_blk.css('width',percent + '%');
+					img_obj.css({
+						width:'100%',
+						height:'auto'
+					});
+				});
+				$('.work_client').each(function(index, element) {
+					var _id = $(this).attr('id');
+					var _pos = $(this).offset().top - $('#interactive_content').position().top;
+					id_obj[_id] = _pos;
+				});
+				if(isMobile) $('.wingstop_nav').addClass('active');
+			});
+		</script>
+	<?php endif; ?>
+@
+
+
+1.13
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d676 68
+d839 1
+d859 1
+a859 1
+					} else if(w_top > universal_top)
+d862 3
+d869 1
+a869 1
+						var nav_array = Array('.wingstop_nav','.curves_nav','.noah_nav','.visionworks_nav','.stage_nav','.yoshinoya_nav','.universal_nav');
+@
+
+
+1.12
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@a114 1
+										
+d614 63
+d770 1
+d787 1
+a787 1
+					} else if(w_top > yoshinoya_top)
+d790 3
+d797 1
+a797 1
+						var nav_array = Array('.wingstop_nav','.curves_nav','.noah_nav','.visionworks_nav','.stage_nav','.yoshinoya_nav');
+@
+
+
+1.11
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d644 1
+a644 1
+				if(wW<1020) isMobile = true;
+@
+
+
+1.10
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d644 1
+a644 1
+				if(wW<767) isMobile = true;
+@
+
+
+1.9
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d632 1
+d644 1
+a644 1
+				isMobile = (/iPhone|iPod|Android|BlackBerry/).test(navigator.userAgent);//iPad
+a649 2
+					/*if(!isMobile) $('html,body').animate({scrollTop: client_tag.offset().top},'fast');
+					else $('#interactive_content').animate({scrollTop: id_obj[ele_id]},'fast');*/
+d655 4
+a658 1
+						getHash();
+a660 2
+					//alert($('#interactive_content').scrollTop());
+					//$('#interactive_content').animate({scrollTop: id_obj[ele_id]},'fast');
+d663 1
+a663 2
+				
+				if(!isMobile || (wW>1000))
+d666 1
+a666 28
+						var w_top = $(window).scrollTop();
+						var wingstop_top = $('#wingstop').offset().top;
+						var curves_top = $('#curves').offset().top;
+						var noah_top = $('#einstein_noah').offset().top;
+						var visionworks_top = $('#visionworks').offset().top;
+						var stage_top = $('#stage_stores').offset().top;
+						var yoshinoya_top = $('#yoshinoya').offset().top;
+						
+						if(curves_top > w_top)
+						{
+							active_id = '#wingstop_nav';
+						} else if((w_top > curves_top) && (noah_top > w_top))
+						{
+							active_id = '#curves_nav';
+						} else if((w_top > noah_top) && (visionworks_top > w_top))
+						{
+							active_id = '#noah_nav';
+						} else if((w_top > visionworks_top) && (stage_top > w_top))
+						{
+							active_id = '#visionworks_nav';
+						} else if((w_top > stage_top) && (yoshinoya_top > w_top))
+						{
+							active_id = '#stage_nav';
+						} else if(w_top > yoshinoya_top)
+						{
+							active_id = '#yoshinoya_nav';
+						}
+						resetActives(active_id);
+d671 4
+a674 7
+					var doc_h = $(document).height();
+					var win_h = $(window).height();
+					var offset = 20;
+					var w_top = $('#interactive_content').scrollTop();
+					$('.container').scroll(function(){
+						var wingstop_top = $('#wingstop').offset().top;
+						if(wingstop_top < w_top)
+d694 2
+d699 1
+a699 1
+				function resetActives(id)
+d701 12
+a712 2
+					var nav_array = Array('#wingstop_nav','#curves_nav','#noah_nav','#visionworks_nav','#stage_nav','#yoshinoya_nav');
+					for(var i in nav_array)
+d714 23
+a736 2
+						if(id != nav_array[i]) $(nav_array[i]).removeClass('active');
+						else $(nav_array[i]).addClass('active');
+d746 1
+a746 1
+					
+a747 1
+					//var new_w = $(this).parent().outerWidth(true);
+a749 9
+					/*
+					var copy_w = $(this).parent().find('.content').outerWidth(true);
+					if(new_w > copy_w)
+					{
+						console.log('New Width =' + new_w + " vs Copy Width: " + copy_w);
+						new_w = new_w - copy_w;//((new_w/100) * 33);
+						ratio = new_w/orig_w;
+					}
+					*/
+d766 1
+a766 1
+				if(isMobile) $('#wingstop_nav').removeClass('active');
+@
+
+
+1.8
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d656 1
+a736 1
+				
+@
+
+
+1.7
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d643 1
+a643 1
+				isMobile = (/iPhone|iPod|iPad|Android|BlackBerry/).test(navigator.userAgent);
+@
+
+
+1.6
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d7 1
+a7 1
+		<a name="top"></a>
+d9 2
+a10 1
+		<div class="container">			
+d632 1
+d663 1
+a663 1
+				if(!isMobile)
+d701 2
+a702 2
+					$(window).scroll(function(){
+						var w_top = $(window).scrollTop();
+a713 3
+							/*if(isSafari) offset = -35;
+							var _y = ($(window).scrollTop() + $(window).height() - offset);
+							$('#mobile_toTop').css('top',_y+'px');*/
+@
+
+
+1.5
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d630 1
+d649 7
+a655 1
+					$('html,body').animate({scrollTop: client_tag.offset().top + 3},'fast');
+d660 1
+a660 1
+				var active_id = '#wingstop_nav';
+d775 1
+a775 1
+				if(!isMobile) scrollToAnchor(active_id);
+@
+
+
+1.4
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d629 1
+a629 1
+			
+a640 1
+				
+d648 1
+a648 1
+					$('html,body').animate({scrollTop: client_tag.offset().top},'fast');
+d691 1
+d705 3
+a707 2
+							var _y = ($(window).scrollTop() + $(window).height() - 20);
+							$('#mobile_toTop').css('top',_y+'px');
+d730 1
+a730 1
+				scrollToAnchor(active_id);
+d768 1
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@a4 105
+	<?php /*
+	<style>
+		
+		#pg_work h1
+		{
+			font-size:8em;
+			text-transform:uppercase;
+			line-height:0.7;
+			color:#fff;
+		}
+		#pg_work #seo_content
+		{
+			padding-top:0;
+		}
+		#pg_work .row-fluid [class*="span"]:first-child, #fixed-top
+		{
+			position:fixed;	
+		}
+		#work_nav_float
+		{
+			max-width:170px;
+		}
+		#pg_work #main_content
+		{
+			margin-left:15%;
+		}
+		#pg_work #interactive_content
+		{
+			padding-top:0;
+			margin-top:-30px;
+			position:relative;
+			font-size:100%;
+		}
+		.blk_bg
+		{
+			background:url(/img/work/blk_block.png);	
+		}
+		.no_btm_pad
+		{
+			padding:4% 0 0 !important;	
+		}
+		
+		.wingstop_bdr_clr { border-left-color:#004533; }
+		.curves_bdr_clr { border-left-color:#592c5f; }
+		.noah_bdr_clr { border-left-color:#d1b07d; }
+		.visionworks_bdr_clr { border-left-color:#e51937; }
+		.stage_bdr_clr { border-left-color:#ba001c; }
+		.yoshinoya_bdr_clr { border-left-color:#f68428; }
+		.wingstop_bg_clr { background-color:#004533; }
+		.curves_bg_clr { background-color:#592c5f; }
+		.noah_bg_clr { background-color:#d1b07d; }
+		.visionworks_bg_clr { background-color:#e51937; }
+		.stage_bg_clr { background-color:#ba001c; }
+		.yoshinoya_bg_clr { background-color:#f68428; }
+		
+		.work_client{ padding-top:10em; clear:both; }
+		.work_clrblk_temp, .work_bdr_temp, .work_dbl_temp { margin-top:1.5em; display:table; }
+			.work_dbl_temp div { display:table-cell; }
+			.work_clrblk_temp div, .work_bdr_temp div { display:table-cell; vertical-align:top; padding:4% 0;}
+			.work_dbl_temp div.t_row 	 { display:table;}
+			.work_hdr .content, .work_clrblk_temp .content, .work_bdr_temp .content, .work_dbl_temp .content	 { width:33%;}
+			.work_clrblk_temp .content, .work_bdr_temp .content { padding:4%;}
+				.work_hdr .content .copy { margin:1em; }
+				.work_hdr .content img { width:100%; }
+				#interactive_content .work_hdr .content h2, #interactive_content .work_clrblk_temp .content h2, #interactive_content .work_bdr_temp .content h2, #interactive_content .work_dbl_temp .content h2 { margin:0 0 0.5em; color:#fff; }
+				.work_hdr .content h2 { font-size:220%; text-transform:uppercase; font-family: 'Open Sans', sans-serif; font-weight:700; line-height:1; }
+				.work_clrblk_temp .content h2, .work_bdr_temp .content h2, .work_dbl_temp .content h2 { font-size:150%; }
+				.work_hdr .content p { font-size:130%; line-height:1; }
+				.work_clrblk_temp .content p, .work_bdr_temp .content p, .work_dbl_temp .content p { font-size:100%; }
+			.work_hdr .img, .work_clrblk_temp .img, .work_bdr_temp .img, .work_dbl_temp .img	 { text-align:center; }
+				.work_hdr .img img, .work_clrblk_temp .img img, .work_bdr_temp .img img, .work_dbl_temp .img img	 { vertical-align:top; max-width:100%; }
+				.img_blk {padding:0 !important; display:inline-block !important; width:100%; }
+		.work_hdr
+		{
+			position:relative;
+		}
+			.work_hdr img:first-child
+			{
+				width:100%;
+				height:auto;
+			}
+			.work_hdr .content
+			{
+				height:100%;
+				position:absolute;
+				top:0;
+				left:0;
+			}
+		.work_clrblk_temp
+		{
+			
+		}
+		.work_bdr_temp
+		{
+			border-left-style:solid;
+			border-left-width:10px;
+		}
+		.work_dbl_temp
+		{
+			
+		}
+			.work_dbl_temp .content { padding:4% 0 0 4%;}
+			.work_dbl_temp .img { padding-bottom:4%;}
+	</style>
+	*/ ?>
+d7 1
+d163 1
+a163 1
+												Display Ads
+d165 1
+a165 2
+										</div>
+										
+d172 1
+a172 1
+												Microsite
+d619 5
+d627 3
+d638 4
+d646 3
+d650 2
+d655 64
+a718 30
+				$(window).scroll(function(e) {
+					var w_top = $(window).scrollTop();
+					var wingstop_top = $('#wingstop').offset().top;
+					var curves_top = $('#curves').offset().top;
+					var noah_top = $('#einstein_noah').offset().top;
+					var visionworks_top = $('#visionworks').offset().top;
+					var stage_top = $('#stage_stores').offset().top;
+					var yoshinoya_top = $('#yoshinoya').offset().top;
+					
+					if(curves_top > w_top)
+					{
+						active_id = '#wingstop_nav';
+					} else if((w_top > curves_top) && (noah_top > w_top))
+					{
+						active_id = '#curves_nav';
+					} else if((w_top > noah_top) && (visionworks_top > w_top))
+					{
+						active_id = '#noah_nav';
+					} else if((w_top > visionworks_top) && (stage_top > w_top))
+					{
+						active_id = '#visionworks_nav';
+					} else if((w_top > stage_top) && (yoshinoya_top > w_top))
+					{
+						active_id = '#stage_nav';
+					} else if(w_top > yoshinoya_top)
+					{
+						active_id = '#yoshinoya_nav';
+					}
+					resetActives(active_id);
+				});
+d729 1
+a729 3
+				scrollToAnchor('#wingstop');
+				
+			
+d736 1
+d739 2
+a740 1
+					var new_w = $(this).parent().outerWidth(true);
+d742 10
+a751 3
+					
+					var ratio = new_w/orig_w;
+					
+d762 5
+@
+
+
+1.2
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d735 1
+a735 1
+				
+d739 1
+a739 1
+					$('html,body').animate({scrollTop: client_tag.offset().top + 3},'fast');
+d741 1
+d773 1
+@
+
+
+1.1
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@d154 6
+d161 1
+d166 6
+d203 4
+d208 1
+d211 8
+a218 1
+										<div class="img_blk"><img src="/img/work/wingstop-block2_2.jpg" alt="" width="240" height="180" /></div>
+d231 4
+a234 1
+										<div class="img_blk"><img src="/img/work/wingstop-block3_1.jpg" alt="" width="190" height="240" /></div>
+d237 14
+a250 1
+										<div class="img_blk"><img src="/img/work/wingstop-block3_2.jpg" alt="" height="162" width="290" /></div>
+d263 8
+a270 1
+										<div class="img_blk"><img src="/img/work/wingstop-block4_1.jpg" alt="" width="190" height="230" /></div>
+d273 8
+a280 1
+										<div class="img_blk"><img src="/img/work/wingstop-block4_2.png" alt="" width="290" height="162" /></div>
+d311 10
+a320 1
+										<div class="img_blk"><img src="/img/work/curves-block1_1.png" alt="" width="239" height="180" /></div>
+d323 8
+a330 1
+										<div class="img_blk"><img src="/img/work/curves-block1_2.png" alt="" width="240" height="180" /></div>
+d343 9
+a351 1
+										<div class="img_blk"><img src="/img/work/curves-block2_1.png" alt="" width="240" height="180" /></div>
+d354 7
+a360 1
+										<div class="img_blk"><img src="/img/work/curves-block2_2.png" alt="" width="185" height="180" /></div>
+d391 7
+a397 1
+										<div class="img_blk"><img src="/img/work/noah-block1_1.jpg" alt="" width="240" height="280" /></div>
+d400 7
+a406 1
+										<div class="img_blk"><img src="/img/work/noah-block1_2.png" alt="" width="240" height="280" /></div>
+d419 7
+a425 1
+										<div class="img_blk"><img src="/img/work/noah-block2_1.png" alt="" width="240" height="150" /></div>
+d428 7
+a434 1
+										<div class="img_blk"><img src="/img/work/noah-block2_2.png" alt="" width="240" height="150" /></div>
+d466 9
+a474 1
+											<div class="img_blk"><img src="/img/work/visionworks-block1_1.png" alt="" width="240" height="180" /></div>
+d477 9
+a485 1
+											<div class="img_blk"><img src="/img/work/visionworks-block1_2.jpg" alt="" width="240" height="180" /></div>
+d498 11
+a508 1
+											<div class="img_blk"><img src="/img/work/visionworks-block1_3.png" alt="" width="510" height="180" /></div>
+d522 7
+a528 1
+										<div class="img_blk"><img src="/img/work/visionworks-block2_1.png" alt="" width="240" height="260" /></div>
+d531 7
+a537 1
+										<div class="img_blk"><img src="/img/work/visionworks-block2_2.png" alt="" width="91" height="215" /></div>
+d568 7
+a574 1
+										<div class="img_blk"><img src="/img/work/stage-block1_1.png" alt="" width="240" height="230" /></div>
+d577 7
+a583 1
+										<div class="img_blk"><img src="/img/work/stage-block1_2.png" alt="" width="240" height="244" /></div>
+d596 7
+a602 1
+										<div class="img_blk"><img src="/img/work/stage-block2_1.png" alt="" width="190" height="180" /></div>
+d605 7
+a611 1
+										<div class="img_blk"><img src="/img/work/stage-block2_2.png" alt="" width="290" height="162" /></div>
+d624 7
+a630 1
+										<div class="img_blk"><img src="/img/work/stage-block3_1.png" alt="" width="240" height="190" /></div>
+d633 7
+a639 1
+										<div class="img_blk"><img src="/img/work/stage-block3_2.png" alt="" width="78" height="180" /></div>
+d670 7
+a676 1
+										<div class="img_blk"><img src="/img/work/yoshinoya-block1_1.jpg" alt="" width="240" height="250" /></div>
+d679 7
+a685 1
+										<div class="img_blk"><img src="/img/work/yoshinoya-block1_2.png" alt="" width="240" height="250" /></div>
+d698 7
+a704 1
+										<div class="img_blk"><img src="/img/work/yoshinoya-block2_1.jpg" alt="" width="240" height="180" /></div>
+d707 9
+a715 1
+										<div class="img_blk"><img src="/img/work/yoshinoya-block2_2.jpg" alt="" width="240" height="180" /></div>
+@

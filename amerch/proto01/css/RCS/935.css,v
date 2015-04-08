@@ -1,0 +1,35 @@
+head	1.1;
+access;
+symbols;
+locks
+	dave:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2015.03.16.20.35.19;	author stgbrock;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.1
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@@@media screen and (max-width: 935px){
+	.gallery{
+		margin-top: 36px;
+	}
+	.row{
+		margin-bottom: 0;
+	}
+	.gallery-item{
+		width: 50%;
+	}
+}@

@@ -1,0 +1,274 @@
+head	1.3;
+access;
+symbols;
+locks
+	sysop:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2013.10.31.22.46.48;	author stgvillanueva;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.01.25.23.36.53;	author stgbooth;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.00.30.55;	author balue;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.3
+log
+@[stgvillanueva] User stgvillanueva stupidly forgot a change comment! Tsk.
+@
+text
+@	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+    </head>
+    <body id="pg_consulting_experience" class="pg_inside pg_dark">
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/nav.inc.php'); ?>
+		<div class="container">			
+			<div class="row-fluid">
+				<aside class="span2">
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+				</aside>
+				<section id="main_content" class="span10">
+					<article class="row-fluid">
+						<div id="seo_content">
+								<h1>Experience</h1>
+						</div>
+						<div id="interactive_content" >
+							<div class="gray-box">
+								<div class="accordion" id="accordion2">
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+										 FINANCIAL SERVICES<span class="icon icon-minus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseOne" class="accordion-body in collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/wellpoint.png" >
+											<img src="/img/client_logos/reduced/transamerica.png" >
+											<img src="/img/client_logos/reduced/bow.png" >
+											<img src="/img/client_logos/reduced/hcsc.png" >
+											<img src="/img/client_logos/reduced/extraco.png" >
+											<img src="/img/client_logos/reduced/bcbs.png" >
+											<img src="/img/client_logos/reduced/west-coast-life.png" >
+											<img src="/img/client_logos/reduced/cigna.png" >
+											<img src="/img/client_logos/reduced/mutual-of-omaha.png" >
+											<img src="/img/client_logos/reduced/coventry.png" >
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+										  MANUFACTURING + INDUSTRIAL <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseTwo" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/reliant.png" >
+											<img src="/img/client_logos/reduced/qualcomm.png" >
+											<img src="/img/client_logos/reduced/avery.png" >
+											<img src="/img/client_logos/reduced/mattel.png" >
+											<img src="/img/client_logos/reduced/memorex.png" >
+											<img src="/img/client_logos/reduced/borax.png" >
+											<img src="/img/client_logos/reduced/ryland.png" >
+											<img src="/img/client_logos/reduced/cleveland.png" >
+											<img src="/img/client_logos/reduced/easton.png" >
+											<img src="/img/client_logos/reduced/lg.png" >
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+										  RETAIL <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseThree" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/stage-stores.png" >
+											<img src="/img/client_logos/reduced/visionworks.png" >
+											<img src="/img/client_logos/reduced/smith-noble.png" >
+											<img src="/img/client_logos/reduced/anchorblue.png" >
+											<img src="/img/client_logos/reduced/public-storage.png" >
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+										  RESTAURANTS <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseFour" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/jack-in-the-box.png" >
+											<img src="/img/client_logos/reduced/california-pizza-kitchen.png" >
+											<img src="/img/client_logos/reduced/chuck-e-cheeses.png" >
+											<img src="/img/client_logos/reduced/einstein-noah.png" >
+											<img src="/img/client_logos/reduced/wolfgang-puck.png" >
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+										  ENTERTAINMENT <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseFive" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/wb.png" >
+											<img src="/img/client_logos/reduced/ncaa-kids.png" >
+											<img src="/img/client_logos/reduced/fox.png" >
+											<img src="/img/client_logos/reduced/dga.png" >
+											<img src="/img/client_logos/reduced/miramax.png" >
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+										  HOSPITALITY <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseSix" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/mandalay-bay.png" >
+											<img src="/img/client_logos/reduced/hard-rock.png" >
+											<img src="/img/client_logos/reduced/luxor.png" >
+											<img src="/img/client_logos/reduced/grand-sierra.png" >
+											<img src="/img/client_logos/reduced/excalibur.png" >
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">
+										  FRANCHISE <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseSeven" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/curves.png" >
+											<img src="/img/client_logos/reduced/wingstop.png" >
+										</div>
+									  </div>
+									</div>
+									<div class="accordion-group">
+									  <div class="accordion-heading">
+										<h2><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight">
+										  CPG <span class="icon icon-plus"></span>
+										</a></h2>
+									  </div>
+									  <div id="collapseEight" class="accordion-body collapse">
+										<div class="accordion-inner clearfix">
+											<img src="/img/client_logos/reduced/kelloggs.png" >
+											<img src="/img/client_logos/reduced/contessa.png" >
+											<img src="/img/client_logos/reduced/keebler.png" >
+										</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+    </body>
+</html>
+@
+
+
+1.2
+log
+@[stgbooth] User stgbooth stupidly forgot a change comment! Tsk.
+@
+text
+@d8 1
+a8 1
+					<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_consulting.inc.php'); ?>
+@
+
+
+1.1
+log
+@User balue stupidly forgot a change comment. Tsk!
+@
+text
+@d26 10
+a35 10
+											<div class="logo"><img src="/img/experience/color/wellpoint.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/transamerica.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/bow.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/hcsc.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/extraco.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/bcbs.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/west-coast-life.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/cigna.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/mutual-of-omaha.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/coventry.jpg" ></div>
+d47 10
+a56 10
+											<div class="logo"><img src="/img/experience/color/reliant.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/qualcomm.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/avery.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/mattel.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/memorex.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/borax.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/ryland.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/cleveland.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/easton.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/lg.jpg" ></div>
+d68 5
+a72 5
+											<div class="logo"><img src="/img/experience/color/stage-stores.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/visionworks.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/smith-noble.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/anchorblue.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/public-storage.jpg" ></div>
+d84 5
+a88 5
+											<div class="logo"><img src="/img/experience/color/jack-in-the-box.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/california-pizza-kitchen.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/chuck-e-cheeses.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/einstein-noah.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/wolfgang-puck.jpg" ></div>
+d100 5
+a104 5
+											<div class="logo"><img src="/img/experience/color/wb.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/ncaa-kids.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/fox.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/dga.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/miramax.jpg" ></div>
+d116 5
+a120 5
+											<div class="logo"><img src="/img/experience/color/mandalay-bay.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/hard-rock.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/luxor.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/grand-sierra.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/excalibur.jpg" ></div>
+d132 2
+a133 2
+											<div class="logo"><img src="/img/experience/color/curves.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/wingstop.jpg" ></div>
+d145 3
+a147 3
+											<div class="logo"><img src="/img/experience/color/kelloggs.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/contessa.jpg" ></div>
+											<div class="logo"><img src="/img/experience/color/keebler.jpg" ></div>
+@

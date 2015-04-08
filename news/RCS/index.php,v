@@ -1,0 +1,319 @@
+head	1.9;
+access;
+symbols;
+locks
+	dave:1.9; strict;
+comment	@# @;
+
+
+1.9
+date	2014.11.21.19.53.59;	author stgbrock;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.10.08.19.51.08;	author stgbrock;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.10.08.18.40.33;	author stgbrock;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.08.26.21.41.07;	author stgbrock;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.07.15.21.24.06;	author stgolson;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.07.03.19.38.22;	author stgolson;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.07.03.19.28.17;	author stgolson;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.07.02.21.41.09;	author stgolson;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.07.01.19.49.10;	author stgolson;	state Exp;
+branches;
+next	;
+
+
+desc
+@""
+@
+
+
+1.9
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@<?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
+
+<title>Apollo Interactive | Digital Agency | News</title>
+<meta name="description" content="">
+
+</head>
+
+<body id="pg_news" class="bg-img">
+	<div class="wrapper">			
+		<?php include($_SERVER[DOCUMENT_ROOT].'/includes/sidebar_nav.inc.php'); ?>
+		
+		<div class="opacity-bg"></div>
+		<div class="container">
+			<div class="content">
+				<div id="news_content">
+					<h1><span style="font-weight:400;">We Celebrate</span> When Our Work Delivers...</h1>
+					<p class="highlight-text">...and produces the results our clients expect.</p>						
+					<h2>2014</h2>
+					<article>
+						<h2>Apollo Insurance Practice - Medicare Open Enrollment - October 2014</h2>
+						<img src="/news/images/news-insurance.jpg" alt="Screen shot of healthplansamerica.com" />
+						<p class="copy-text">Apollo's Insurance Practice is preparing for the upcoming Medicare Open Enrollment Period with newly designed sites and marketing campaigns targeted to Seniors who are looking to change their current coverage. Our goal is to generate cost effective, qualified leads for our major insurance client carriers.</p>
+					</article>
+					<article>
+						<h2>Southern California Motorcycle Dealers - Sweepstakes - June 2014</h2>
+						<img src="/news/images/news-socal-bmw.jpg" alt="Southern California BMW Sweepstakes" />
+						<p class="copy-text">Apollo recently completed a social media campaign for the Southern California BMW Motorcycle Dealer Group culminating in the awarding of an amazing new 2014 BMW R nineT to Marisol M., from Santa Ana, CA. The sweepstakes built momentum over the course of 6 months and exceeded stated goals by over 100%.</p>
+					</article>
+					<article>
+						<h2>Sun &amp; Ski - Bike Sale - May 2014</h2>
+						<img src="/news/images/news-sunandski-bike-sale.jpg" alt="Bike Sale Up to 50% off" />
+						<p class="copy-text">Last weekend Apollo launched a digital campaign for our client Sun &amp; Ski, promoting their huge semi-annual Bike Sale. Utilizing Facebook, Google Display Network and Pandora, we were able to build awareness and drive in-store traffic and sales to locations nationwide.</p>
+					</article>
+					<article>
+						<h2>Extraco Banks - Business Website Launch - April 2014</h2>
+						<img src="/news/images/news-extraco-business-site.jpg" alt="Extraco Buisness site" />
+						<p class="copy-text">We just launched a new business website for our client Extraco Banks. That’s two brand new websites in a month! Extraco’s new business website offers customizable banking with a responsive design that allows business owners access to their accounts from any device.</p>
+					</article>
+					<article>
+						<h2>Universal Sports - Boston Marathon Digital Campaign - March 2014</h2>
+						<img src="/news/images/news-run-as-one-pandora.jpg" alt="We Run as One." />
+						<p class="copy-text">Less than 3 weeks until the 118th running of the Boston Marathon. On April 21st this historic event will be broadcast live, to a national audience, only on Universal Sports Network. Apollo is currently running a digital campaign to build awareness of the event in key markets across the country. Coverage begins at 8:30am ET.</p>
+					</article>
+					<article>
+						<h2>Universal Sports - Boston Marathon Campaign - March 2014</h2>
+						<img src="/news/images/news-universal-run-as-one.jpg" alt="We Run as One." />
+						<p class="copy-text">Today an outdoor advertising campaign posted for our client, Universal Sports Network. USN is the exclusive national broadcast network airing the Boston Marathon. Apollo developed a campaign to build awareness in key markets across the country. Tune in to Universal Sports and watch this historic event live on April 21st at 8:30am ET. We Run as One.</p>
+					</article>
+					<article>
+						<h2>Einstein Bros - Fuel the Madness - March 2014 </h2>
+						<img src="/news/images/news-einstein-march-madness.jpg" alt="Fuel the Madness" />
+						<p class="copy-text">In preparation for March Madness, we created Fuel the Madness for our client Einstein Bros Catering. Building awareness by targeting existing catering consumers, and competitor’s consumers, through Facebook Ad Exchange and Yahoo Domain Targeting. Bagels for your bracket party?</p>
+					</article>
+					<article>
+						<h2>Extraco Banks - New Website Launch - February 2014</h2>
+						<img src="/news/images/news-extraco-new-site.jpg" alt="Extraco Banks new website" />
+						<p class="copy-text">Yesterday we launched a brand new website for our long-standing client Extraco Banks. With easy to navigate features and a responsive design that allows users to manage their accounts from any device, it’s banking away from the bank.</p>
+					</article>
+					<h2>2013</h2>
+					<article>
+						<h2>Visionworks - Do I Need Glasses? - December 2013</h2>
+						<img src="/news/images/news-vw-need-glasses.jpg" alt="Do I need glasses?" />
+						<p class="copy-text">Check out “Do I Need Glasses?” a virtual experience we created using responsive design for our client Visionworks to answer common eye care questions in a fun and interactive way. This content was also great material for us to use in a native advertising buy with Yahoo!</p>
+					</article>
+					<article>
+						<h2>Universal Sports - The Mavericks Invitational - December 2013</h2>
+						<img src="/news/images/news-universal-mavericks.jpg" alt="The Mavericks Invitational" />
+						<p class="copy-text">Today Apollo launched an Online Advertising campaign to promote coverage of the Mavericks Invitational surf competition on Universal Sports Network. This Friday at 1:30pm PT, the competition will air live on national television for the first time ever.</p>
+					</article>
+					<p>See all of our updates on <a href="https://www.linkedin.com/company/25355?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A24844241403887614068%2CVSRPtargetId%3A25355%2CVSRPcmpt%3Acompanies_cluster" target="_blank">LinkedIn</a>.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php include($_SERVER[DOCUMENT_ROOT].'/includes/footer.inc.php'); ?>
+	
+</body>
+</html>
+@
+
+
+1.8
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d3 1
+a3 1
+<title>Apollo Interactive | News</title>
+@
+
+
+1.7
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d22 1
+a22 1
+						<p class="copy-text">Apollo's Insurance Practice is preparing for the upcoming Medicare Open Enrollment Period with newly designed sites and marketing campaigns targeted to Seniors who are looking to change their current coverage. Our goal is to generate cost effective, qualified leads for our major insurance client carriers</p>
+@
+
+
+1.6
+log
+@[stgbrock] User stgbrock stupidly forgot a change comment! Tsk.
+@
+text
+@d20 5
+d27 1
+a27 3
+						<p class="copy-text">
+							Apollo recently completed a social media campaign for the Southern California BMW Motorcycle Dealer Group culminating in the awarding of an amazing new 2014 BMW R nineT to Marisol M., from Santa Ana, CA. The sweepstakes built momentum over the course of 6 months and exceeded stated goals by over 100%.
+						</p>
+a28 2
+
+					
+d32 1
+a32 3
+						<p class="copy-text">
+							Last weekend Apollo launched a digital campaign for our client Sun &amp; Ski, promoting their huge semi-annual Bike Sale. Utilizing Facebook, Google Display Network and Pandora, we were able to build awareness and drive in-store traffic and sales to locations nationwide.
+						</p>
+a33 1
+
+d37 1
+a37 3
+						<p class="copy-text">
+							We just launched a new business website for our client Extraco Banks. That’s two brand new websites in a month! Extraco’s new business website offers customizable banking with a responsive design that allows business owners access to their accounts from any device.
+						</p>
+a38 1
+
+d42 1
+a42 3
+						<p class="copy-text">
+							Less than 3 weeks until the 118th running of the Boston Marathon. On April 21st this historic event will be broadcast live, to a national audience, only on Universal Sports Network. Apollo is currently running a digital campaign to build awareness of the event in key markets across the country. Coverage begins at 8:30am ET.
+						</p>
+a43 1
+
+d47 1
+a47 3
+						<p class="copy-text">
+							Today an outdoor advertising campaign posted for our client, Universal Sports Network. USN is the exclusive national broadcast network airing the Boston Marathon. Apollo developed a campaign to build awareness in key markets across the country. Tune in to Universal Sports and watch this historic event live on April 21st at 8:30am ET. We Run as One.
+						</p>
+a48 1
+
+d52 1
+a52 3
+						<p class="copy-text">
+							In preparation for March Madness, we created Fuel the Madness for our client Einstein Bros Catering. Building awareness by targeting existing catering consumers, and competitor’s consumers, through Facebook Ad Exchange and Yahoo Domain Targeting. Bagels for your bracket party?
+						</p>
+a53 1
+
+d57 1
+a57 3
+						<p class="copy-text">
+							Yesterday we launched a brand new website for our long-standing client Extraco Banks. With easy to navigate features and a responsive design that allows users to manage their accounts from any device, it’s banking away from the bank.
+						</p>
+a58 1
+
+a59 1
+
+d63 1
+a63 3
+						<p class="copy-text">
+							Check out “Do I Need Glasses?” a virtual experience we created using responsive design for our client Visionworks to answer common eye care questions in a fun and interactive way. This content was also great material for us to use in a native advertising buy with Yahoo!
+						</p>
+a64 1
+
+d68 1
+a68 3
+						<p class="copy-text">
+							Today Apollo launched an Online Advertising campaign to promote coverage of the Mavericks Invitational surf competition on Universal Sports Network. This Friday at 1:30pm PT, the competition will air live on national television for the first time ever.
+						</p>
+a69 1
+
+a72 1
+
+a74 1
+
+@
+
+
+1.5
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d18 9
+a27 1
+					<h2>2014</h2>
+@
+
+
+1.4
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d21 1
+a21 1
+						<h2>Sun &amp; Ski - Bike Sale</h2>
+d29 1
+a29 1
+						<h2>Extraco Banks - Business Website Launch</h2>
+d37 1
+a37 1
+						<h2>Universal Sports - Boston Marathon Digital Campaign</h2>
+d45 1
+a45 1
+						<h2>Universal Sports - Boston Marathon Campaign</h2>
+d53 1
+a53 1
+						<h2>Einstein Bros - Fuel the Madness</h2>
+d61 1
+a61 1
+						<h2>Extraco Banks - New Website Launch</h2>
+d69 1
+d71 1
+a71 1
+						<h2>Visionworks - Do I Need Glasses?</h2>
+d79 1
+a79 1
+						<h2>Universal Sports - The Mavericks Invitational</h2>
+@
+
+
+1.3
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d19 1
+d68 1
+@
+
+
+1.2
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d82 2
+@
+
+
+1.1
+log
+@[stgolson] User stgolson stupidly forgot a change comment! Tsk.
+@
+text
+@d28 1
+a28 1
+						<h2>Recent Updates</h2>
+d34 48
+@
