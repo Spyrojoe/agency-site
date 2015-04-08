@@ -1,6 +1,6 @@
 <?php include($_SERVER[DOCUMENT_ROOT].'/includes/head.inc.php'); ?>
 
-<title>Apollo Interactive | Digital Centric Advertising Agency | Los Angeles and Dallas</title>
+<title>Apollo Interactive | Reasons to Choose Apollo Interactive</title>
 <meta name="description" content="Apollo Interactive is a digital centric advertising agency in Los Angeles and Dallas with wide-ranging capabilities and deep experience.">
 <style type="text/css">
 	.opacity-bg{opacity: .8;}
